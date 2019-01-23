@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(
   "org.scala-lang.modules" %% "scala-xml" % "1.0.6",
   "edu.holycross.shot.cite" %% "xcite" % "3.7.0",
   "edu.holycross.shot" %% "ohco2" % "10.11.1",
-  "edu.holycross.shot" %% "nomisma" % "0.3.0"
+  "edu.holycross.shot" %% "nomisma" % "0.3.0",
+  "edu.holycross.shot" %% "latphone" % "2.1.1",
 )
 
 tutSourceDirectory := file("tut")

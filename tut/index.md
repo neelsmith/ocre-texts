@@ -15,6 +15,12 @@ These notes are processed by the `sbt tut` task and output is written in this re
 -  number of legends;  number of tokens per legend
 -  number of characters per legend
 
+Initial numbers:
+
+- 99765 texts
+- 466162 tokens
+- 2166300 characters
+
 
 *Characterizing the vocabulary*:
 
