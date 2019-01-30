@@ -12,7 +12,7 @@ object DiplomaticLegendOrthography extends MidOrthography {
    //()*+,.
      /////3:;?ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]_abcdefghilmnoprstuvwx|ÄƮ˙̄̅ΑΓΔΚΛΠΣθϕϟϤϵ—•…←∈●☧Ꜹ"
   /** Ordered string of allowed characters.*/
-  val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_[]()|.• ←"
+  val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_[]•● ←"
 
 
   /** Label for this orthographic system.
@@ -42,7 +42,20 @@ object DiplomaticLegendOrthography extends MidOrthography {
   * @param n CitableNode to tokenize.
   */
   def tokenizeNode(n: CitableNode): Vector[MidToken] = {
-    Vector.empty[MidToken]
+    val urn = n.urn
+    // initial chunking on white space
+    val units = n.text.split(" ").filter(_.nonEmpty)
+    val classified = for (unit <- units.zipWithIndex) yield {
+      val newPassage = urn.passageComponent + "." + unit._2
+      val newVersion = urn.addVersion(urn.versionOption.getOrElse("") + "_tkns")
+      val newUrn = CtsUrn(newVersion.dropPassage.toString + newPassage)
+
+      val trimmed = unit._1.trim
+      println(newUrn + "  " + trimmed)
+      val tkn = MidToken(newUrn, trimmed, Some(LexicalToken))
+      tkn
+    }
+    classified.toVector
   }
 
 }

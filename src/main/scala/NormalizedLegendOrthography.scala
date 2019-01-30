@@ -21,7 +21,7 @@ object NormalizedLegendOrthography extends MidOrthography {
   * Required by MidOrthography trait.
   */
   def tokenCategories = {
-    Vector(LexicalToken, PunctuationToken, MarkupToken)
+    Vector(LexicalToken, PunctuationToken, NumericToken, MarkupToken)
   }
 
 

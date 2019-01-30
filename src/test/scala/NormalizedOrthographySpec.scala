@@ -14,7 +14,7 @@ class NormalizedOrthographySpec extends FlatSpec {
 
   it should "determine if a code point is valid" in pending
   it should "identify accepted token categories"  in {
-    val expected = Set(LexicalToken, PunctuationToken, MarkupToken)
+    val expected = Set(LexicalToken, PunctuationToken, MarkupToken, NumericToken)
     assert (NormalizedLegendOrthography.tokenCategories.toSet == expected)
   }
   it should "parse a citable node into a sequence of tokens" in pending
