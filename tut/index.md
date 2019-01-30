@@ -13,7 +13,7 @@ These notes are processed by the `sbt tut` task and output is written in this re
 - adhere to principle of immutable data sets:
     - derive successively processed data sets but never delete source
     - can replay entire sequence
--  naming conventions coordinate successive scripts with output files recording state at each step of processing 
+-  naming conventions coordinate successive scripts with output files recording state at each step of processing   
 
 ## Individual notes
 

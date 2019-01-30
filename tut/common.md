@@ -1,5 +1,5 @@
 ---
-title: "Building a corpus"
+title: "Shared (common) functions"
 layout: post
 ---
 
