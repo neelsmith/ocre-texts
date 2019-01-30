@@ -9,12 +9,16 @@ import edu.holycross.shot.mid.validator._
 
 def loadCorpus : Corpus = {
   println("Loading corpus...")
-  val cex = Source.fromFile("ocre-data/corpus.cex").getLines.mkString("\n")
+  val cex = Source.fromFile("ocre-data/raw.cex").getLines.mkString("\n")
   val c = Corpus(cex)
   println("Done.")
   c
 }
 
+// Get alphabetized list of all characters in this corpus.
+def rawAlphabet(c: Corpus = loadCorpus) =  {
+  c.nodes.map(_.text).mkString("").distinct.sorted
+}
 
 /*
 

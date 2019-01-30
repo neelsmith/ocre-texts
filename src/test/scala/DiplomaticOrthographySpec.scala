@@ -12,7 +12,14 @@ class DiplomaticOrthographySpec extends FlatSpec {
     assert(DiplomaticLegendOrthography.orthography == expected)
   }
 
-  it should "determine if a code point is valid" in pending
+  it should "determine if a code point is valid" in {
+    val ok = 'A'.toInt
+    assert(DiplomaticLegendOrthography.validCP(ok))
+
+    val bad = 'Ä'.toInt
+    assert(DiplomaticLegendOrthography.validCP(bad) == false)
+  }
+
   it should "identify accepted token categories"  in {
     val expected = Set(LexicalToken, PunctuationToken, MarkupToken)
     assert (DiplomaticLegendOrthography.tokenCategories.toSet == expected)
