@@ -12,7 +12,7 @@ class DiplomaticOrthographySpec extends FlatSpec {
 
 
   val legend = "ANTONINVS AVG PIVS P P IMP II"
-  val urn = CtsUrn("urn:cts:hcnum:issues.ric.r1:3.ant.868.obv.1")
+  val urn = CtsUrn("urn:cts:hcnum:issues.ric.raw:3.ant.868.obv.1")
   val cn = CitableNode(urn, legend)
 
 
@@ -38,7 +38,7 @@ class DiplomaticOrthographySpec extends FlatSpec {
     val tkns = DiplomaticLegendOrthography.tokenizeNode(cn)
     val expectedCount = 7
     assert(tkns.size == expectedCount)
-    val expectedFirst = MidToken(CtsUrn("urn:cts:hcnum:issues.ric.r1_tkns:3.ant.868.obv.1.0"),"ANTONINVS",Some(LexicalToken))
+    val expectedFirst = MidToken(CtsUrn("urn:cts:hcnum:issues.ric.raw_tkns:3.ant.868.obv.1.0"),"ANTONINVS",Some(LexicalToken))
 
     assert(tkns(0) == expectedFirst)
 
