@@ -1,10 +1,11 @@
 //
 // Shared common functions:
 //
+import edu.holycross.shot.ocre._
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
 import scala.io.Source
-import edu.holycross.shot.latin.Latin23Alphabet
+
 import edu.holycross.shot.mid.validator._
 
 def loadCorpus : Corpus = {
