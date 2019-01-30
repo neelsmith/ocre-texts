@@ -6,6 +6,8 @@ import edu.holycross.shot.cite._
 
 object NormalizedLegendOrthography extends MidOrthography {
 
+
+  val alphabet = "abcdefghijklmnopqrstuvwxyz_[]•● ←ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅬⅭⅮⅯ"
   /** Label for this orthographic system.
   * Required by MidOrthography trait.
   */
@@ -15,13 +17,13 @@ object NormalizedLegendOrthography extends MidOrthography {
   /** True if `cp` is a valid code point in this orthography.
   * Required by MidOrthography trait.
   */
-  def validCP(cp: Int): Boolean = { false }
+  def validCP(cp: Int): Boolean = {   alphabet.contains(cp.toChar) }
 
   /** Set of recognized token categories.
   * Required by MidOrthography trait.
   */
   def tokenCategories = {
-    Vector(LexicalToken, PunctuationToken, NumericToken, MarkupToken)
+    Vector(LexicalToken, PunctuationToken, NumericToken)
   }
 
 
