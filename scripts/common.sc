@@ -25,24 +25,32 @@ def rawAlphabet(c: Corpus = loadCorpus()) =  {
 }
 
 def profileCorpus(c: Corpus, normalized: Boolean = true) : Unit = {
-  println(s"${c.size} coin legends")
+  print(s"${c.size} coin legends;  ")
   // distinct messages
   val messages = c.nodes.map(_.text).distinct.size
-  println(s"${messages} distinct texts")
+  println(s"${messages} distinct legends.")
   // token histogram
   val tokens = if (normalized) {
     NormalizedLegendOrthography.tokenizeCorpus(c)
   } else {
     DiplomaticLegendOrthography.tokenizeCorpus(c)
   }
-  println(s"${tokens.size} tokens")
+  print(s"${tokens.size} tokens;  ")
   val tokenStrings = tokens.map(_.string)
-  println(s"${tokenStrings.distinct.size} distinct tokens")
+  println(s"${tokenStrings.distinct.size} distinct tokens.")
 
   val chars = rawAlphabet(c)
-  println(s"${chars.size} distinct characters")
+  print(c.nodes.map(_.text).mkString("").size + " characters;  ")
+  println(s"${chars.size} distinct characters.")
+}
 
-  // character histogram
+
+def profileIssuer(c: Corpus) = {
+  val parts = c.nodes.map(n => n.urn.passageComponent.split("\\."))
+  val issuers = parts.map( v => s"${v(0)}-${v(1)}")
+  val grouped = issuers.groupBy(s => s)
+  val counts = grouped.toSeq.map{ case (k,v) => (k, v.size) }
+  val sorted = counts.sortBy(_._2).reverse
 }
 
 /*

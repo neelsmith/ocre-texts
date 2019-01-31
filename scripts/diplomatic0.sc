@@ -11,7 +11,7 @@ val outputFile = "ocre-data/diplomatic0.cex"
 
 println("\n\nLoading raw corpus;  converting to pure diplomatic edition containing only fully intelligible legends.")
 val corpus = loadCorpus(inputFile)
-println("Initial raw corpus: " + corpus.nodes + " legends.\n\n")
+println("\n\nInitial raw corpus: " + corpus.nodes.size + " legends.\n\n")
 
 
 // 1. Eliminate entries from RIC 10.
@@ -25,5 +25,9 @@ val cleanTexts = minusRIC10.filter( n => DiplomaticLegendOrthography.validString
 val expectedClean = 93733
 require(cleanTexts.size == expectedClean, s"Expected ${expectedClean} texts, but found ${cleanTexts.size}")
 println("\n\nRemoved entries with invalid orthography, leaving " + cleanTexts.size + " legends.\n\n")
+
+
+println("\n\nProfile of resulting corpus:\n")
+profileCorpus(Corpus(cleanTexts))
 
 //new PrintWrtier(outputFile){ write(); close;}
