@@ -99,12 +99,12 @@ object OcreUtilities {
     Corpus(nodes)
     //nodes
   }
-/*
-  def validOnly(c: Corpus, normalized: Boolean = true) : Corpus = {
-    val nodes = validText(c, normalized).filter(_._2)
+
+  def goodOnly(c: Corpus, normalized: Boolean = true) : Corpus = {
+    val nodes = validText(c, normalized).filter(_._2).map(_._1)
     Corpus(nodes)
   }
-*/
+
   def byTokenCount(corpus: Corpus, n: Int, normalized: Boolean = true) = {
     val counts = tokenCounts(corpus, normalized)
     val filtered = counts.filter(_._2 == n).map(_._1)
