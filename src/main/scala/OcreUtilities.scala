@@ -93,19 +93,35 @@ object OcreUtilities {
     }
   }
 
+
+  def badOnly(c: Corpus, normalized: Boolean = true) = {
+    val nodes = validText(c, normalized).filterNot(_._2).map(_._1)
+    Corpus(nodes)
+    //nodes
+  }
+/*
+  def validOnly(c: Corpus, normalized: Boolean = true) : Corpus = {
+    val nodes = validText(c, normalized).filter(_._2)
+    Corpus(nodes)
+  }
+*/
   def byTokenCount(corpus: Corpus, n: Int, normalized: Boolean = true) = {
     val counts = tokenCounts(corpus, normalized)
     val filtered = counts.filter(_._2 == n).map(_._1)
     Corpus(filtered)
   }
 
-  def messageFreqs(corpus: Corpus) = {
+  def messageFreqs(corpus: Corpus) :  Vector[(String, Int)]=  {
     val grouped = corpus.nodes.groupBy(_.text)
     val counts = grouped.map{ case (msg, v) => (msg, v.size) }
-    counts.toSeq.sortBy(_._2).reverse
+    counts.toSeq.sortBy(_._2).reverse.toVector
   }
 
-
+  def profileMessageFreqs(corpus: Corpus) = {
+    val freqs = messageFreqs(corpus)
+    val csv = freqs.map( fr => s"${fr._1},${fr._2}")
+    println("String,Number of Legends\n" + csv.mkString("\n"))
+  }
 
   /** Fold in updated text from [[newer]] while maintaining
   * document order.
@@ -128,4 +144,20 @@ object OcreUtilities {
     Corpus(updatedNodes)
   }
 
+
+  def tokenLengths(c: Corpus): Vector[(Int, Int)] = {
+     val tknVects = for (n <- c.nodes) yield { NormalizedLegendOrthography.tokenizeNode(n) }
+     val sizes = tknVects.map( v => v.size)
+     val grouped = sizes.groupBy( i => i)
+     val distribution = grouped.toSeq.map{ case (k,v) => (k, v.size) }
+     distribution.sortBy(_._2).reverse.toVector
+  }
+
+
+  def profileTokenLength(c : Corpus) = {
+    val distribution = tokenLengths(c)
+    val csv = for (lngth <- distribution) yield { s"${lngth._1},${lngth._2}"}
+    val hdr = "Length in tokens,Number of legends\n"
+    println(hdr + csv.mkString("\n"))
+  }
 }
