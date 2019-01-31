@@ -30,4 +30,6 @@ println("\n\nRemoved entries with invalid orthography, leaving " + cleanTexts.si
 println("\n\nProfile of resulting corpus:\n")
 profileCorpus(Corpus(cleanTexts))
 
-//new PrintWrtier(outputFile){ write(); close;}
+println("\n\nWriting resulting corpus to " + outputFile )
+
+new PrintWriter(outputFile){ write(cleanTexts.map( n => n.urn + "#" + n.text).mkString("\n")); close;}
