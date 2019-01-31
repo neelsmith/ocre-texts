@@ -1,4 +1,3 @@
-// Before running, :load scripts/common.sc
 //
 // Read raw data directly from OCRE:
 // Filter out all entries from RIC 10. (Editorial decision)
