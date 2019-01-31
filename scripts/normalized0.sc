@@ -6,7 +6,7 @@
 
 val inputFile = "ocre-data/diplomatic0.cex"
 val outputFile = "ocre-data/normalized0.cex"
-val fulTextMappingsFile = "mappings/mappings1.csv"
+val fulTextMappingsFile = "mappings/mappings0.csv"
 
 println("\n\nLoading clean diplomatic corpus;")
 println("applying conversion of full text contents from file mappings1.csv.\n\n")

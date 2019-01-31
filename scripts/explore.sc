@@ -20,10 +20,14 @@ OcreUtilities.profileTokenLength(bad)
 
 
 /*
-// Example:  look at legends with 6 tokens :
+// Example: get subset of legends with 6 tokens :
 
 
 val sextuples = OcreUtilities.byTokenCount(bad,6)
+
+// and profile how frequently texts appear:
+
+OcreUtilities.profileMessageFreqs(sextuples)
 
 
 */
