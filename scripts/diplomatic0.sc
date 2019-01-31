@@ -8,9 +8,13 @@
 val inputFile =  "ocre-data/raw.cex"
 val outputFile = "ocre-data/diplomatic0.cex"
 
-
 println("\n\nLoading raw corpus;  converting to pure diplomatic edition containing only fully intelligible legends.")
-val corpus = loadCorpus(inputFile)
+
+import edu.holycross.shot.ocre.{DiplomaticLegendOrthography, OcreUtilities => OU}
+import edu.holycross.shot.ohco2._
+import edu.holycross.shot.cite._
+
+val corpus = OU.loadCorpus(inputFile)
 println("\n\nInitial raw corpus: " + corpus.nodes.size + " legends.\n\n")
 
 
@@ -28,8 +32,10 @@ println("\n\nRemoved entries with invalid orthography, leaving " + cleanTexts.si
 
 
 println("\n\nProfile of resulting corpus:\n")
-profileCorpus(Corpus(cleanTexts))
+OU.profileCorpus(Corpus(cleanTexts))
 
 println("\n\nWriting resulting corpus to " + outputFile )
 
+
+import java.io.PrintWriter
 new PrintWriter(outputFile){ write(cleanTexts.map( n => n.urn + "#" + n.text).mkString("\n")); close;}
