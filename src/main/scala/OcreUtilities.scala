@@ -11,6 +11,11 @@ import java.io.PrintWriter
 
 object OcreUtilities {
 
+
+  /** Load an OHCO2 Corpus from a 2-column CEX file.
+  *
+  * @param cexFile Name of file to load corpus from.
+  */
   def loadCorpus(cexFile: String = "ocre-data/raw.cex") : Corpus = {
     println("Loading corpus...")
     val cex = Source.fromFile(cexFile).getLines.mkString("\n")
@@ -93,4 +98,34 @@ object OcreUtilities {
     val filtered = counts.filter(_._2 == n).map(_._1)
     Corpus(filtered)
   }
+
+  def messageFreqs(corpus: Corpus) = {
+    val grouped = corpus.nodes.groupBy(_.text)
+    val counts = grouped.map{ case (msg, v) => (msg, v.size) }
+    counts.toSeq.sortBy(_._2).reverse
+  }
+
+
+
+  /** Fold in updated text from [[newer]] while maintaining
+  * document order.
+  *
+  * @param older Original corpus.
+  * @param newer Updated texts.
+  */
+  def merge(older: Corpus, newer: Corpus) : Corpus = {
+    val urnList = newer.nodes.map(_.urn)
+
+    val updatedNodes = for (n <- older.nodes) yield {
+      if (urnList.contains(n.urn)) {
+        val newNodes = newer.nodes.filter(_.urn == n.urn)
+        require(newNodes.size == 1, s"Matched wrong number of nodes (${newNodes.size}) for URN " + n.urn)
+        newNodes(0)
+      } else {
+        n
+      }
+    }
+    Corpus(updatedNodes)
+  }
+
 }

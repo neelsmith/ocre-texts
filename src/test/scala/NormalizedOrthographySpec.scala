@@ -10,7 +10,7 @@ import org.scalatest.FlatSpec
 class NormalizedOrthographySpec extends FlatSpec {
 
 
-  val legend = "antoninus augustus pius pater patriae imperator Ⅱ"
+  val legend = "antoninvs avgvstvs pivs pater patriae imperator Ⅱ"
   val urn = CtsUrn("urn:cts:hcnum:issues.ric.raw:3.ant.868.obv.1")
   val cn = CitableNode(urn, legend)
 
@@ -44,6 +44,9 @@ class NormalizedOrthographySpec extends FlatSpec {
   }
   it should "parse a citable node into a sequence of tokens" in {
     val tkns = NormalizedLegendOrthography.tokenizeNode(cn)
+
+    println("TOKENS:")
+    println(tkns.mkString("\n"))
     val expectedCount = 7
     assert(tkns.size == expectedCount)
 

@@ -7,7 +7,7 @@ import edu.holycross.shot.cite._
 object NormalizedLegendOrthography extends MidOrthography {
 
 
-  val alphabetic = "abcdefghijklmnopqrstuvwxyz"
+  val alphabetic = "abcdefghiklmnopqrstvwxyz"
   val numeric = "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅬⅭⅮⅯ"
   val punctOrEditorial = "_[]•● ←"
   val alphabet = alphabetic + numeric + punctOrEditorial
