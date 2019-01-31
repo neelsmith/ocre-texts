@@ -53,40 +53,46 @@ def profileIssuer(c: Corpus) = {
   val sorted = counts.sortBy(_._2).reverse
 }
 
-/*
 
-def validString(s: String, generous: Boolean = false) : Boolean = {
-  val correct = "[A-Z_\\.• ]*"
-  val expandedList = "[A-Z_\\.• \\]\\[\\)\\(]*"
-  if (generous) {
-    s.matches(expandedList)
+def tokenCounts(corpus: Corpus, normalized: Boolean = true) : Vector[(CitableNode, Int)]= {
+  val tokens = if (normalized) {
+    for (n <- corpus.nodes) yield { (n, NormalizedLegendOrthography.tokenizeNode(n).size) }
   } else {
-    s.matches(correct)
+    for (n <- corpus.nodes) yield { (n, DiplomaticLegendOrthography.tokenizeNode(n).size) }
+  }
+  tokens
+}
+
+
+def obverse(c  : Corpus) = {
+  Corpus(c.nodes.filter(_.urn.passageComponent.contains(".obv.") ))
+}
+
+def reverse(c  : Corpus) = {
+  Corpus(c.nodes.filter(_.urn.passageComponent.contains(".rev.") ))
+}
+
+def validText(corpus: Corpus, normalized: Boolean = true) = {
+  normalized match {
+
+    case true => {
+      for (n <- c.nodes) yield {
+        (n, NormalizedLegendOrthography.validString(n.text))
+      }
+    }
+    case false => {
+      for (n <- c.nodes) yield {
+        (n, DiplomaticLegendOrthography.validString(n.text))
+      }
+    }
   }
 }
 
-// stand in for orthography
-def validText(corpus: Corpus, generous: Boolean = false) : Corpus = {
-  val validNodes = corpus.nodes.filter( n => validString(n.text, generous))
-  Corpus(validNodes)
+def byTokenCount(corpus: Corpus, n: Int, normalized: Boolean = true) = {
+  val counts = tokenCounts(corpus, normalized)
+  val filtered = counts.filter(_._2 == n).map(_._1)
+  Corpus(filtered)
 }
-
-def badText(corpus: Corpus, generous: Boolean = false) : Corpus = {
-  val validNodes = corpus.nodes.filterNot( n => validString(n.text, generous))
-  Corpus(validNodes)
-}
-
-def tokenCounts(corpus: Corpus) : Vector[(CitableNode, Int)]= for (n <- corpus.nodes) yield { (n, Latin23Alphabet.tokenizeNode(n).size) }
-
-
-def obverse(tokens  : Vector[MidToken]) = {
-  tokens.filter( tkn => tkn.urn.passageComponent.contains(".obv.") )
-}
-
-def reverse(tokens  : Vector[MidToken]) = {
-  tokens.filter( tkn => tkn.urn.passageComponent.contains(".rev.") )
-}
-*/
 /*
 
 //Get initial numbers
