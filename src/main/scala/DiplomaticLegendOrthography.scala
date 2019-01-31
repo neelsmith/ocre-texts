@@ -51,7 +51,6 @@ object DiplomaticLegendOrthography extends MidOrthography {
       val newUrn = CtsUrn(newVersion.dropPassage.toString + newPassage)
 
       val trimmed = unit._1.trim
-      println(newUrn + "  " + trimmed)
       val tkn = MidToken(newUrn, trimmed, Some(LexicalToken))
       tkn
     }

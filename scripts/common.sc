@@ -8,17 +8,41 @@ import scala.io.Source
 
 import edu.holycross.shot.mid.validator._
 
-def loadCorpus : Corpus = {
+import java.io.PrintWriter
+
+
+def loadCorpus(cexFile: String = "ocre-data/raw.cex") : Corpus = {
   println("Loading corpus...")
-  val cex = Source.fromFile("ocre-data/raw.cex").getLines.mkString("\n")
+  val cex = Source.fromFile(cexFile).getLines.mkString("\n")
   val c = Corpus(cex)
   println("Done.")
   c
 }
 
 // Get alphabetized list of all characters in this corpus.
-def rawAlphabet(c: Corpus = loadCorpus) =  {
+def rawAlphabet(c: Corpus = loadCorpus()) =  {
   c.nodes.map(_.text).mkString("").distinct.sorted
+}
+
+def profileCorpus(c: Corpus, normalized: Boolean = true) : Unit = {
+  println(s"${c.size} coin legends")
+  // distinct messages
+  val messages = c.nodes.map(_.text).distinct.size
+  println(s"${messages} distinct texts")
+  // token histogram
+  val tokens = if (normalized) {
+    NormalizedLegendOrthography.tokenizeCorpus(c)
+  } else {
+    DiplomaticLegendOrthography.tokenizeCorpus(c)
+  }
+  println(s"${tokens.size} tokens")
+  val tokenStrings = tokens.map(_.string)
+  println(s"${tokenStrings.distinct.size} distinct tokens")
+
+  val chars = rawAlphabet(c)
+  println(s"${chars.size} distinct characters")
+
+  // character histogram
 }
 
 /*
@@ -99,5 +123,4 @@ Eliminte entries with multiple legends!
 val legit  = tokenSizes.filter(_._1.contains(" or ") == false)
 */
 
-println("\n\nLoad corpus of texts:")
-println("\n\tval corpus = loadCorpus")
+println("\n\nCommon functions loaded.")
