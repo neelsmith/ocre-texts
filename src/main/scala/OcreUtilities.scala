@@ -49,14 +49,29 @@ object OcreUtilities {
     println(s"${chars.size} distinct characters.")
   }
 
-
-  def profileIssuer(c: Corpus) = {
+  def byIssuer(c: Corpus) = {
     val parts = c.nodes.map(n => n.urn.passageComponent.split("\\."))
     val issuers = parts.map( v => s"${v(0)}-${v(1)}")
     val grouped = issuers.groupBy(s => s)
     val counts = grouped.toSeq.map{ case (k,v) => (k, v.size) }
     val sorted = counts.sortBy(_._2).reverse
     sorted
+  }
+  def profileIssuer(c: Corpus) = {
+    println(byIssuer(c).mkString("\n"))
+  }
+
+
+  def byRicVolume(c: Corpus) = {
+    val parts = c.nodes.map(n => n.urn.passageComponent.split("\\."))
+    val issuers = parts.map( v => v(0))
+    val grouped = issuers.groupBy(s => s)
+    val counts = grouped.toSeq.map{ case (k,v) => (k, v.size) }
+    counts.sortBy(_._2).reverse
+  }
+
+  def profileRicVolume(c: Corpus) = {
+    println(byRicVolume(c).mkString("\n"))
   }
 
 
@@ -110,6 +125,10 @@ object OcreUtilities {
     val counts = tokenCounts(corpus, normalized)
     val filtered = counts.filter(_._2 == n).map(_._1)
     Corpus(filtered)
+  }
+
+  def messagesByFreq(corpus: Corpus, n: Int, normalized: Boolean = true) : Vector[String] = {
+    messageFreqs(corpus).filter(_._2 == n).map(_._1)
   }
 
   def messageFreqs(corpus: Corpus) :  Vector[(String, Int)]=  {
