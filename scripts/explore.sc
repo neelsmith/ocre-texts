@@ -6,7 +6,7 @@ import edu.holycross.shot.mid.validator._
 
 import edu.holycross.shot.ocre._
 
-val src = "ocre-data/normalized0.cex"
+val src = "ocre-data/normalized2.cex"
 
 val corpus = OcreUtilities.loadCorpus(src)
 
@@ -16,7 +16,7 @@ val bad = OcreUtilities.badOnly(corpus)
 
 println("\nRemaining uncrorected legends: " + bad.size + "\n")
 println("Profile of remaining legends by number of tokens:\n")
-OcreUtilities.profileTokenLength(bad)
+//OcreUtilities.profileTokenLength(bad)
 
 
 /*

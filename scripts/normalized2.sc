@@ -4,9 +4,9 @@
 //
 
 
-val inputFile = "ocre-data/normalized0.cex"
-val outputFile = "ocre-data/normalized1.cex"
-val fulTextMappingsFile = "mappings/mappings1.csv"
+val inputFile = "ocre-data/normalized1.cex"
+val outputFile = "ocre-data/normalized2.cex"
+val fulTextMappingsFile = "mappings/mappings2.csv"
 
 println("\n\nLoading clean diplomatic corpus;")
 println("applying conversion of full text contents from file mappings1.csv.\n\n")
