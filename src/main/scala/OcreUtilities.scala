@@ -56,6 +56,7 @@ object OcreUtilities {
     val grouped = issuers.groupBy(s => s)
     val counts = grouped.toSeq.map{ case (k,v) => (k, v.size) }
     val sorted = counts.sortBy(_._2).reverse
+    sorted
   }
 
 
