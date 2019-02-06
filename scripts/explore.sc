@@ -6,7 +6,7 @@ import edu.holycross.shot.mid.validator._
 
 import edu.holycross.shot.ocre._
 
-val src = "ocre-data/normalized2.cex"
+val src = "ocre-data/normalized4.cex"
 
 val corpus = OcreUtilities.loadCorpus(src)
 
