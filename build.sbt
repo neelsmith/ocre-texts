@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "nomisma" % "0.3.0",
   "edu.holycross.shot" %% "latphone" % "2.1.1",
 
-  "edu.holycross.shot" %% "midvalidator" % "5.2.1"
+  "edu.holycross.shot" %% "midvalidator" % "5.4.0"
 )
 
 tutSourceDirectory := file("tut")
