@@ -20,13 +20,17 @@ println("Profile of remaining legends by number of tokens:\n")
 
 println("\nCreating subsets of bad legends by RIC volume...")
 val ric1 = Corpus(bad.nodes.filter(_.urn.toString.contains("raw:1_2")))
-println("\nCreated corpus `ric1`\n")
 
-val ric2_1 = bad.nodes.filter(_.urn.toString.contains("raw:2_"))
-println("\nCreated corpus `ric2_1`\n")
 
-val ric2 = bad.nodes.filter(_.urn.toString.contains("raw:2."))
-println("\nCreated corpus `ric2`\n")
+val ric2_1 = Corpus(bad.nodes.filter(_.urn.toString.contains("raw:2_")))
+
+
+val ric2 = Corpus(bad.nodes.filter(_.urn.toString.contains("raw:2.")))
+
+println("\n\nSubsets of `bad` corpus by RIC volume:")
+println("\nCreated corpus `ric1` (Augustus through the year of four emperors)")
+println("Created corpus `ric2_1 (Vespasian, Domitian, Titus)`")
+println("Created corpus `ric2` (Nerva, Trajan, Hadrian)\n")
 
 
 //OcreUtilities.profileTokenLength(bad)
