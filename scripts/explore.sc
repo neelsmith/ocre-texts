@@ -16,6 +16,19 @@ val bad = OcreUtilities.badOnly(corpus)
 
 println("\nRemaining uncrorected legends: " + bad.size + "\n")
 println("Profile of remaining legends by number of tokens:\n")
+
+
+println("\nCreating subsets of bad legends by RIC volume...")
+val ric1 = Corpus(bad.nodes.filter(_.urn.toString.contains("raw:1_2")))
+println("\nCreated corpus `ric1`\n")
+
+val ric2_1 = bad.nodes.filter(_.urn.toString.contains("raw:2_"))
+println("\nCreated corpus `ric2_1`\n")
+
+val ric2 = bad.nodes.filter(_.urn.toString.contains("raw:2."))
+println("\nCreated corpus `ric2`\n")
+
+
 //OcreUtilities.profileTokenLength(bad)
 
 
