@@ -6,7 +6,7 @@ import edu.holycross.shot.mid.validator._
 
 import edu.holycross.shot.ocre._
 
-val src = "ocre-data/normalized9.cex"
+val src = "ocre-data/normalized13.cex"
 
 val corpus = OcreUtilities.loadCorpus(src)
 
@@ -32,6 +32,19 @@ println("\nCreated corpus `ric1` (Augustus through the year of four emperors)")
 println("Created corpus `ric2_1 (Vespasian, Domitian, Titus)`")
 println("Created corpus `ric2` (Nerva, Trajan, Hadrian)\n")
 
+
+ def sum(list: List[Int]): Int = list match {
+        case Nil => 0
+        case x :: xs => x + sum(xs)
+}
+
+def sumVect (v: Vector[Int], total: Int = 0) : Int = {
+  if (v.isEmpty) {
+    total
+  } else {
+    sumVect(v.tail, total + v.head)
+  }
+}
 
 //OcreUtilities.profileTokenLength(bad)
 
