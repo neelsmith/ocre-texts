@@ -7,24 +7,22 @@ AETERNIT AVGVST S C,avgvsti senatvs consvlto
 AETERNIT AVGVSTI S C,avgvsti senatvs consvlto
 AETERNITAS AVGVST S C,avgvsti senatvs consvlto
 AETERNITAS AVGVSTI S C,avgvsti senatvs consvlto
-AETERNITAS P R S C,
-AETERNITATI AVGVST S C,
-AETERNITATI AVGVSTI S C,
-AGRIPPINA M F GERMANICI CAESARIS,
-ANNONA AVG,
-ANNONA AVG S C,
-ANNONA AVGVST S C,
-ANNONA AVGVSTI S C,
-ANTIOCHIA,
-AVG,
-AVG GERM,
-AVG GERM P,
-AVGVR PON MAX,
-AVGVR TRI POT,
-AVGVSTI VICTORIA S C,
-BONVS EVENTVS AVGVSTI,
-CAE DVM ET TI CAES IMP VESPAS,
-CAES AVG F,
+AETERNITAS P R S C,aeternitas popvli romani senatvs consvlto
+AETERNITATI AVGVST S C,aeternitati popvli romani senatvs consvlto
+AETERNITATI AVGVSTI S C,aeternitati popvli romani senatvs consvlto
+AGRIPPINA M F GERMANICI CAESARIS,agrippina marci filia germanici caesaris
+ANNONA AVG,annona avgvsti
+ANNONA AVG S C,annona avgvsti senatvs consvlto
+ANNONA AVGVST S C,annona avgvsti senatvs consvlto
+ANNONA AVGVSTI S C,annona avgvsti senatvs consvlto
+ANTIOCHIA,antiochia
+AVG,avgvstvs
+AVG GERM,avgvstvs germanicvs
+AVGVR PON MAX,avgvr pontifex maximvs
+AVGVR TRI POT,avgvr tribvnicia potestate
+AVGVSTI VICTORIA S C,avgvsti victoria senatvs consvlto
+BONVS EVENTVS AVGVSTI,bonvs eventvs avgvsti
+CAES AVG F,caesar avgvsti filivs
 CAES AVG F COS DES IMP AVG F COS DESIG ITR S C,
 CAES AVG F DES IMP AVG F COS DES IT S C,
 CAES AVG F DES IMP AVG F COS DES ITE S C,
@@ -46,20 +44,20 @@ CAESAR AVG F COS CAESAR AVG F PR,
 CAESAR AVG F COS CAESAR AVG F PR S C,
 CAESAR AVG F DES IMP AVG DES IT S C,
 CAESAR AVG F DES IMP AVG F COS DES II S C,
-CAESAR AVG F DOMITIAN COS II,
-CAESAR AVG F DOMITIAN COS III,
-CAESAR AVG F DOMITIAN COS IV,
-CAESAR AVG F DOMITIAN COS V,
-CAESAR AVG F DOMITIAN COS VI,
-CAESAR AVG F DOMITIANVS,
-CAESAR AVG F DOMITIANVS COS DES II,
-CAESAR AVG F DOMITIANVS COS II,
-CAESAR AVG F DOMITIANVS COS IIII,
-CAESAR AVG F DOMITIANVS COS V,
-CAESAR AVG F DOMITIANVS COS VI,
-CAESAR AVG F DOMITIANVS COS VII,
-CAESAR AVG FIL DOMITIANVS COS V,
-CAESAR AVGVSTI F,
+CAESAR AVG F DOMITIAN COS II,caesar avgvsti filivs domitianvs consvl Ⅱ
+CAESAR AVG F DOMITIAN COS III,caesar avgvsti filivs domitianvs consvl Ⅲ
+CAESAR AVG F DOMITIAN COS IV,caesar avgvsti filivs domitianvs consvl Ⅳ
+CAESAR AVG F DOMITIAN COS V,caesar avgvsti filivs domitianvs consvl Ⅴ
+CAESAR AVG F DOMITIAN COS VI,caesar avgvsti filivs domitianvs consvl Ⅵ
+CAESAR AVG F DOMITIANVS,caesar avgvsti filivs domitianvs
+CAESAR AVG F DOMITIANVS COS DES II,caesar avgvsti filivs domitianvs consvl designatvs Ⅱ
+CAESAR AVG F DOMITIANVS COS II,caesar avgvsti filivs domitianvs consvl Ⅱ
+CAESAR AVG F DOMITIANVS COS IIII,caesar avgvsti filivs domitianvs consvl Ⅳ
+CAESAR AVG F DOMITIANVS COS V,caesar avgvsti filivs domitianvs consvl Ⅴ
+CAESAR AVG F DOMITIANVS COS VI,caesar avgvsti filivs domitianvs consvl Ⅵ
+CAESAR AVG F DOMITIANVS COS VII,caesar avgvsti filivs domitianvs consvl Ⅶ
+CAESAR AVG FIL DOMITIANVS COS V,caesar avgvsti filivs domitianvs consvl Ⅴ
+CAESAR AVGVSTI F,caesar avgvsti filivs
 CAESAR DIVI AVG F DOMITIANVS COS VII,
 CAESAR DIVI AVG VESP F DOMITIAN COS VII,
 CAESAR DIVI AVG VESP F DOMITIANVS COS VII,
@@ -71,24 +69,24 @@ CAESAR DOMITIANVS AVG F,
 CAESAR VESPASIANVS AVG,
 CAPIT RESTIT,
 CAPTA IVDAEA S C,
-CENS P P P,
-CENS PER P P,
-CERES AVG S C,
-CERES AVGVST,
-CERES AVGVST S C,
-CERES AVGVSTA S C,
+CENS P P P,censor perpetvvs pater patriae
+CENS PER P P,censor perpetvvs pater patriae
+CERES AVG S C,ceres avgvsta senatvs consvlto
+CERES AVGVST,ceres avgvsta
+CERES AVGVST S C,ceres avgvsta senatvs consvlto
+CERES AVGVSTA S C,ceres avgvsta senatvs consvlto
 CIVITATIBVS ASIAE RESTITVT,
 COM ASIA,
-CONCOR AVG S C,
-CONCORD AVGVST S C,
-CONCORDIA AVG,
-CONCORDIA AVG S C,
-CONCORDIA AVGVST,
-CONCORDIA AVGVST S C,
-CONCORDIA AVGVSTA,
-CONCORDIA AVGVSTI,
-CONCORDIA AVGVSTI S C,
-CONCORDIA SENATVI S C,
+CONCOR AVG S C,concordia avgvsti senatvs consvlto
+CONCORD AVGVST S C,concordia avgvsti senatvs consvlto
+CONCORDIA AVG,concordia avgvsti
+CONCORDIA AVG S C,concordia avgvsti senatvs consvlto
+CONCORDIA AVGVST,concordia avgvsti
+CONCORDIA AVGVST S C,concordia avgvsti senatvs consvlto
+CONCORDIA AVGVSTA,concordia avgvsta
+CONCORDIA AVGVSTI,concordia avgvsti
+CONCORDIA AVGVSTI S C,concordia avgvsti senatvs consvlto
+CONCORDIA SENATVI S C,concordia avgvsti senatvs consvlto
 CONGIAR PRIMVM PR DAT S C,
 CONSEN EXERCIT,
 CONSENSVS EXERCIT,
@@ -97,8 +95,8 @@ CONS[ENSVS] EXERCITVVM,
 COS DESIG III TR POT,
 COS DESIG III TR POT S C,
 COS III FORT RED,
-COS III TR POT,
-COS ITER,
+COS III TR POT,consvl Ⅲ tribvnicia potestate
+COS ITER,consvl iter
 COS ITER FORT RED,
 COS ITER FORT RED S C,
 COS ITER TR POT,
@@ -193,11 +191,11 @@ GERMANICVS COS XV,
 GERMANICVS COS XVI,
 GERMANICVS COS XVII,
 GERMANICVS XVI,
-HONOS ET VIRTVS S C,
-IMP,
+HONOS ET VIRTVS S C,honos et virtvs senatvs consvlto
+IMP,imperator
 IMP AVG F COS DESIGN II CAESAR AVG F COS DESIG,
 IMP CAE VESPASIAN AVG P M TR P COS IIII,
-IMP CAES,
+IMP CAES,imperator caesar
 IMP CAES AVG VESPAS COS II TR POT,
 IMP CAES DIVI VESP F DOMIT AVG GER COS X,
 IMP CAES DIVI VESP F DOMIT AVG GERM COS X,
@@ -373,11 +371,11 @@ IMP T CAES VESP AVG P M TR P P P COS VIII,
 IMP T CAES VESP AVG P M TR P P P COS VIII S C,
 IMP T CAES VESPASIAN AVG P M,
 IMP T CAES VESPASIAN AVG P M TR P P P COS VII,
-IMP T CAESAR,
-IMP T CAESAR COS III,
-IMP T CAESAR DIVI VESPAS F AVG,
-IMP T CAESAR VESPASIANVS,
-IMP T CAESAR VESPASIANVS AVG,
+IMP T CAESAR,imperator titvs caesar
+IMP T CAESAR COS III,imperator titvs caesar consvl Ⅲ
+IMP T CAESAR DIVI VESPAS F AVG,imperator titvs caesar divi vespasiani filivs avgvstvs
+IMP T CAESAR VESPASIANVS,imperator titvs caesar vespasianvs
+IMP T CAESAR VESPASIANVS AVG,imperator titvs caesar vespasianvs avgvstvs
 IMP T FLAVIVS CAESAR AV F,
 IMP T VESP AVG COS VIII,
 IMP T VESP AVG RES S C,
@@ -408,7 +406,7 @@ IMP VESPA CAESAR AVGVS,
 IMP VESPAS AVG P M TRI P P P COS IIII,
 IMP VESPASIAN AVG,
 IMP VESPASIANVS COS VIII,
-IMP VIII,
+IMP VIII,imperator Ⅷ
 IMP VIIII COS XI CENS POT P P,
 IMP VIIII COS XI CENS POTES P P,
 IMP VIIII COS XI CENSORIA POTESTAT P P,
@@ -434,47 +432,47 @@ IMP XXI COS XV CENS P P P,
 IMP XXI COS XVI CENS P P P,
 IMP XXII COS XVI CENS P P P,
 IMP XXII COS XVII CENS P P P,
-IMPER,
-IMPERATOR CAESAR S C,
+IMPER,imperator
+IMPERATOR CAESAR S C,imperator caesar senatvs consvlto
 IMPERATOR T CAESAR AVGVSTI E,
 IMPERATOR T CAESAR AVGVSTI F,
 IMPT T CAES DIVI VES F AVG,
 ION MAX TR P COS V,
-IOVI CONSERV S C,
-IOVI CONSERVAT S C,
-IOVI CONSERVATORI S C,
-IOVI VICTORI S C,
-IOVIS CVSTOS,
-IVD CAP S C,
-IVD CAPT S C,
-IVDAEA CAPTA,
-IVDAEA CAPTA S C,
-IVDAEA DEVICTA,
-IVDEA CAPTA S C,
-IVLIA AVGVSTA DIVI TITI F,
-IVLIA AVGVSTA T AVG F,
-IVLIA AVGVSTA TITI AVGVSTI F,
-IVLIA IMP T AVG F AVGVSTA,
-IVPPITER CONSERV S C,
-IVPPITER CONSERVATOR,
-IVPPITER CVSTOS S C,
+IOVI CONSERV S C,iovi conservatori senatvs consvlto
+IOVI CONSERVAT S C,iovi conservatori senatvs consvlto
+IOVI CONSERVATORI S C,iovi conservatori senatvs consvlto
+IOVI VICTORI S C,iovi victori senatvs consvlto
+IOVIS CVSTOS,iovis cvstos
+IVD CAP S C,ivdaea capta senatvs consvlto
+IVD CAPT S C,ivdaea capta senatvs consvlto
+IVDAEA CAPTA,ivdaea capta
+IVDAEA CAPTA S C,ivdaea capta senatvs consvlto
+IVDAEA DEVICTA,ivdaea devicta
+IVDEA CAPTA S C,ivdaea capta senatvs consvlto
+IVLIA AVGVSTA DIVI TITI F,ivlia avgvsta titi avgvsti filia
+IVLIA AVGVSTA T AVG F,ivlia avgvsta titi avgvsti filia
+IVLIA AVGVSTA TITI AVGVSTI F,ivlia avgvsta titi avgvsti filia
+IVLIA IMP T AVG F AVGVSTA,ivlia imperatoris titi avgvsti filia avgvsta
+IVPPITER CONSERV S C,ivppiter conservator senatvs consvlto
+IVPPITER CONSERVATOR,ivppiter conservator
+IVPPITER CVSTOS S C,ivppiter cvstos senatvs consvlto
 LIBERI IMP AVG VESPAS,
-LIBERTAS AVG,
-LIBERTAS AVGVSTA,
-LIBERTAS AVGVSTI S C,
-LIBERTAS PVBLICA,
-LIBERTAS PVBLICA S C,
-LIBERTAS RESTITVTA S C,
-M AGRIPPA L F COS III,
-MARS CONSERV,
-MARS VICTOR S C,
-MARS VLTOR,
-MEMORIAE DOMITILLAE S P Q R,
-MONETA AVGVST S C,
-MONETA AVGVSTI S C,
+LIBERTAS AVG,libertas avgvsti
+LIBERTAS AVGVSTA,libertas avgvsta
+LIBERTAS AVGVSTI S C,libertas avgvsti senatvs consvlto
+LIBERTAS PVBLICA,libertas pvblica
+LIBERTAS PVBLICA S C,libertas pvblica senatvs consvlto
+LIBERTAS RESTITVTA S C,libertas restitvta senatvs consvlto
+M AGRIPPA L F COS III,marcvs agrippa lvci filivs consvl Ⅲ
+MARS CONSERV,mars conservator
+MARS VICTOR S C,mars victor senatvs consvlto
+MARS VLTOR,mars vltor
+MEMORIAE DOMITILLAE S P Q R,memoriae domitillae senatvs popvlvsqve romanvs
+MONETA AVGVST S C,moneta avgvsti senatvs consvlto
+MONETA AVGVSTI S C,moneta avgvsti senatvs consvlto
 NEP RED,
 NERO CLAVDIVS DRVSVS GERMANICVS IMP,
-OB CIVES SERVATOS,
+OB CIVES SERVATOS,ob cives servatos
 P M T P P P COS IIII S C,
 P M TR P III COS IX DES X P P,
 P M TR P IIII IMP VIII COS XI P P,
