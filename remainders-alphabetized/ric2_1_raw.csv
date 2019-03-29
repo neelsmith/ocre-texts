@@ -488,22 +488,22 @@ P M TR POT IIII IMP VIII COS XI P P,
 P M TR POT P P,
 P M TRIB P III IMP VII P P S C,
 P P COS VII DES VIII,
-PACI AVGVST S C,
-PACI AVGVSTAE,
-PACI AVGVSTI,
+PACI AVGVST S C,paci avgvsti senatvs consvlto
+PACI AVGVSTAE,paci avgvstae
+PACI AVGVSTI,paci avgvsti
 PACI ORB TERR AVG,
-PACIS EVENT,
-PACIS EVENTVM,
-PACIS S C,
-PAX AVG S C,
-PAX AVGVST,
-PAX AVGVSTA S C,
-PAX ORBIS TERRARVM S C,
-PAX P ROMANI S C,
-PIETAS AVGVST,
-PIETAS AVGVST S C,
+PACIS EVENT,pacis eventvm
+PACIS EVENTVM,pacis eventvm
+PACIS S C,pacis senatvs consvlto
+PAX AVG S C,pax avgvsta senatvs consvlto
+PAX AVGVST,pax avgvsta
+PAX AVGVSTA S C,pax avgvsta senatvs consvlto
+PAX ORBIS TERRARVM S C,pax orbis terrarvm senatvs consvlto
+PAX P ROMANI S C,pax popvli romani
+PIETAS AVGVST,pietas avgvsti
+PIETAS AVGVST S C,pietas avgvsti senatvs consvlto
 PON M TR P P P COS III S C,
-PON MAX,
+PON MAX,pontifex maximvs
 PON MAX TR P COS IIII,
 PON MAX TR P COS V,
 PON MAX TR P COS VI,
@@ -514,20 +514,20 @@ PON MAX TR POT P P COS V CENS,
 PON TR POT,
 PONT MAX TR POT P P COS VIII CENS S C,
 PONT MAX TRIB POT,
-PONTIF MAXIM,
+PONTIF MAXIM,pontifex maximvs
 PONTIF TR P COS III,
 PONTIF TR P COS IIII,
 PONTIF TR P COS V,
 PONTIF TR P COS VI,
 PONTIF TR POT,
 PONTIF TRI POT,
-PRINC IVVENTVT,
-PRINCEPS IVENTVTIS S C,
-PRINCEPS IVVENTVT,
-PRINCEPS IVVENTVTIS,
-PRINCIP IVENT S C,
-PRINCIP IVVENT S C,
-PRINCIPI IVVENTVTIS S C,
+PRINC IVVENTVT,princeps ivventvtis
+PRINCEPS IVENTVTIS S C,princeps ivventvtis senatvs consvlto
+PRINCEPS IVVENTVT,princeps ivventvtis
+PRINCEPS IVVENTVTIS,princeps ivventvtis
+PRINCIP IVENT S C,princeps ivventvtis senatvs consvlto
+PRINCIP IVVENT S C,princeps ivventvtis senatvs consvlto
+PRINCIPI IVVENTVTIS S C,principi ivventvtis senatvs consvlto
 PROVID S C,
 PROVIDE S C,
 PROVIDEN S C,
@@ -535,7 +535,7 @@ PROVIDENT AVGVST S C,
 PROVIDENT S C,
 ROM ET AVG G,
 ROMA ET AVGVSTVS COS ITERVM TRIBVN POT S C,
-ROMA PERPETVA,
+ROMA PERPETVA,roma perpetva
 ROMA RENASC,
 ROMA RESVRGENS,
 ROMA RESVRGES S C,
@@ -672,21 +672,21 @@ TRIVMP AVG,
 TVTELA AVGVSTI S C,
 VENVS AVG,
 VENVS AVGVST,
-VESP AVG,
+VESP AVG,vespasianvs avgvstvs
 VESP AVG FIL CAESERES,
 VESP PON TR P,
-VESPASIANVS,
-VESPASIANVS CAESAR AVGVS,
-VIC AVG,
-VICT AVG,
-VICTOR AVGVSTI S C,
-VICTORIA  AVGVSTI S C,
-VICTORIA AVG S C,
-VICTORIA AVGVST,
-VICTORIA AVGVST S C,
-VICTORIA AVGVSTA S C,
-VICTORIA IMP VESPASIANI,
-VICTORIA NAVALIS S C,
-VICTORIAE AVGVSTI S C,
-VIRTVS AVGVST,
-VIRTVTI AVGVSTI S C,
+VESPASIANVS,vespasianvs
+VESPASIANVS CAESAR AVGVS,vespasianvs caesar avgvstvs
+VIC AVG,victoria avgvsti
+VICT AVG,victoria avgvsti
+VICTOR AVGVSTI S C,victoria avgvsti senatvs consvlto
+VICTORIA  AVGVSTI S C,victoria avgvsti senatvs consvlto
+VICTORIA AVG S C,victoria avgvsti senatvs consvlto
+VICTORIA AVGVST,victoria avgvsti
+VICTORIA AVGVST S C,victoria avgvsti senatvs consvlto
+VICTORIA AVGVSTA S C,victoria avgvsta senatvs consvlto
+VICTORIA IMP VESPASIANI,victoria imperator vespasiani
+VICTORIA NAVALIS S C,victoria navalis senatvs consvlto
+VICTORIAE AVGVSTI S C,victoriae avgvsti senatvs consvlto
+VIRTVS AVGVST,virtvs avgvsti
+VIRTVTI AVGVSTI S C,virtvti avgvsti senatvs consvlto
