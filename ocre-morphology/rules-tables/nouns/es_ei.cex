@@ -8,10 +8,10 @@ livymorph.es_ei3b#es_ei#e#masc#dat#sg
 livymorph.es_ei4#es_ei#em#masc#acc#sg
 livymorph.es_ei5#es_ei#e#masc#abl#sg
 livymorph.es_ei6#es_ei#es#masc#nom#pl
-livymorph.es_ei7#es_ei#erum#masc#gen#pl
-livymorph.es_ei8#es_ei#ebus#masc#dat#pl
+livymorph.es_ei7#es_ei#ervm#masc#gen#pl
+livymorph.es_ei8#es_ei#ebvs#masc#dat#pl
 livymorph.es_ei9#es_ei#es#masc#acc#pl
-livymorph.es_ei10#es_ei#ebus#masc#abl#pl
+livymorph.es_ei10#es_ei#ebvs#masc#abl#pl
 livymorph.es_ei11#es_ei#es#masc#voc#sg
 livymorph.es_ei12#es_ei#es#masc#voc#pl
 
@@ -23,9 +23,9 @@ livymorph.es_ei3b#es_ei#e#fem#dat#sg
 livymorph.es_ei4#es_ei#em#fem#acc#sg
 livymorph.es_ei5#es_ei#e#fem#abl#sg
 livymorph.es_ei6#es_ei#es#fem#nom#pl
-livymorph.es_ei7#es_ei#erum#fem#gen#pl
-livymorph.es_ei8#es_ei#ebus#fem#dat#pl
+livymorph.es_ei7#es_ei#ervm#fem#gen#pl
+livymorph.es_ei8#es_ei#ebvs#fem#dat#pl
 livymorph.es_ei9#es_ei#es#fem#acc#pl
-livymorph.es_ei10#es_ei#ebus#fem#abl#pl
+livymorph.es_ei10#es_ei#ebvs#fem#abl#pl
 livymorph.es_ei11#es_ei#es#fem#voc#sg
 livymorph.es_ei12#es_ei#es#fem#voc#pl

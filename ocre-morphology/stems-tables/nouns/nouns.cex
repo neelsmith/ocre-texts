@@ -24,6 +24,28 @@ ocremorph.n13#ls.n44227#sign#neut#us_i
 
 ocremorph.n14#ls.n38120#praetor#masc#0_is
 
+ocremorph.n15#ls.n49895#vrb#fem#s_is
+
+ocremorph.n16#ls.n51108#virtv#fem#s_tis
+ocremorph.n17#ls.n43622#senat#masc#us_us
+ocremorph.n18#ls.n37077#popvl#masc#us_i
+ocremorph.n19#ls.n29035#mil#masc#es_itis
+ocremorph.n20#ls.n18185#fili#masc#us_i
+ocremorph.n20#ls.n18173#fili#fem#a_ae
+ocremorph.n21#ls.n38341#princ#masc#eps_ipis
+ocremorph.n22#ls.n50865#victor#masc#0_is
+ocremorph.n23#ls.n44971#sp#fem#es_ei
+ocremorph.n24#ls.n25447#ivventv#fem#s_tis
+ocremorph.n25#ls.n40120#qvie#fem#s_tis
+ocremorph.n26#ls.n37018#pontif#masc#ex_icis
+ocremorph.n27#ls.n1315#aeqvita#fem#s_tis
+ocremorph.n28#ls.n1410#aeternita#fem#s_tis
+ocremorph.n29#ls.n31066#nobilita#fem#s_tis
+ocremorph.n30#ls.n48735#tranqvillita#fem#s_tis
+ocremorph.n31#ls.n43282#secvrita#fem#s_tis
+ocremorph.n32#ls.n36272#pieta#fem#s_tis
+ocremorph.n33#ls.n8464#civ#masc#is_is
+
 
 
 
@@ -33,7 +55,7 @@ livymorph.n10#ls.n2698#ann#masc#us_i
 livymorph.n11#ls.n2636#anim#masc#us_i
 livymorph.n12#ls.n26431#le#fem#x_gis
 livymorph.n13#ls.n26431#pleb#fem#s_is
-livymorph.n14#ls.n37077#popul#masc#us_i
+
 livymorph.n15#ls.n3665#arm#neut#us_i
 livymorph.n16#ls.n5147#bell#neut#us_i
 livymorph.n17#ls.n20890#honor#masc#0_is
@@ -87,12 +109,12 @@ livymorph.n64#ls.n17634#fam#fem#a_ae
 livymorph.n65#ls.n25280#iud#masc#ex_icis
 livymorph.n66#ls.n26083#lau#fem#s_dis
 livymorph.n67#ls.n26481#liber#fem#tas_tatis
-livymorph.n68#ls.n25447#iuventu#fem#s_tis
+
 livymorph.n69#ls.n25395#iu#neut#s_ris
 livymorph.n70#ls.n27666#maies#fem#tas_tatis
 livymorph.n71#ls.n27977#man#fem#us_us
 livymorph.n72#ls.n28985#met#masc#us_us
-livymorph.n73#ls.n29035#mil#masc#es_itis
+
 livymorph.n74#ls.n28613#memori#fem#a_ae
 livymorph.n75#ls.n30693#negoti#neut#us_i
 livymorph.n76#ls.n31131#nom#neut#en_inis
@@ -207,7 +229,7 @@ livymorph.n183#ls.n36897#polusc#fem#a_ae
 livymorph.n184#ls.n35777#pestilenti#fem#a_ae
 livymorph.n185#ls.n48300#tiber#masc#is_is
 livymorph.n186#livylex.nouns2#quincti#masc#us_i
-livymorph.n187#ls.n38341#princ#masc#eps_ipis
+
 livymorph.n188#livylex.nouns3#coriolan#masc#us_i
 livymorph.n189#ls.n11184#coriol#masc#us_i
 livymorph.n190#ls.n2917#anti#neut#us_i
