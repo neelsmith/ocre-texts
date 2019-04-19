@@ -5,9 +5,9 @@ ocremorph.ocre2#ocre.pn2#carisi#masc#us_i
 ocremorph.ocre3#ocre.pn3#valentinian#masc#us_i
 ocremorph.ocre4#ocre.pn4#tvrpilian#masc#us_i
 ocremorph.ocre5#ocre.pn5#theodosi#masc#us_i
+ocremorph.ocre6#ocre.pn6#arcadi#masc#us_i
 
 
-ocremorph.n3#ls.n4509#avgvst#masc#us_i
 ocremorph.n4#ls.n8534#clavdi#masc#us_i
 ocremorph.n5#ls.n9429#commod#masc#us_i
 ocremorph.n6#ls.n10621#constantin#masc#us_i
@@ -23,8 +23,16 @@ ocremorph.n15#ls.n44041#sever#masc#us_i
 ocremorph.n16#ls.n40222#qvint#masc#us_i
 ocremorph.n17#ls.n39402#pvbli#masc#us_i
 ocremorph.n18#ls.n38425#prob#masc#us_i
+ocremorph.n19#ls.n1212#aeli#masc#us_i
 
+ocremorph.n20#ls.n6080#caesar#masc#0_is
 
-
-
-livymorph.n6#ls.n1212#aeli#masc#us_i
+ocremorph.n21#ls.n4543#avrelian#masc#us_i
+ocremorph.n22#ls.n4544#avreli#masc#us_i
+ocremorph.n23#ls.n19196#cai#masc#us_i
+ocremorph.n23b#ls.n19196#gai#masc#us_i
+ocremorph.n24#ls.n19733#cnae#masc#us_i
+ocremorph.n25#ls.n14050#diocletian#masc#us_i
+ocremorph.n26#ls.n2926#antonin#masc#us_i
+ocremorph.n27#ls.n2928#antoni#masc#us_i
+ocremorph.n28#ls.n3232#apron#masc#us_i
