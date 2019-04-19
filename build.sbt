@@ -16,7 +16,10 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "nomisma" % "0.3.0",
   "edu.holycross.shot" %% "latphone" % "2.1.1",
 
-  "edu.holycross.shot" %% "midvalidator" % "5.4.0"
+  "edu.holycross.shot" %% "midvalidator" % "5.4.0",
+
+  "edu.holycross.shot" %% "tabulae" % "1.0.0",
+  "com.github.pathikrit" %% "better-files" % "3.5.0",
 )
 
 tutSourceDirectory := file("tut")
