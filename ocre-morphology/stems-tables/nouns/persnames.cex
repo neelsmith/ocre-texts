@@ -9,6 +9,8 @@ ocremorph.ocre6#ocre.pn6#arcadi#masc#us_i
 ocremorph.ocre7#ocre.pn7#dvrmi#masc#us_i
 ocremorph.ocre8#ocre.pn8#gallien#masc#us_i
 ocremorph.ocre9#ocre.pn9#hadrian#masc#us_i
+ocremorph.ocre10#ocre.pn10#volvsian#masc#us_i
+ocremorph.ocre11#ocre.pn11#ver#masc#us_i
 
 
 
@@ -52,3 +54,9 @@ ocremorph.n35#ls.n25335#ivli#masc#us_i
 ocremorph.n35b#ls.n25335#ivli#fem#a_ae
 ocremorph.n36#ls.n27079#luci#masc#us_i
 ocremorph.n37#ls.n50807#vibi#masc#us_i
+
+ocremorph.n38#ls.n1808#alexand#masc#er_ri
+
+ocremorph.n39#ls.n3063#apoll#masc#o_inis
+
+ocremorph.n20#ls.n37265#postvm#masc#us_i
