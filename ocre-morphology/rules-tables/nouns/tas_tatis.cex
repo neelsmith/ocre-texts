@@ -1,0 +1,15 @@
+RuleUrn#InflectionClasses#Ending#Gender#Case#Number
+
+ocremorph.tas_tatis1#tas_tatis#tas#fem#nom#sg
+ocremorph.tas_tatis2#tas_tatis#tatis#fem#gen#sg
+ocremorph.tas_tatis3#tas_tatis#tati#fem#dat#sg
+ocremorph.tas_tatis4#tas_tatis#tatem#fem#acc#sg
+ocremorph.tas_tatis5#tas_tatis#tate#fem#abl#sg
+ocremorph.tas_tatis6#tas_tatis#tates#fem#nom#pl
+ocremorph.tas_tatis7#tas_tatis#tatvm#fem#gen#pl
+ocremorph.tas_tatis8#tas_tatis#tatibus#fem#dat#pl
+ocremorph.tas_tatis9#tas_tatis#tates#fem#acc#pl
+ocremorph.tas_tatis9b#tas_tatis#tatis#fem#acc#pl
+ocremorph.tas_tatis10#tas_tatis#tatibus#fem#abl#pl
+ocremorph.tas_tatis11#tas_tatis#tas#fem#voc#sg
+ocremorph.tas_tatis12#tas_tatis#tates#fem#voc#pl
