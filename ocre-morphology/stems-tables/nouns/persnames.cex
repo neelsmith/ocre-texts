@@ -31,6 +31,8 @@ ocremorph.ocre21#ocre.pn21#regin#masc#us_i
 ocremorph.ocre22#ocre.pn22#salonin#fem#a_ae
 
 ocremorph.ocre23#ocre.pn23#tromentin#masc#us_i
+ocremorph.ocre24#ocre.pn24#canin#masc#us_i
+
 
 
 
@@ -92,12 +94,13 @@ ocremorph.n46#ls.n30811#nerv#masc#a_ae
 
 
 ocremorph.n47#ls.n35847#petroni#masc#us_i
-ocremorph.n48#ls.n36023#phillip#masc#us_i
+ocremorph.n48#ls.n36023#philipp#masc#us_i
 
 ocremorph.n49#ls.n36439#pis#masc#o_inis
 
 ocremorph.n50#ls.n44255#silian#masc#us_i
 
-ocremorph.n51#ls.n45472#stol#masc#0_is
+ocremorph.n51#ls.n45472#stol#masc#o_onis
 
-ocremorph.n52#ls.n50115#valen#fem#s_tis
+ocremorph.n52#ls.n50115#valen#masc#s_tis
+ocremorph.n53#ls.n10614#constan#masc#s_tis
