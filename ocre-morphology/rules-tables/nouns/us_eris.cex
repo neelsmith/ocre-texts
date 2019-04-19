@@ -1,0 +1,14 @@
+RuleUrn#InflectionClasses#Ending#Gender#Case#Number
+
+ocremorph.us_eris1#us_eris#vs#neut#nom#sg
+ocremorph.us_eris2#us_eris#eris#neut#gen#sg
+ocremorph.us_eris3#us_eris#eri#neut#dat#sg
+ocremorph.us_eris4#us_eris#vs#neut#acc#sg
+ocremorph.us_eris5#us_eris#ere#neut#abl#sg
+ocremorph.us_eris6#us_eris#era#neut#nom#pl
+ocremorph.us_eris7#us_eris#ervm#neut#gen#pl
+ocremorph.us_eris8#us_eris#eribvs#neut#dat#pl
+ocremorph.us_eris9#us_eris#era#neut#acc#pl
+ocremorph.us_eris10#us_eris#eribvs#neut#abl#pl
+ocremorph.us_eris11#us_eris#vs#neut#voc#sg
+ocremorph.us_eris12#us_eris#era#neut#voc#pl
