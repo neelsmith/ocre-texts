@@ -24,7 +24,7 @@ ocremorph.ocre17#ocre.pn17#maximian#masc#us_i
 ocremorph.ocre18#ocre.pn18#messi#masc#us_i
 ocremorph.ocre19#ocre.pn19#opelli#masc#us_i
 
-ocremorph.n20#ocre.pn20#pertina#fem#x_cis
+ocremorph.persn20#ocre.pn20#pertina#fem#x_cis
 
 ocremorph.ocre21#ocre.pn21#regin#masc#us_i
 
@@ -37,72 +37,74 @@ ocremorph.ocre25#ocre.pn25#macrin#masc#us_i
 
 
 
-ocremorph.n4#ls.n8534#clavdi#masc#us_i
-ocremorph.n5#ls.n9429#commod#masc#us_i
-ocremorph.n6#ls.n10621#constantin#masc#us_i
-ocremorph.n7#ls.n10622#constanti#masc#us_i
-ocremorph.n8#ls.n18349#flavi#masc#us_i
-ocremorph.n9#ls.n50126#valeri#masc#us_i
-ocremorph.n10#ls.n50125#valerian#masc#us_i
-ocremorph.n11#ls.n48711#traian#masc#us_i
-ocremorph.n12#ls.n50698#vespasian#masc#us_i
-ocremorph.n13#ls.n48301#tiberi#masc#us_i
-ocremorph.n14#ls.n43764#septimi#masc#us_i
-ocremorph.n15#ls.n44041#sever#masc#us_i
-ocremorph.n16#ls.n40222#qvint#masc#us_i
-ocremorph.n17#ls.n39402#pvbli#masc#us_i
-ocremorph.n18#ls.n38425#prob#masc#us_i
-ocremorph.n19#ls.n1212#aeli#masc#us_i
+ocremorph.persn4#ls.n8534#clavdi#masc#us_i
+ocremorph.persn5#ls.n9429#commod#masc#us_i
+ocremorph.persn6#ls.n10621#constantin#masc#us_i
+ocremorph.persn7#ls.n10622#constanti#masc#us_i
+ocremorph.persn8#ls.n18349#flavi#masc#us_i
+ocremorph.persn9#ls.n50126#valeri#masc#us_i
+ocremorph.persn10#ls.n50125#valerian#masc#us_i
+ocremorph.persn11#ls.n48711#traian#masc#us_i
+ocremorph.persn12#ls.n50698#vespasian#masc#us_i
+ocremorph.persn13#ls.n48301#tiberi#masc#us_i
+ocremorph.persn14#ls.n43764#septimi#masc#us_i
+ocremorph.persn15#ls.n44041#sever#masc#us_i
+ocremorph.persn16#ls.n40222#qvint#masc#us_i
+ocremorph.persn17#ls.n39402#pvbli#masc#us_i
+ocremorph.persn18#ls.n38425#prob#masc#us_i
+ocremorph.persn19#ls.n1212#aeli#masc#us_i
 
-ocremorph.n20#ls.n6080#caesar#masc#0_is
+ocremorph.persn20#ls.n6080#caesar#masc#0_is
 
-ocremorph.n21#ls.n4543#avrelian#masc#us_i
-ocremorph.n22#ls.n4544#avreli#masc#us_i
-ocremorph.n23#ls.n19196#cai#masc#us_i
-ocremorph.n23b#ls.n19196#gai#masc#us_i
-ocremorph.n24#ls.n19733#cnae#masc#us_i
-ocremorph.n25#ls.n14050#diocletian#masc#us_i
-ocremorph.n26#ls.n2926#antonin#masc#us_i
-ocremorph.n27#ls.n2928#antoni#masc#us_i
-ocremorph.n28#ls.n3232#aproni#masc#us_i
-ocremorph.n29#ls.n12504#deci#masc#us_i
+ocremorph.persn21#ls.n4543#avrelian#masc#us_i
+ocremorph.persn22#ls.n4544#avreli#masc#us_i
+ocremorph.persn23#ls.n19196#cai#masc#us_i
+ocremorph.persn23b#ls.n19196#gai#masc#us_i
+ocremorph.persn24#ls.n19733#cnae#masc#us_i
+ocremorph.persn25#ls.n14050#diocletian#masc#us_i
+ocremorph.persn26#ls.n2926#antonin#masc#us_i
+ocremorph.persn27#ls.n2928#antoni#masc#us_i
+ocremorph.persn28#ls.n3232#aproni#masc#us_i
+ocremorph.persn29#ls.n12504#deci#masc#us_i
 
-ocremorph.n30#ls.n17816#favstin#fem#a_ae
+ocremorph.persn30#ls.n17816#favstin#fem#a_ae
 
-ocremorph.n31#ls.n18407#flor#masc#us_i
-ocremorph.n32#ls.n19275#gall#masc#us_i
-ocremorph.n33#ls.n19758#gordian#masc#us_i
-ocremorph.n34#ls.n19899#gratian#masc#us_i
-ocremorph.n35#ls.n25335#ivli#masc#us_i
-ocremorph.n35b#ls.n25335#ivli#fem#a_ae
-ocremorph.n36#ls.n27079#lvci#masc#us_i
-ocremorph.n37#ls.n50807#vibi#masc#us_i
+ocremorph.persn31#ls.n18407#flor#masc#us_i
+ocremorph.persn32#ls.n19275#gall#masc#us_i
+ocremorph.persn33#ls.n19758#gordian#masc#us_i
+ocremorph.persn34#ls.n19899#gratian#masc#us_i
+ocremorph.persn35#ls.n25335#ivli#masc#us_i
+ocremorph.persn35b#ls.n25335#ivli#fem#a_ae
+ocremorph.persn36#ls.n27079#lvci#masc#us_i
+ocremorph.persn37#ls.n50807#vibi#masc#us_i
 
-ocremorph.n38#ls.n1808#alexand#masc#er_ri
-
-
-ocremorph.n40#ls.n27496#postvm#masc#us_i
-ocremorph.n41#ls.n28016#marc#masc#us_i
-ocremorph.n42#ls.n28057#mari#masc#us_i
-ocremorph.n43#ls.n28262#maxenti#masc#us_i
-
-ocremorph.n44#ls.n28869#messall#masc#a_ae
-
-ocremorph.n45#ls.n30804#ner#masc#o_onis
-
-ocremorph.n46#ls.n30811#nerv#masc#a_ae
+ocremorph.persn38#ls.n1808#alexand#masc#er_ri
 
 
-ocremorph.n47#ls.n35847#petroni#masc#us_i
-ocremorph.n48#ls.n36023#philipp#masc#us_i
+ocremorph.persn40#ls.n27496#postvm#masc#us_i
+ocremorph.persn41#ls.n28016#marc#masc#us_i
+ocremorph.persn42#ls.n28057#mari#masc#us_i
+ocremorph.persn43#ls.n28262#maxenti#masc#us_i
 
-ocremorph.n49#ls.n36439#pis#masc#o_inis
+ocremorph.persn44#ls.n28869#messall#masc#a_ae
 
-ocremorph.n50#ls.n44255#silian#masc#us_i
+ocremorph.persn45#ls.n30804#ner#masc#o_onis
 
-ocremorph.n51#ls.n45472#stol#masc#o_onis
+ocremorph.persn46#ls.n30811#nerv#masc#a_ae
 
-ocremorph.n52#ls.n50115#valen#masc#s_tis
-ocremorph.n53#ls.n10614#constan#masc#s_tis
 
-ocremorph.n54#ls.n4530#avl#masc#us_i
+ocremorph.persn47#ls.n35847#petroni#masc#us_i
+ocremorph.persn48#ls.n36023#philipp#masc#us_i
+
+ocremorph.persn49#ls.n36439#pis#masc#o_inis
+
+ocremorph.persn50#ls.n44255#silian#masc#us_i
+
+ocremorph.persn51#ls.n45472#stol#masc#o_onis
+
+ocremorph.persn52#ls.n50115#valen#masc#s_tis
+ocremorph.persn53#ls.n10614#constan#masc#s_tis
+
+ocremorph.persn54#ls.n4530#avl#masc#us_i
+
+ocremorph.persn55#ls.n26556#licini#masc#us_i
