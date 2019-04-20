@@ -1,9 +1,6 @@
 StemUrn#LexicalEntity#Stem#Gender#InflClass
 
-
-
 ocremorph.n1#ls.n10676#consvl#masc#0_is
-
 
 ocremorph.n2#ls.n50867#victori#fem#a_ae
 ocremorph.n3#ls.n39205#providenti#fem#a_ae
@@ -45,6 +42,8 @@ ocremorph.n30#ls.n48735#tranqvillita#fem#s_tis
 ocremorph.n31#ls.n43282#secvrita#fem#s_tis
 ocremorph.n32#ls.n36272#pieta#fem#s_tis
 ocremorph.n33#ls.n8464#civ#masc#is_is
+ocremorph.n34#ls.n1359#ae#neut#s_ris
+ocremorph.n35#ls.n43622#senat#masc#us_us
 
 
 
