@@ -49,3 +49,15 @@ ocremorph.grd_c4pres_1#c4pres#iendi#gen
 ocremorph.grd_c4pres_2#c4pres#iendo#dat
 ocremorph.grd_c4pres_3#c4pres#iendvm#acc
 ocremorph.grd_c4pres_4#c4pres#iendo#abl
+
+
+
+ocremorph.grd_conj4_1#conj4#ivndi#gen
+ocremorph.grd_conj4_2#conj4#ivndo#dat
+ocremorph.grd_conj4_3#conj4#ivndvm#acc
+ocremorph.grd_conj4_4#conj4#ivndo#abl
+
+ocremorph.grd_c4pres_1#c4pres#ivndi#gen
+ocremorph.grd_c4pres_2#c4pres#ivndo#dat
+ocremorph.grd_c4pres_3#c4pres#ivndvm#acc
+ocremorph.grd_c4pres_4#c4pres#ivndo#abl
