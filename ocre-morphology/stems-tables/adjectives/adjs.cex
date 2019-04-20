@@ -10,9 +10,9 @@ ocremorph.adj7#ls.n39399#pvblic#us_a_um
 ocremorph.adj8#ls.n31216#nost#er_ra_rum
 ocremorph.adj9#ls.n24756#invict#us_a_um
 ocremorph.adj10#ls.n17887#feli#x_cis
-ocremorph.adj11#ls.n33300#pacif#er_era_erum
+ocremorph.adj11#ls.n33300#pacifer#0_a_um
 ocremorph.adj12#ls.n40777#redv#x_cis
-
+ocremorph.adj13#ls.#ivni#or_oris_comp
 
 livymorph.adj1#ls.n32583#omn#is_e
 livymorph.adj2#ls.n1842#alien#us_a_um
@@ -100,7 +100,7 @@ livymorph.adj83#ls.n25653#laet#us_a_um
 livymorph.adj84#ls.n26001#latin#us_a_um
 livymorph.adj85#ls.n26977#long#us_a_um
 livymorph.adj86#livylex.adj3#macerin#us_a_um
-livymorph.adj87#ls.n27649#magn#us_a_um
+livymorph.adj87#ls.n27649#magn#us_a_um_pos
 livymorph.adj88#ls.n28988#me#us_a_um
 livymorph.adj89#ls.n204#abse#ns_ntis
 livymorph.adj91#ls.n4306#atro#x_cis
