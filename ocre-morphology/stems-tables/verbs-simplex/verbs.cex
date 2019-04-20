@@ -2,6 +2,12 @@ StemUrn#LexicalEntity#StemString#MorphologicalClass
 
 ocremorph.verb1#ls.n17953#fer#conj4
 ocremorph.verb2#ls.n18378#fl#conj1
+ocremorph.verb3#ls.n6614#capt#pftpass
+ocremorph.verb4#ls.n5200#beat#pftpass
+ocremorph.verb5#ls.n43947#servat#pftpass
+ocremorph.verb6#ls.n40577#recept#pftpass
+
+
 
 
 livymorph.verb1#ls.n32256#od#pftact
