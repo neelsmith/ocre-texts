@@ -68,6 +68,49 @@ def writeFailures(wordsFile: String = "words.txt", output: String = "failed.txt"
   println("List of words that failed to parse available in " + output)
 }
 
+// quick kludge instead of tokenizing properly...
+val numberStrings = Vector("Ⅱ",
+  "Ⅲ",
+  "Ⅳ",
+  "Ⅴ",
+  "Ⅷ",
+  "Ⅹ",
+  "ⅩⅡ",
+  "ⅩⅤ",
+  "ⅩⅩⅡ",
+  "ⅩⅩⅦ",
+  "ⅩⅩⅧ"
+)
+
+// alphabetized list of unique whitespace-delimited tokens
+def wordList(c: edu.holycross.shot.ohco2.Corpus) : Vector[String] = {
+  val txts = c.nodes.map(_.text)
+  txts.map(_.split(" ")).toVector.flatten.distinct.filterNot(numberStrings.contains(_)).sorted
+}
+
+def writeWordList(c: edu.holycross.shot.ohco2.Corpus, output: String = "words.txt") : Unit = {
+  val words = wordList(c)
+  new PrintWriter(output){write(words.mkString("\n") + "\n"); close;}
+  println("Wrote sorted wordlist to " + output)
+}
+
+def profileCorpus(c: edu.holycross.shot.ohco2.Corpus): Unit = {
+  writeWordList(c)
+  writeParse("words.txt")
+
+  val txts = c.nodes.map(_.text)
+  val tokens = txts.map(_.split(" ")).toVector.flatten
+
+  val parseFile = "output.txt"
+
+  println("\n\nProfile")
+  println(  "-------")
+  println("Citable text units: " + c.size)
+  println("Tokens: " + tokens.size)
+  println("Distinct tokens: " + tokens.distinct.size)
+  println("Now analyze parses in " + parseFile)
+
+}
 
 println("\n\nThings you can do with this script:\n")
 
