@@ -98,6 +98,17 @@ def psgForTokenId(u: CtsUrn) : Option[CitableNode] = {
 }
 
 
+
+def entityForForm(str: String) : String = {
+  val matches = formLemmaIndex.filter(_._2 == str).map(_._1)
+  matches.size match {
+    case 1 => matches(0)
+    case 0 =>{println("No matches for " + str); ""}
+    case _ =>{println("Multiple matches for " + str + ":  " + matches.mkString(", ")); ""}
+  }
+}
+
+
 /** Given an id, find attested surface forms.
 * Note that id should be in the abbreviated URN
 * format COLLECTION.ID (e.g., "ls.4509").
@@ -121,4 +132,25 @@ def urnsForEntity(id: String) : Vector[CtsUrn]= {
     urnsForForm(form)
   }
   urns.flatten
+}
+
+
+def info: Unit = {
+  println("\n\nThings you can do with these data sets:")
+
+  println("\nFind entity ID for a given form:\n")
+  println("\tentityForForm(STRING)\n")
+
+
+  println("\nFind forms for a given entity:\n")
+  println("\tformsForEntity(IDVALUE)\n")
+
+
+
+  println("\nFind passage URNs for a given form:\n")
+  println("\turnsForForm(STRING)\n")
+
+
+  println("\nFind passage URNs for a given entity:\n")
+  println("\turnsForEntity(ID)\n")
 }
