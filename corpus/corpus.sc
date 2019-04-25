@@ -86,8 +86,15 @@ def labelLexItem(id: String) : String = {
   }
 }
 
-def psgForTokenId(u: CtsUrn) = {
 
+/** Retrieve full passage node for a token.*/
+def psgForTokenId(u: CtsUrn) : Option[CitableNode] = {
+  val psgCorpus = corpus ~~ u.collapsePassageBy(1).dropVersion
+  psgCorpus.size match {
+    case 1 => Some(psgCorpus.nodes(0))
+    case 0 => {println("No passages matching " + u); None}
+    case _ => {println("Multiple passages matching " + u + " : " + psgCorpus.nodes.map(_.urn).mkString(", ")); None}
+  }
 }
 
 
