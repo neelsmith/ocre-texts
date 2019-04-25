@@ -85,3 +85,21 @@ def labelLexItem(id: String) : String = {
     case _ => {println("Multiple matches for " + id + ": " + matches.mkString(", ")); ""}
   }
 }
+
+def psgForTokenId(u: CtsUrn) = {
+
+}
+
+
+/** Given an id, find attested surface forms.
+* Note that id should be in the abbreviated URN
+* format COLLECTION.ID (e.g., "ls.4509").
+*/
+def formsForEntity(id: String)  = {
+  formLemmaIndex.filter(_._1 == id).map(_._2)
+}
+
+/** Given a surface form, find URNs for occurrences.*/
+def urnsForForm(str: String) : Vector[CtsUrn]= {
+  lexTokens.filter(_.string == str).map(_.urn)
+}
