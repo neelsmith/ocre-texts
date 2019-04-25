@@ -103,3 +103,15 @@ def formsForEntity(id: String)  = {
 def urnsForForm(str: String) : Vector[CtsUrn]= {
   lexTokens.filter(_.string == str).map(_.urn)
 }
+
+/** Given a an ID for a lexical entity, find URNs for occurrences.
+* Note that id should be in the abbreviated URN
+* format COLLECTION.ID (e.g., "ls.4509").
+*/
+def urnsForEntity(id: String) : Vector[CtsUrn]= {
+  val forms = formsForEntity(id)
+  val urns = for (form <- forms) yield {
+    urnsForForm(form)
+  }
+  urns.flatten
+}
