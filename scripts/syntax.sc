@@ -19,7 +19,26 @@ def parsedForms(f: String = fst): Vector[AnalyzedToken] = {
 val parsed = parsedForms()
 
 
+case class GCNTriple(gender: Gender, gcase: GrammaticalCase, gnumber: GrammaticalNumber)
+
 case class FormulaUnit(tkn: AnalyzedToken)  {
+
+  // ASSUME ONLY ONE PoS possible, so
+  // can take first analysis we find:
+  def nounToken : Boolean = {
+    tkn.analyses(0) match {
+      case n: NounForm => true
+      case _ => false
+    }
+  }
+
+
+  def adjToken : Boolean = {
+    tkn.analyses(0) match {
+      case n: AdjectiveForm => true
+      case _ => false
+    }
+  }
 
   // ASSUME ONLY ONE PoS possible, so
   // can take first analysis we find:
@@ -57,11 +76,46 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
+
+  def grammNumber: Vector[GrammaticalNumber] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[GrammaticalNumber]
+    } else {
+      val numberList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case n : NounForm => Some(n.grammaticalNumber)
+            case adj : AdjectiveForm => Some(adj.grammaticalNumber)
+            //case cverb:
+            // case participle:
+            case _ => None
+        }
+      }
+      numberList.flatten.toVector.distinct
+    }
+  }
+
+
+  def gcn: Vector[GCNTriple] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[GCNTriple]
+    } else {
+      val tripleList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case n : NounForm => Some(GCNTriple(n.gender, n.grammaticalCase, n.grammaticalNumber))
+            case adj : AdjectiveForm => Some(GCNTriple(adj.gender, adj.grammaticalCase, adj.grammaticalNumber))
+            //case cverb:
+            // case participle:
+            case _ => None
+        }
+      }
+      tripleList.flatten.toVector.distinct
+    }
+  }
+
   def fnctn: String = {
     ""
   }
 }
-
 
 
 // get orthographically valid entries from a CEX file
@@ -82,8 +136,33 @@ def dropString(n: CitableNode,s : String) : CitableNode = {
 }
 
 
-// analyze syntactic formula of a revere legend
-def revSyntax(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) = {
+def nounAnalysis(nouns: Vector[FormulaUnit] ) = {
+  println("\n\n" + nouns.size + " nouns.\n")
+  for (n <- nouns) {
+    println(n.tkn.token + ": " + n.substGender.mkString(", ") + " : " + n.substCase.mkString(", ") + "\n")
+    println("GCN: " + n.gcn)
+  }
+}
+
+def adjAnalysis(adjs: Vector[FormulaUnit] ) = {
+  println("\n\n" + adjs.size + " adjectives.\n")
+  for (adj <- adjs) {
+    println(adj.tkn.token + ": " + adj.substGender.mkString(", ") + " : " + adj.substCase.mkString(", ") + "\n")
+    println("GCN: " + adj.gcn)
+  }
+}
+
+
+// True if at least one matching GCN form for noun and ajd
+def agree(noun: FormulaUnit, adj: FormulaUnit): Boolean = {
+  val nForms = noun.gcn.toSet
+  val aForms = adj.gcn.toSet
+  nForms.intersect(aForms).nonEmpty
+}
+
+// analyze syntactic formula of a reverse legend and return parsed
+// tokens
+def revTokens(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) = {
   val trimmed = dropString(n, "senatvs consvlto")
   //println("Trimmed to " + trimmed)
   val revTkns = NormalizedLegendOrthography.tokenizeNode(trimmed)
@@ -92,5 +171,15 @@ def revSyntax(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) = {
     println("Parsed: " + tkn + " => "+ parse.size)
     parse
   }
+
+  val fus = for (lgnd <- legendParses.flatten) yield {
+    FormulaUnit(lgnd)
+  }
+
+  val nouns = fus.filter(_.nounToken)
+  //nounAnalysis(nouns)
+  val adjs = fus.filter(_.adjToken)
+  //adjAnalysis(adjs)
+
   legendParses.flatten
 }
