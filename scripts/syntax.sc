@@ -21,10 +21,12 @@ val parsed = parsedForms()
 
 case class FormulaUnit(tkn: AnalyzedToken)  {
 
-  def pos : String = tkn.analyses(0).posLabel
-
   // ASSUME ONLY ONE PoS possible, so
   // can take first analysis we find:
+  //def pos : String = tkn.analyses(0).posLabel
+
+  // (possiby empty) list of case values; if tkn
+  // is a substantive, list should be non-empty
   def substCase : Vector[GrammaticalCase] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[GrammaticalCase]
@@ -36,10 +38,24 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
             case _ => None
         }
       }
-      caseList.flatten.toVector.distinct
+      caseList.flatten.toVector.distinct.filterNot(_ == Vocative)
     }
   }
 
+  def substGender: Vector[Gender] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Gender]
+    } else {
+      val genderList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case n : NounForm => Some(n.gender)
+            case adj : AdjectiveForm => Some(adj.gender)
+            case _ => None
+        }
+      }
+      genderList.flatten.toVector.distinct
+    }
+  }
 
   def fnctn: String = {
     ""
