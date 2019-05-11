@@ -166,8 +166,17 @@ def nounsAgree(noun1: FormulaUnit, noun2: FormulaUnit): Boolean = {
 }
 
 
+def nounFormula = {
+  // given a clustered sequence of nouns, determine
+  // the compositional formula
+}
+
 // group together nouns that match in GCN
 def clusterNouns = {
+  // work though list of nouns.
+  // if others agree, eliminate them from consideration.
+  // should result in a Vector of Vectors with internal vector
+  // containing (possibly) agreeing nouns
 
 }
 // analyze syntactic formula of a reverse legend and return parsed
@@ -177,7 +186,11 @@ def revTokens(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) : Vecto
   //println("Trimmed to " + trimmed)
   val revTkns = NormalizedLegendOrthography.tokenizeNode(trimmed)
   val legendParses = for (tkn <- revTkns) yield {
+    println("Look for " + tkn)
     val parse = allParses.filter(_.token == tkn.string)
+    if (parse.isEmpty) {
+      println("DID NOT FIND PARSE FOR " + tkn.string)
+    }
     //println("Parsed: " + tkn + " => "+ parse.size)
     parse
   }
