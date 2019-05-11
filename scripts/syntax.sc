@@ -94,7 +94,6 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
-
   def gcn: Vector[GCNTriple] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[GCNTriple]
@@ -131,7 +130,7 @@ def rev(c: Corpus) = {
 
 // trim text from legend of citable node
 def dropString(n: CitableNode,s : String) : CitableNode = {
-  val trimmed = n.text.replaceAll(s,"")
+  val trimmed = n.text.replaceAll(s," ")
   CitableNode(n.urn, trimmed)
 }
 
@@ -154,32 +153,68 @@ def adjAnalysis(adjs: Vector[FormulaUnit] ) = {
 
 
 // True if at least one matching GCN form for noun and ajd
-def agree(noun: FormulaUnit, adj: FormulaUnit): Boolean = {
+def naAgree(noun: FormulaUnit, adj: FormulaUnit): Boolean = {
   val nForms = noun.gcn.toSet
   val aForms = adj.gcn.toSet
   nForms.intersect(aForms).nonEmpty
 }
 
+def nounsAgree(noun1: FormulaUnit, noun2: FormulaUnit): Boolean = {
+  val n1Forms = noun1.gcn.toSet
+  val n2Forms = noun2.gcn.toSet
+  n1Forms.intersect(n2Forms).nonEmpty
+}
+
+
+// group together nouns that match in GCN
+def clusterNouns = {
+
+}
 // analyze syntactic formula of a reverse legend and return parsed
 // tokens
-def revTokens(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) = {
+def revTokens(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed) : Vector[AnalyzedToken] = {
   val trimmed = dropString(n, "senatvs consvlto")
   //println("Trimmed to " + trimmed)
   val revTkns = NormalizedLegendOrthography.tokenizeNode(trimmed)
   val legendParses = for (tkn <- revTkns) yield {
     val parse = allParses.filter(_.token == tkn.string)
-    println("Parsed: " + tkn + " => "+ parse.size)
+    //println("Parsed: " + tkn + " => "+ parse.size)
     parse
   }
+  legendParses.flatten
+}
 
-  val fus = for (lgnd <- legendParses.flatten) yield {
+def nounsFromNode(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed)  = {
+  val legendParses = revTokens(n, allParses)
+  val fus = for (lgnd <- legendParses) yield {
     FormulaUnit(lgnd)
   }
-
-  val nouns = fus.filter(_.nounToken)
+  fus.filter(_.nounToken)
+}
+def adjsFromNode(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed)  = {
+  val legendParses = revTokens(n, allParses)
+  val fus = for (lgnd <- legendParses) yield {
+    FormulaUnit(lgnd)
+  }
+  fus.filter(_.adjToken)
+}
+def revFormula(n: CitableNode, allParses: Vector[AnalyzedToken] = parsed)  = {
+  val nouns = nounsFromNode(n, allParses)
   //nounAnalysis(nouns)
-  val adjs = fus.filter(_.adjToken)
+  val adjs = adjsFromNode(n, allParses)
   //adjAnalysis(adjs)
 
-  legendParses.flatten
+  val naPairs = for (n <- nouns) yield {
+    val adjMatches = adjs.filter(a => naAgree(n,a)).map(_.tkn.token)
+    (n.tkn.token, adjMatches)
+  }
+  //println("NA PAIRS: " + naPairs)
+
+  println("NOUN PATTERN: " + nouns.size + " nouns.\n\t" + nouns.map(_.substCase))
+}
+
+def revFormulas(c: Corpus, allParses: Vector[AnalyzedToken] = parsed)  = {
+  for (n <- c.nodes) {
+
+  }
 }
