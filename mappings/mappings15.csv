@@ -62,8 +62,8 @@ DE JVDAEIS,de ivdaeis
 DEVICTA IVDAEA S C,devicta ivdaea senatvs consvlto
 DIVO AVG T DIVI VESP F VESPASIAN S C,divo avgvsto tito divi vespasiani filio vespasiano senatvs consvlto
 DIVO AVG T DIVI VESP F VESPASIANO,divo avgvsto tito divi vespasiani filio vespasiano
-DIVO AVG VESP S P Q R,divo avgvsto vespasiano senatvs popvlvsqve romanvs
-DIVO AVG VESPAS S P Q R,divo avgvsto vespasiano senatvs popvlvsqve romanvs
+DIVO AVG VESP S P Q R,divo avgvsto vespasiano senatvs popvlvs+qve romanvs
+DIVO AVG VESPAS S P Q R,divo avgvsto vespasiano senatvs popvlvs+qve romanvs
 DIVO VESP,divo vespasiano
 DIVVS AVG PATER,divvs avgvstvs pater
 DIVVS AVGVSTVS PATER,divvs avgvstvs pater
@@ -345,16 +345,16 @@ PROVIDENT AVGVST S C,providentia avgvsti senatvs consvlto
 PROVIDENT S C,providentia senatvs consvlto
 ROMA ET AVGVSTVS COS ITERVM TRIBVN POT S C,roma et avgvstvs consvl itervm tribvnicia potestate senatvs consvlto
 ROMA RESVRGENS,roma resvrgens
-ROMA RESVRGES S C,roma resvrges senatvs consvlto
+ROMA RESVRGES S C,roma resvrgens senatvs consvlto
 ROMA VICTRIX S C,roma victrix senatvs consvlto
-S P Q R ADSERTORI LIBERTATIS PVBLIC,senatvs popvlvsqve romanvs adsertori libertatis pvblicae
-S P Q R ADSERTORI LIBERTATIS PVBLICAE,senatvs popvlvsqve romanvs adsertori libertatis pvblicae
-S P Q R OB C S,senatvs popvlvsqve romanvs ob cives servatos
-S P Q R OB CIV SER,senatvs popvlvsqve romanvs ob cives servatos
-S P Q R OB CIVES SERVAT,senatvs popvlvsqve romanvs ob cives servatos
-S P Q R OB CIVES SERVATOS,senatvs popvlvsqve romanvs ob cives servatos
-S P Q R P P OB C S,senatvs popvlvsqve romanvs pater patriae ob cives servatos
-S P Q R P P OB CIVES SERVATOS,senatvs popvlvsqve romanvs pater patriae ob cives servatos
+S P Q R ADSERTORI LIBERTATIS PVBLIC,senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
+S P Q R ADSERTORI LIBERTATIS PVBLICAE,senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
+S P Q R OB C S,senatvs popvlvs+qve romanvs ob cives servatos
+S P Q R OB CIV SER,senatvs popvlvs+qve romanvs ob cives servatos
+S P Q R OB CIVES SERVAT,senatvs popvlvs+qve romanvs ob cives servatos
+S P Q R OB CIVES SERVATOS,senatvs popvlvs+qve romanvs ob cives servatos
+S P Q R P P OB C S,senatvs popvlvs+qve romanvs pater patriae ob cives servatos
+S P Q R P P OB CIVES SERVATOS,senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 SALVS AVGVSTA,salvs avgvsta
 SALVS AVGVSTA S C,salvs avgvsta senatvs consvlto
 SALVS AVGVSTI S C,salvs avgvsti senatvs consvlto

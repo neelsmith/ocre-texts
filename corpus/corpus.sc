@@ -13,7 +13,7 @@ import scala.language.postfixOps
 
 // CEX file for corpus of texts: relative reference since we
 // expect this script to be loaded from root directory of repo
-val currentSource = "ocre-data/normalized13.cex"
+val currentSource = "ocre-data/normalized15.cex"
 val parser = "parser/latin.a"
 
 // Explicit paths to SFTS binaries and make.  Adjust SFST paths
@@ -21,8 +21,6 @@ val parser = "parser/latin.a"
 val compiler = "/usr/local/bin/fst-compiler-utf8"
 val fstinfl = "/usr/local/bin/fst-infl"
 val make = "/usr/bin/make"
-
-
 
 def msg(txt: String): Unit  = {
   println("\n\n")
