@@ -274,7 +274,7 @@ IMP T CAES VESPASIAN AVG P M TR P P P COS VII,imperator titvs caesar vespasianvs
 IMP T FLAVIVS CAESAR AV F,imperator titvs flavivs caesar avgvsti filivs
 IMP T VESP AVG COS VIII,imperator titvs vespasianvs avgvstvs consvl Ⅷ
 IMP T VESP AVG RESTITVIT S C,imperator titvs vespasianvs avgvstvs restitvit senatvs consvlto
-IMP TITI FALVI CAESARIS AVG,imperatoris titi flavi caesaris avgvsti
+IMP TITI FALVI CAESARIS AVG,imperatoris titi flavii caesaris avgvsti
 IMP TITVS CAES VESP AVG P M TR P P P COS VII,imperator titvs caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅶ
 IMP TITVS CAES VESP AVG P M TR P P P COS VIII,imperator titvs caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
 IMP TITVS CAES VESPASIAN  AVG P M,imperator titvs caesar vespasianvs avgvstvs pontifex maximvs
@@ -431,8 +431,8 @@ T FLAVI VESPASIANVS CAESAR,titvs flavivs vespasianvs caesar
 T IMP AVG F COS II CAESAR DOMITIAN AVG F COS DESIG II S C,titvs imperator avgvsti filivs consvl Ⅱ caesar domitianvs avgvsti filivs consvl designatvs Ⅱ senatvs consvlto
 T IMP AVG F COS II CAESAR DOMITIANVS AVG F COS DESG II S C,titvs imperator avgvsti filivs consvl Ⅱ caesar domitianvs avgvsti filivs consvl designatvs Ⅱ senatvs consvlto
 T IMP CAESAR COS DES II CAESAR DOMIT COS DES II S C,titvs imperator caesar consvl designatvs Ⅱ caesar domitianvs consvl designatvs Ⅱ senatvs consvlto
-TI CAESAR DIVI AVG F AVGVST IMP III,titvs caesar divi avgvsti fili avgvstvs imperator Ⅲ
-TI CAESAR DIVI AVG F AVGVST IMP VIII,titvs caesar divi avgvsti fili avgvstvs imperator Ⅷ
+TI CAESAR DIVI AVG F AVGVST IMP III,titvs caesar divi avgvsti filivs avgvstvs imperator Ⅲ
+TI CAESAR DIVI AVG F AVGVST IMP VIII,titvs caesar divi avgvsti filivs avgvstvs imperator Ⅷ
 TI CL CAESAR AVG P M TR P IMP P P,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate imperator pater patriae
 TI CLAVDIVS CAES AVG P M TR P IMP P P,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate imperator pater patriae
 TI CLAVDIVS CAESAR AG P M TR P IMP P P,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate imperator pater patriae

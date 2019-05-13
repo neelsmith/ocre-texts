@@ -49,7 +49,10 @@ def parse(wordsFile : String = "words.txt") : String = {
   cmd !!
 }
 
-
+def reparse(wordsFile : String = "words.txt") : String = {
+  compile()
+  parse(wordsFile)
+}
 def failures (wordsFile : String = "words.txt") : Vector[String]= {
   parse(wordsFile).split("\n").toVector.filter(_.contains("no result")).map(_.replaceAll("no result for ", ""))
 
