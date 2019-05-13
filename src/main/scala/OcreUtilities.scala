@@ -24,11 +24,20 @@ object OcreUtilities {
     c
   }
 
-  // Get alphabetized list of all characters in this corpus.
+  /** Get alphabetized list of all characters in a corpus.
+  *
+  * @param c Corpus to analyze.
+  */
   def rawAlphabet(c: Corpus = loadCorpus()) =  {
     c.nodes.map(_.text).mkString("").distinct.sorted
   }
 
+
+  /** Profile corpus in terms of citable nodes, tokens and characters.
+  *
+  * @param c Corpus to profile.
+  * @param normalized True if corpus is in normalized orthography.
+  */
   def profileCorpus(c: Corpus, normalized: Boolean = true) : Unit = {
     print(s"${c.size} coin legends;  ")
     // distinct messages
@@ -49,6 +58,11 @@ object OcreUtilities {
     println(s"${chars.size} distinct characters.")
   }
 
+
+  /** Histogram of a corpus by issuing authority.
+  *
+  * @param c Corpus to profile.
+  */
   def byIssuer(c: Corpus) = {
     val parts = c.nodes.map(n => n.urn.passageComponent.split("\\."))
     val issuers = parts.map( v => s"${v(0)}-${v(1)}")
@@ -57,6 +71,11 @@ object OcreUtilities {
     val sorted = counts.sortBy(_._2).reverse
     sorted
   }
+
+  /** Profile corpus by issuing authority.
+  *
+  * @param c Corpus to profile.
+  */
   def profileIssuer(c: Corpus) = {
     println(byIssuer(c).mkString("\n"))
   }
