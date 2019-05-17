@@ -59,6 +59,39 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
+
+  /** True if tkn is an indeclinable form.
+  * This shortcut assumes that while there may
+  * be multiple anlayses for a token, they will
+  * all belong to the same analytical category ("part of speech").
+  */
+  def indeclToken : Boolean = {
+    tkn.analyses(0) match {
+      case indecl: IndeclinableForm => true
+      case _ => false
+    }
+  }
+
+
+
+  def prepToken : Boolean = {
+    tkn.analyses(0) match {
+      case indecl: IndeclinableForm => {
+
+        ((this.indeclPos.nonEmpty) && (this.indeclPos.contains(Preposition)))
+      }
+      case _ => false
+    }
+  }
+
+/*
+  val posList = for (lysis <- tkn.analyses) yield {
+    lysis match {
+        case indecl : IndeclinableForm => Some(indecl.pos)
+        case _ => None
+    }
+  }
+  */
   //
   // Common to all substantive forms (noun, adj, ptcpl):  GCN
   //
@@ -237,5 +270,26 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
       moodList.flatten.toVector.distinct
     }
   }
+
+
+
+  //
+  // Specific to indeclinable forms:  part of speech label
+  //
+  def indeclPos: Vector[IndeclinablePoS] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[IndeclinablePoS]
+
+    } else {
+      val posList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case indecl : IndeclinableForm => Some(indecl.pos)
+            case _ => None
+        }
+      }
+      posList.flatten.toVector.distinct
+    }
+  }
+
 
 }
