@@ -198,6 +198,12 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
   }
 
   // Specific to conjugated forms:  Person, Mood.
+
+  /** List of possible values for person.  For a
+  * conjugated verb form, this should be a non-empty
+  * Vector of Person values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
   def person: Vector[Person] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[Person]
@@ -213,6 +219,11 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
   }
 
 
+  /** List of possible values for mood.  For a
+  * conjugated verb form, this should be a non-empty
+  * Vector of Mood values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
   def mood: Vector[Mood] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[Mood]
