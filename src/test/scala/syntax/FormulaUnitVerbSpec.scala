@@ -31,4 +31,11 @@ class FormulaUnitVerbSpec extends FlatSpec {
     assert(fu.verbToken)
   }
 
+
+  it should "recognized the person of a verb token" in pending
+  it should "recognized the number of a verb token" in pending
+  it should "recognized the tense of a verb token" in pending
+  it should "recognized the mood of a verb token" in pending
+  it should "recognized the voice of a verb token" in pending
+
 }

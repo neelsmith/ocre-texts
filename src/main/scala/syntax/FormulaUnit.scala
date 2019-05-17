@@ -48,7 +48,7 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
   }
 
 
-  /** List possible values for grammatical case.  For a
+  /** List of possible values for grammatical case.  For a
   * substantive (noun, adj, ptcpl), this should be a non-empty
   * Vector of GrammaticalCase values.
   * For other "parts of speech," this will be an empty Vector.
@@ -68,6 +68,12 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
+
+  /** List of possible values for gender.  For a
+  * substantive (noun, adj, ptcpl), this should be a non-empty
+  * Vector of Gender values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
   def substGender: Vector[Gender] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[Gender]
@@ -83,7 +89,12 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
-
+  /** List of possible values for gender.  For a
+  * substantive (noun, adj, ptcpl) or a conjugaged verb form,
+  * this should be a non-empty
+  * Vector of Gender values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
   def grammNumber: Vector[GrammaticalNumber] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[GrammaticalNumber]
@@ -101,6 +112,12 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
+
+  /** List of Gender/Case/Number triples.  For a
+  * substantive (noun, adj, ptcpl), this should be a non-empty
+  * Vector of GCNTriples.
+  * For other "parts of speech," this will be an empty Vector.
+  */
   def gcn: Vector[GCNTriple] = {
     if (tkn.analyses.isEmpty) {
       Vector.empty[GCNTriple]
