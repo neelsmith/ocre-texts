@@ -61,4 +61,18 @@ class FormulaUnitPtcplSpec extends FlatSpec {
     assert(gcnVector(0) == expected)
   }
 
+  it should "recognize the tense of participle forms" in {
+    val fu : FormulaUnit = FormulaUnit(tkn)
+    val tenseVector = fu.tense
+    assert(tenseVector.size == 1)
+    assert(tenseVector(0) == Perfect)
+  }
+
+  it should "recognize the voice of participle forms" in {
+    val fu : FormulaUnit = FormulaUnit(tkn)
+    val voiceVector = fu.voice
+    assert(voiceVector.size == 1)
+    assert(voiceVector(0) == Passive)
+  }
+
 }

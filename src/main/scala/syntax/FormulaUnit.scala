@@ -47,7 +47,6 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
-
   /** True if tkn is a particple.
   * This shortcut assumes that while there may
   * be multiple anlayses for a token, they will
@@ -57,6 +56,30 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     tkn.analyses(0) match {
       case n: ParticipleForm => true
       case _ => false
+    }
+  }
+
+  //
+  // Common to all substantive forms (noun, adj, ptcpl):  GCN
+  //
+  /** List of possible values for gender.  For a
+  * substantive (noun, adj, ptcpl), this should be a non-empty
+  * Vector of Gender values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
+  def substGender: Vector[Gender] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Gender]
+    } else {
+      val genderList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case n : NounForm => Some(n.gender)
+            case adj : AdjectiveForm => Some(adj.gender)
+            case ptcpl : ParticipleForm => Some(ptcpl.gender)
+            case _ => None
+        }
+      }
+      genderList.flatten.toVector.distinct
     }
   }
 
@@ -81,28 +104,6 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
-
-  /** List of possible values for gender.  For a
-  * substantive (noun, adj, ptcpl), this should be a non-empty
-  * Vector of Gender values.
-  * For other "parts of speech," this will be an empty Vector.
-  */
-  def substGender: Vector[Gender] = {
-    if (tkn.analyses.isEmpty) {
-      Vector.empty[Gender]
-    } else {
-      val genderList = for (lysis <- tkn.analyses) yield {
-        lysis match {
-            case n : NounForm => Some(n.gender)
-            case adj : AdjectiveForm => Some(adj.gender)
-            case ptcpl : ParticipleForm => Some(ptcpl.gender)
-            case _ => None
-        }
-      }
-      genderList.flatten.toVector.distinct
-    }
-  }
-
   /** List of possible values for gender.  For a
   * substantive (noun, adj, ptcpl) or a conjugaged verb form,
   * this should be a non-empty
@@ -118,13 +119,13 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
             case n : NounForm => Some(n.grammaticalNumber)
             case adj : AdjectiveForm => Some(adj.grammaticalNumber)
             case ptcpl : ParticipleForm => Some(ptcpl.grammaticalNumber)
+            case v : VerbForm => Some(v.grammaticalNumber)
             case _ => None
         }
       }
       numberList.flatten.toVector.distinct
     }
   }
-
 
   /** List of Gender/Case/Number triples.  For a
   * substantive (noun, adj, ptcpl), this should be a non-empty
@@ -149,7 +150,81 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
     }
   }
 
-  def fnctn: String = {
-    ""
+
+  //
+  // Common to all VERBAL forms (conjugated, inf, ptcpl):  tense, voice
+  //
+
+  /** List of possible values for tense.  For a
+  * verbal form (conjugated form, infinitive, ptcpl), this should be a non-empty
+  * Vector of Tense values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
+  def tense: Vector[Tense] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Tense]
+    } else {
+      val tenseList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case v : VerbForm => Some(v.tense)
+            // infinitive
+            case ptcpl : ParticipleForm => Some(ptcpl.tense)
+            case _ => None
+        }
+      }
+      tenseList.flatten.toVector.distinct
+    }
   }
+
+  /** List of possible values for voice.  For a
+  * verbal form (conjugated form, infinitive, ptcpl), this should be a non-empty
+  * Vector of Voice values.
+  * For other "parts of speech," this will be an empty Vector.
+  */
+  def voice: Vector[Voice] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Voice]
+    } else {
+      val voiceList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case v : VerbForm => Some(v.voice)
+            // infinitive
+            case ptcpl : ParticipleForm => Some(ptcpl.voice)
+            case _ => None
+        }
+      }
+      voiceList.flatten.toVector.distinct
+    }
+  }
+
+  // Specific to conjugated forms:  Person, Mood.
+  def person: Vector[Person] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Person]
+    } else {
+      val personList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case v : VerbForm => Some(v.person)
+            case _ => None
+        }
+      }
+      personList.flatten.toVector.distinct
+    }
+  }
+
+
+  def mood: Vector[Mood] = {
+    if (tkn.analyses.isEmpty) {
+      Vector.empty[Mood]
+    } else {
+      val moodList = for (lysis <- tkn.analyses) yield {
+        lysis match {
+            case v : VerbForm => Some(v.mood)
+            case _ => None
+        }
+      }
+      moodList.flatten.toVector.distinct
+    }
+  }
+
 }
