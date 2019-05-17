@@ -48,6 +48,18 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
   }
 
 
+  /** True if tkn is a particple.
+  * This shortcut assumes that while there may
+  * be multiple anlayses for a token, they will
+  * all belong to the same analytical category ("part of speech").
+  */
+  def ptcplToken : Boolean = {
+    tkn.analyses(0) match {
+      case n: ParticipleForm => true
+      case _ => false
+    }
+  }
+
   /** List of possible values for grammatical case.  For a
   * substantive (noun, adj, ptcpl), this should be a non-empty
   * Vector of GrammaticalCase values.
@@ -61,6 +73,7 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
         lysis match {
             case n : NounForm => Some(n.grammaticalCase)
             case adj : AdjectiveForm => Some(adj.grammaticalCase)
+            case ptcpl : ParticipleForm => Some(ptcpl.grammaticalCase)
             case _ => None
         }
       }
@@ -82,6 +95,7 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
         lysis match {
             case n : NounForm => Some(n.gender)
             case adj : AdjectiveForm => Some(adj.gender)
+            case ptcpl : ParticipleForm => Some(ptcpl.gender)
             case _ => None
         }
       }
@@ -103,8 +117,7 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
         lysis match {
             case n : NounForm => Some(n.grammaticalNumber)
             case adj : AdjectiveForm => Some(adj.grammaticalNumber)
-            //case cverb:
-            // case participle:
+            case ptcpl : ParticipleForm => Some(ptcpl.grammaticalNumber)
             case _ => None
         }
       }
@@ -126,6 +139,7 @@ case class FormulaUnit(tkn: AnalyzedToken)  {
         lysis match {
             case n : NounForm => Some(GCNTriple(n.gender, n.grammaticalCase, n.grammaticalNumber))
             case adj : AdjectiveForm => Some(GCNTriple(adj.gender, adj.grammaticalCase, adj.grammaticalNumber))
+            case ptcpl : ParticipleForm => Some(GCNTriple(ptcpl.gender, ptcpl.grammaticalCase, ptcpl.grammaticalNumber))
             //case cverb:
             // case participle:
             case _ => None
