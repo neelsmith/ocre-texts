@@ -30,13 +30,31 @@ def msg(txt: String): Unit  = {
 }
 
 
-// Create corpus  of orthographyically valid texts
+// Create corpus  of orthographically valid texts
 def corpus(fileName: String = currentSource) : Corpus = {
   msg("Creating corpus composed of orthographically valid texts..")
   val allTexts = OcreUtilities.loadCorpus(fileName)
   OcreUtilities.goodOnly(allTexts)
 }
 
+// Convert SFST output to objects
+def morph(src: String = "newparse.txt") :  Vector[AnalyzedToken ]= {
+  FstFileReader.formsFromFile(src)
+}
+
+// Find morphological analysis for a given token:
+def lysis(tkn: String, parses: Vector[AnalyzedToken] = morph()) : Option[AnalyzedToken] = {
+  val matches = parses.filter(_.token == tkn)
+  matches.size match {
+    case 1 => Some(matches(0))
+    case _ => {
+      println("FAILED TO FIND ANALYSIS for " + tkn)
+      None
+    }
+  }
+}
+
+// Select lexical tokens only from a corpus
 def lex(c: Corpus = corpus()) :  Vector[MidToken]= {
   msg("Tokenizing valid texts..")
   val allTokens = NormalizedLegendOrthography.tokenizeCorpus(c)
@@ -44,6 +62,7 @@ def lex(c: Corpus = corpus()) :  Vector[MidToken]= {
   allTokens.filter(_.tokenCategory == Some(LexicalToken))
 }
 
+// Create alphabetical word list from list of lexical tokens
 def forms(lexTokens : Vector[MidToken] = lex()): Vector[String] = {
   lexTokens.map(_.string).distinct.sorted
 }

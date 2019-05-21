@@ -112,16 +112,30 @@ def profileCorpus(c: edu.holycross.shot.ohco2.Corpus): Unit = {
   println("Tokens: " + tokens.size)
   println("Distinct tokens: " + tokens.distinct.size)
   println("Now analyze parses in " + parseFile)
-
 }
+
+
+def info: Unit = {
 
 println("\n\nThings you can do with this script:\n")
 
-println("Compile a fresh parser:\n")
-println("\tcompile([TABULAEDIR])\n\n")
+println("""
+compile: (repo: String)Unit
 
-println("Parse a list of words:\n")
-println("\tparse(WORDSFILE)\n\n")
+parse: (wordsFile: String)String
+reparse: (wordsFile: String)String
+failures: (wordsFile: String)Vector[String]
 
-println("Parse a list of words and write results to a file:\n")
-println("\twriteParse(WORDSFILE, [OUTPUTFILE])")
+
+writeParse: (wordsFile: String, output: String)Unit
+writeFailures: (wordsFile: String, output: String)Unit
+
+wordList: (c: edu.holycross.shot.ohco2.Corpus)Vector[String]
+writeWordList: (c: edu.holycross.shot.ohco2.Corpus, output: String)Unit
+
+profileCorpus: (c: edu.holycross.shot.ohco2.Corpus)Unit
+
+"""
+)
+
+}
