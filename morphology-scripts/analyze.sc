@@ -54,11 +54,53 @@ def lysis(tkn: String, parses: Vector[AnalyzedToken] = morph()) : Option[Analyze
   }
 }
 
-// Select lexical tokens only from a corpus
-def lex(c: Corpus = corpus()) :  Vector[MidToken]= {
+
+// tokenize corpus
+def tokens (c: Corpus = corpus()) :  Vector[MidToken]= {
   msg("Tokenizing valid texts..")
   val allTokens = NormalizedLegendOrthography.tokenizeCorpus(c)
   msg("Done.")
+  allTokens
+}
+
+def lysisLemmaV(parses: Vector[AnalyzedToken]) : String = {
+  parses.map(_.analyses).flatten.map(_.lemmaId).distinct.mkString(", ")
+}
+
+
+def lysisLemma(tkn: AnalyzedToken) : String = {
+  tkn.analyses.map(_.lemmaId).distinct.mkString(", ")
+}
+
+def tknCex(tkns: Vector[MidToken], parses: Vector[AnalyzedToken]) = {
+  val rows = for (t <- tkns) yield {
+    t.tokenCategory.get match {
+      case LexicalToken => {
+        val morph = lysis(t.string, parses).get
+        println(morph.analyses)
+        s"${t.string}#LEX#${lysisLemma(morph)}"
+      }
+      case NumericToken => s"${t.string}#NUM#"
+      case _ => "UNRECOGNIZED CAT FOR: " + t
+    }
+  }
+  rows.toVector
+}
+
+def analyzeTokens(tkns: Vector[MidToken]) = {
+  val x = for (t <- tkns) yield {
+    t.tokenCategory.get match {
+      case LexicalToken => "LEX"
+      case NumericToken => "NUM"
+      case _ => "UNRECOGNIZED CAT FOR: " + t
+    }
+  }
+  x
+}
+
+// Select lexical tokens only from a corpus
+def lex(c: Corpus = corpus()) :  Vector[MidToken]= {
+  val allTokens = tokens(c)
   allTokens.filter(_.tokenCategory == Some(LexicalToken))
 }
 
