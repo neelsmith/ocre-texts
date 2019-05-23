@@ -1,13 +1,12 @@
 package edu.holycross.shot.ocre
+
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
-import scala.io.Source
 
 import edu.holycross.shot.mid.validator._
 import edu.holycross.shot.tabulae._
 
-
-
+import scala.io.Source
 
 //WORKS ON VECTORES OF ANALYZED TOKENS!
 //
@@ -16,10 +15,34 @@ import edu.holycross.shot.tabulae._
 *
 * @param tkns Vector of tokens.
 */
-case class FormulaUnit(tkns: Vector[AnalyzedToken])  {
+case class FormulaUnit(tkns: Vector[TokenAnalysis])  {
 
+  def nouns : Vector[TokenAnalysis] = tkns.filter(
+    t => t match {
+      case lex: LexicalAnalysis =>  lex.tkn.nounToken
+      case _ => false
+    }
+  )
+  def verbs : Vector[TokenAnalysis] = tkns.filter(
+    t => t match {
+      case lex: LexicalAnalysis =>  lex.tkn.verbToken
+      case _ => false
+    }
+  )
+  def adjs : Vector[TokenAnalysis] = tkns.filter(
+    t => t match {
+      case lex: LexicalAnalysis =>  lex.tkn.adjToken
+      case _ => false
+    }
+  )
+  def ptcpls : Vector[TokenAnalysis] = tkns.filter(
+    t => t match {
+      case lex: LexicalAnalysis =>  lex.tkn.ptcplToken
+      case _ => false
+    }
+  )
 
-  def nouns : Vector[AnalyzedToken] = tkns.filter(_.nounToken)
+/*
   def verbs : Vector[AnalyzedToken] = tkns.filter(_.verbToken)
   def adjs : Vector[AnalyzedToken] = tkns.filter(_.adjToken)
   def ptcpls : Vector[AnalyzedToken] = tkns.filter(_.ptcplToken)
@@ -29,7 +52,7 @@ case class FormulaUnit(tkns: Vector[AnalyzedToken])  {
 
 
   def nounCluster(n: AnalyzedToken) : Vector[AnalyzedToken] =  nouns.filterNot(_ == n).filter(noun => FormulaUnit.substsAgree(n,noun))
-
+*/
 
   //def nounsClustered = FormulaUnit.substCluster(nouns.head, nouns.tail)
 }
@@ -57,13 +80,15 @@ object FormulaUnit {
     }
     legendParses.flatten
   }
-
+/*
   def fus(analyzedCorpus: Vector[Vector[AnalyzedToken]]): Vector[FormulaUnit] = {
     Vector.empty[FormulaUnit]
   }
 
   // true if 2 substantive (can) have same GCN
   def substsAgree(s1: AnalyzedToken, s2: AnalyzedToken): Boolean = s1.gcn.toSet.intersect(s2.gcn.toSet).nonEmpty
+
+*/
 
 
 /*

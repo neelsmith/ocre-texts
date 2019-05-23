@@ -45,8 +45,6 @@ class NormalizedOrthographySpec extends FlatSpec {
   it should "parse a citable node into a sequence of tokens" in {
     val tkns = NormalizedLegendOrthography.tokenizeNode(cn)
 
-    //println("TOKENS:")
-    //println(tkns.mkString("\n"))
     val expectedCount = 7
     assert(tkns.size == expectedCount)
 
