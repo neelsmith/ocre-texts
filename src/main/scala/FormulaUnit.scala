@@ -13,39 +13,39 @@ import scala.io.Source
 /** A class for working with a vector of analyzed tokens,
 * as part of a syntactic formula.
 *
-* @param tkns Vector of tokens.
+* @param lexTokens Vector of lexical tokens.
 */
-case class FormulaUnit(tkns: Vector[TokenAnalysis])  {
-
-  def nouns : Vector[TokenAnalysis] = tkns.filter(
+case class FormulaUnit(lexTokens: Vector[TokenAnalysis])  {
+/*
+  def nouns : Vector[TokenAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.nounToken
       case _ => false
     }
   )
-  def verbs : Vector[TokenAnalysis] = tkns.filter(
+  def verbs : Vector[TokenAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.verbToken
       case _ => false
     }
   )
-  def adjs : Vector[TokenAnalysis] = tkns.filter(
+  def adjs : Vector[TokenAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.adjToken
       case _ => false
     }
   )
-  def ptcpls : Vector[TokenAnalysis] = tkns.filter(
+  def ptcpls : Vector[TokenAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.ptcplToken
       case _ => false
     }
-  )
+  )*/
 
 /*
-  def verbs : Vector[AnalyzedToken] = tkns.filter(_.verbToken)
-  def adjs : Vector[AnalyzedToken] = tkns.filter(_.adjToken)
-  def ptcpls : Vector[AnalyzedToken] = tkns.filter(_.ptcplToken)
+  def verbs : Vector[AnalyzedToken] = lexTokens.filter(_.verbToken)
+  def adjs : Vector[AnalyzedToken] = lexTokens.filter(_.adjToken)
+  def ptcpls : Vector[AnalyzedToken] = lexTokens.filter(_.ptcplToken)
 
   def nounPattern = nouns.distinct
 
@@ -68,18 +68,27 @@ object FormulaUnit {
   }
 
   // look up anlayzed tokens for all tokens in a citable node
-  def tokens(n: CitableNode, allParses: Vector[AnalyzedToken]) : Vector[AnalyzedToken] = {
-    val tkns = NormalizedLegendOrthography.tokenizeNode(n)
-    val legendParses = for (tkn <- tkns) yield {
-      //println("Look for " + tkn)
-      val parse = allParses.filter(_.token == tkn.string)
-      if (parse.isEmpty) {
-        println("DID NOT FIND PARSE FOR " + tkn.string)
+  def tokens(n: CitableNode, allParses: Vector[AnalyzedToken]) : Vector[TokenAnalysis] = {
+    val tkns = NormalizedLegendOrthography.tokenizeNode(n) // yields a Vector[edu.holycross.shot.mid.validator.MidToken]
+    val secondaryAnalyses = for (tkn <- tkns) yield {
+      val secondaryAnalysis = tkn.tokenCategory.get match {
+        case LexicalToken => {
+          val parses = allParses.filter(_.token == tkn.string)
+          parses.size match {
+            case 1 => LexicalAnalysis(tkn.string, tkn.tokenCategory.get, parses(0))
+            case 0 => throw new Exception("FormulaUnit: Exception.  Did not find parse for lexical token " + tkn.string)
+            case _ => throw new Exception(s"FormulaUnit: Exception.  Found ${parses.size} parses for ${tkn.string}.")
+          }
+        }
+        case NumericToken =>  NumericAnalysis(tkn.string, tkn.tokenCategory.get)
       }
-      parse
+      secondaryAnalysis
     }
-    legendParses.flatten
+    secondaryAnalyses.toVector
   }
+}
+
+
 /*
   def fus(analyzedCorpus: Vector[Vector[AnalyzedToken]]): Vector[FormulaUnit] = {
     Vector.empty[FormulaUnit]
@@ -100,4 +109,3 @@ object FormulaUnit {
     val remainder = substVect.filterNot(matchingSubsts.contains(_))
 
   }*/
-}

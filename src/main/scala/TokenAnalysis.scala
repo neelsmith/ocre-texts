@@ -14,7 +14,8 @@ case class LexicalAnalysis(string: String, category: MidTokenCategory, tkn: Anal
   def tokenCategory = category
 }
 
-case class NumericAnalysis(string: String, category: MidTokenCategory, numericValue : Int) extends TokenAnalysis  {
+case class NumericAnalysis(string: String, category: MidTokenCategory)  extends TokenAnalysis  {
+  // add , numericValue : Int)
   def token = string
   def tokenCategory = category
 }
