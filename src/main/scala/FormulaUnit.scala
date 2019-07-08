@@ -15,32 +15,33 @@ import scala.io.Source
 *
 * @param lexTokens Vector of lexical tokens.
 */
-case class FormulaUnit(lexTokens: Vector[TokenAnalysis])  {
-/*
-  def nouns : Vector[TokenAnalysis] = lexTokens.filter(
+case class FormulaUnit(lexTokens: Vector[SecondaryAnalysis])  {
+
+  def nouns : Vector[SecondaryAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.nounToken
       case _ => false
     }
   )
-  def verbs : Vector[TokenAnalysis] = lexTokens.filter(
+
+  def verbs : Vector[SecondaryAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.verbToken
       case _ => false
     }
   )
-  def adjs : Vector[TokenAnalysis] = lexTokens.filter(
+  def adjs : Vector[SecondaryAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.adjToken
       case _ => false
     }
   )
-  def ptcpls : Vector[TokenAnalysis] = lexTokens.filter(
+  def ptcpls : Vector[SecondaryAnalysis] = lexTokens.filter(
     t => t match {
       case lex: LexicalAnalysis =>  lex.tkn.ptcplToken
       case _ => false
     }
-  )*/
+  )
 
 /*
   def verbs : Vector[AnalyzedToken] = lexTokens.filter(_.verbToken)
@@ -67,8 +68,13 @@ object FormulaUnit {
     analyzedTokens
   }
 
+  def tokens(c: Corpus, allParses: Vector[AnalyzedToken]) : Vector[SecondaryAnalysis] = {
+    val tkns = for (n <- c.nodes) yield { tokens(n, allParses)}
+    tkns.flatten
+  }
+
   // look up anlayzed tokens for all tokens in a citable node
-  def tokens(n: CitableNode, allParses: Vector[AnalyzedToken]) : Vector[TokenAnalysis] = {
+  def tokens(n: CitableNode, allParses: Vector[AnalyzedToken]) : Vector[SecondaryAnalysis] = {
     val tkns = NormalizedLegendOrthography.tokenizeNode(n) // yields a Vector[edu.holycross.shot.mid.validator.MidToken]
     val secondaryAnalyses = for (tkn <- tkns) yield {
       val secondaryAnalysis = tkn.tokenCategory.get match {

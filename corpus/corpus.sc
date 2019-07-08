@@ -62,7 +62,7 @@ msg("Done.")
 // Short cut: have previously verified that all forms parse to only one lemma,
 // even if they parse to multiple forms of that lemma.
 msg("Index forms to lexical entity...")
-val formLemmaIndex = parsedObjs.map(parse => (parse.analyses(0).lemma, parse.token) )
+val formLemmaIndex = parsedObjs.map(parse => (parse.analyses(0).lemmaId, parse.token) )
 msg("Done.")
 
 
