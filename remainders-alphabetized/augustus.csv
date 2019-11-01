@@ -1,14 +1,14 @@
 AEGVPT CAPTA,aegvto capta
 AEGVPTO CAPTA,aegvto capta
-AEGYPTO CAPTA
+AEGYPTO CAPTA,
 APRONIVS GALVS A A A F F,apronivs galvs aere avro argento flando ferivndo
 APRONIVS MESSALLA A A A F F,apronivs messalla aere avro argento flando ferivndo
 APRONIVS SISENNA A A A F F,apronivs sisenna aere avro argento flando ferivndo
 ARMENIA RECEPTA,armenia recepta
 ASIA RECEPTA,asia recepta
-AT
-AVGVR PONTIF
-AVGVST DIVI F LVDOS SAE
+AT,
+AVGVR PONTIF,
+AVGVST DIVI F LVDOS SAE,
 AVGVST TR POT,avgvstvs tribvnicia potestate
 AVGVST TRIB POTEST,avgvstvs tribvnicia potestate
 AVGVSTO OB C S,avgvsto ob cives servatos
@@ -27,11 +27,11 @@ C GALLIVS C F LVPERCVS IIIVIR A A A F F,caivs antistivs caii filivs lvpercvs tri
 C MARCI L F CENSORIN AVG IIIVIR A A A F F,caivs marcivs lvcii filivs censorinvs avgvstvs trivmvir aere avro argento flando ferivndo
 C NAEVIVS CAPELLA,caivs naevivs capella
 C PLOTIVS RVFVS IIIVIR A A A F F,caivs plotivs rvfvs trivmvir aere avro argento flando ferivndo
-C RVBELLIVS BLANDUS
+C RVBELLIVS BLANDUS,
 C RVBELLIVS BLANDVS,caivs rvbellivs blandvs
 C SVLPIC PLATORIN,caivs svlpicivs platorinvs
 C SVLPICIVS PLATORIN,caivs svlpicivs platorinvs
-CA
+CA,
 CAESAR AVG TR POTEST,caesar avgvstvs tribvnicia potestate
 CAESAR AVG TRIB POT,caesar avgvstvs tribvnicia potestate
 CAESAR AVG TRIB POTEST,caesar avgvstvs tribvnicia potestate
@@ -53,7 +53,7 @@ CAESAR COS VII CIVIBVS SERVATEIS,caesar consvl Ⅶ civibvs servateis
 CAESAR DIVI F ARME CAPT,caesar divi filivs armenia capta
 CAESAR DIVI F ARMEN CAPTA IMP VIIII,caesar divi filivs armenia capta imperator Ⅸ
 CAESAR DIVI F ARMEN RECE IMP VIIII,caesar divi filivs armenia recepta imperator Ⅸ
-CAESAR DIVI F ARMINIA CAPTA
+CAESAR DIVI F ARMINIA CAPTA,
 CAESAR DIVI F AVGVST,caesar divi filivs avgvstvs
 CAESAR DIVI F COS VI,caesar divi filivs consvl Ⅵ
 CAESAR DIVI F COS VII,caesar divi filivs consvl Ⅶ
@@ -61,28 +61,28 @@ CAESAR IMP VII,caesar imperator Ⅶ
 CAESAR PONT MAX,caesar pontifex maximvs
 CAESARI AVGVSTO EX SC,caesari avgvsto ex senatvs consvlto
 CAESARI DIVI F,caesari divi filio
-CAISAR
+CAISAR,
 CIVIB ET SIGN MILIT A PART RECVP,civibvs et signis militaribvs a parthis recvperatis
 CIVIB ET SIGN MILIT A PART RECVPER,civibvs et signis militaribvs a parthis recvperatis
 CN PISO C PLOT L SVRDIN,calpvrnivs piso caivs plotivs lvcivs svrdinvs
 CN PISO C PLOTIVS L SVRDIN,calpvrnivs piso caivs plotivs lvcivs svrdinvs
 CN PISO L SVRDIN C PLOT RVF,calpvrnivs piso lvcivs svrdinvs caivs plotivs rvfvs
-COL  NEM,colonia nemavsvs,
-COL NIM
+COL  NEM,colonia nemavsvs
+COL NIM,
 COM ASIAE,commvne asiae
-COS IMP CAESAR AVGV XI
-COS IMP CAESAR AVGVS XI
-COSSVS CN F LENTVLVS
-COSSVS LENTVLVS RES PVB AVGVST
+COS IMP CAESAR AVGV XI,
+COS IMP CAESAR AVGVS XI,
+COSSVS CN F LENTVLVS,
+COSSVS LENTVLVS RES PVB AVGVST,
 CRISPINV A A A F F,crispinvs aere avro argento flando ferivndo
 DIVI F AVG PONT,divi filivs avgvstvs pontifex
-FORT RED CAES AVG S P Q R
-FORTVN REDV CAESARI AVG S P Q R
-FORTVN REDVC CAESARI AVG S P Q R
+FORT RED CAES AVG S P Q R,
+FORTVN REDV CAESARI AVG S P Q R,
+FORTVN REDVC CAESARI AVG S P Q R,
 GALVS APRONIVS A A A F F,galvs apronivs aere avro argento flando ferivndo
 GALVS MESSALLA A A A F F,galvs messalla aere avro argento flando ferivndo
 GALVS SISENNA A A A F F,galvs sisenna aere avro argento flando ferivndo
-GERMANVS INDVTILLI F
+GERMANVS INDVTILLI F,
 I O M S P Q R V S PR S IMP CAE QVOD PER EV R P IN AMP AT Q TRAV S E,jovi optimo maximo senatvs popvlvs+qve romanvs vota svscepta pro salvte imperatoris caesaris qvod per evm res pvblica in ampliore atqve tranqvilliore statv est
 IMP AVGVST TR POT,imperator avgvstvs tribvnicia potestate
 IMP CAESAR AVGVS TR POT IIX,imperator caesar avgvstvs tribvnicia potestate Ⅷ
@@ -92,9 +92,9 @@ IMP CAESAR AVGVSTVS,imperator caesar avgvstvs
 IMP CAESAR DIVI F,imperator caesar divi filivs
 IMP CAESAR DIVI F AVGVST COS VII,imperator caesar divi filivs avgvstvs consvl Ⅶ
 IMP CAESAR DIVI F AVGVSTVS IMP XX,imperator caesar divi filivs avgvstvs imperator ⅩⅩ
-IMP CAESAR DIVI F COS VI LIBERTATIS P R VINDEX
+IMP CAESAR DIVI F COS VI LIBERTATIS P R VINDEX,
 IMP CAESAR TR POT IIX,imperator caesar tribvnicia potestate Ⅷ
-IMP CAESARI SCARPVS IMP
+IMP CAESARI SCARPVS IMP,
 IMP DIVI F P P,imperator divi filivs pater patriae
 IMP IX TR PO IV,imperator Ⅸ tribvnicia potestate Ⅳ
 IMP IX TR PO V,imperator Ⅸ tribvnicia potestate Ⅴ
@@ -112,11 +112,11 @@ IOVIS TON,iovis tonantis
 IOVIS TONANT,iovis tonantis
 IOVIS TONANTIS,iovis tonantis
 L AQVILLIVS FLORVS III VIR,lvcivs aqvillivs florvs trivmvir
-L AQVILLIVS FLORVS III VIR SICIL
+L AQVILLIVS FLORVS III VIR SICIL,
 L CANINIVS GALLVS IIIVIR AVGVSTVS TR POT,lvcivs caninivs gallvs trivmvir avgvstvs tribvnicia potestate
 L CANINIVS GALLVS OB C S,lvcivs caninivs gallvs ob cives servatos
 L LENTVLVS FLAMEN MARTIALIS,lvcivs lentvlvs flamen martialis
-L MESCINIVS AVG SVF P
+L MESCINIVS AVG SVF P,
 L MESCINIVS RVFVS,lvcivs mescinivs rvfvs
 L MESCINIVS RVFVS IIIVIR,lvcivs mescinivs rvfvs trivmvir
 L MESCINIVS RVFVS IIIVIR S C,lvcivs mescinivs rvfvs trivmvir senatvs consvlto
@@ -146,33 +146,33 @@ MESSALLA GALVS IIIVIR,messalla galvs trivmvir
 MESSALLA SISENNA A A A F F,messalla sisenna aere avro argento flando ferivndo
 MESSALLA SISENNA IIIVIR,messalla sisenna trivmvir
 P BETILIENVS BASSVS,pvblivs betilienvs bassvs
-P CARISI LEG
-P CARISIVS LEG
-P CARISIVS LEG AVGVSTI EMERITA
-P CARISIVS LEG PRO PR EMERITA
+P CARISI LEG,
+P CARISIVS LEG,
+P CARISIVS LEG AVGVSTI EMERITA,
+P CARISIVS LEG PRO PR EMERITA,
 P LICINIVS STOLO IIIVIR A A A F F,pvblivs licinivs stolo trivmvir aere avro argento flando ferivndo
 P LVRIVS AGRIPPA IIIVIR A A A F F,pvblivs lvrivs agrippa trivmvir aere avro argento flando ferivndo
 P PETRON TVRPILIAN III VIR,pvblivs petronivs tvrpilianvs trivmvir
 P PETRON TVRPILIAN IIIVIR FERO,pvblivs petronivs tvrpilianvs trivmvir feronia
 PONTIF MAXIM TRIBVN POT XXXIIII,pontifex maximvs tribvnicia potestate ⅩⅩⅩⅣ
 PONTIFEX TRIBVN POTESTATE XII,pontifex tribvnicia potestate ⅩⅡ
-PRO VALETVDINE CAESARIS S P Q R
+PRO VALETVDINE CAESARIS S P Q R,
 PVLCHER TAVRVS REGVLVS,pvlcher tavrvs regvlvs
 Q AELIVS L F LAMIA IIIVIR A A A F F,qvintvs aelivs lvcii filivs lamia trivmvir aere avro argento flando ferivndo
 Q AELIVS LAMIA IIIVIR A A A F F,qvintvs aelivs lamia trivmvir aere avro argento flando ferivndo
 Q RVSTIVS FORTVNAE,qvintvs rvstivs fortvnae
 Q RVSTIVS FORTVNAE ANTIAT,qvintvs rvstivs fortvnae antiates
-QVOD VIAE MVN SVNT
+QVOD VIAE MVN SVNT,
 S C OB R P CVM SALVT IMP CAESAR AVGVS CONS,senatvs consvlto ob rem pvblicam cvm salvte imperatoris caesaris avgvsti conservatam
-S P Q R  CL V
-S P Q R  IMP CAESARI AVG COS XI TRI POT VI
+S P Q R  CL V,
+S P Q R  IMP CAESARI AVG COS XI TRI POT VI,
 S P Q R  PARE CONS SVO,senatvs popvlvs+qve romanvs parenti conservatori svo
 S P Q R  PAREN CONS SVO,senatvs popvlvs+qve romanvs parenti conservatori svo
 S P Q R  PARENT CONS SVO,senatvs popvlvs+qve romanvs parenti conservatori svo
 S P Q R  PARENTI CONS SVO,senatvs popvlvs+qve romanvs parenti conservatori svo
 S P Q R IMP CAES,senatvs popvlvs+qve romanvs imperator caesar
-S P R SIGNIS RECEPTIS
-SC
+S P R SIGNIS RECEPTIS,
+SC,
 SCARPVS IMP,scarpvs imperator
 SEX NONIVS QVINCTILIAN IIIVIR A A A F F,sextvs nonivs qvinctilian trivmvir aere avro argento flando ferivndo
 SIGNIS PARTHIC RECEPT,signis parthicis receptis
@@ -208,10 +208,10 @@ TR POT XXVIIII,tribvnicia potestate ⅩⅩⅨ
 TR POT XXX,tribvnicia potestate ⅩⅩⅩ
 TR POT XXXI,tribvnicia potestate ⅩⅩⅩⅠ
 VOLVSVS VALER MESSAL IIIVIR A A A F F,volvsvs valerivs messalla trivmvir aere avro argento flando ferivndo
-VOT P SVSC PRO SAL ET RED I O M SACR
-VOT P SVSC PRO SALVT ET RED I O M SACR
-pvblivus carisivs legatvs pro praetore,pvblivvs carisivs legatvs pro praetore
-senatvs popvlvs+qve romanvs
-senatvs popvlvs+qve romanvs caesari avgvsto
-senatvs popvlvs+qve romanvs imperatori caesari
+VOT P SVSC PRO SAL ET RED I O M SACR,
+VOT P SVSC PRO SALVT ET RED I O M SACR,
+pvblivus carisivs legatvs pro praetore,pvblivs carisivs legatvs pro praetore
+senatvs popvlvs+qve romanvs,
+senatvs popvlvs+qve romanvs caesari avgvsto,
+senatvs popvlvs+qve romanvs imperatori caesari,
 senatvs popvlvs+qve romanvs imperatori caesari avgvsto consuli ⅩⅠ tribvnicia potestate Ⅵ,senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
