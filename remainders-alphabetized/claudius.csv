@@ -17,9 +17,6 @@ DIANA EPHESIA,
 DIVA AVGVSTA,
 DIVVS AVGVSTVS S C,
 EQVESTER ORDO PRINCIPI IVVENT,
-EX S C OB CIVES SERVATOS,ex senatvs consvlto ob cives servatos
-EX SC OB CIVES SERVATOS,ex senatvs consvlto ob cives servatos
-EX SC P P OB CIVES SERVATOS,ex senatvs consvlto pater patriae ob cives servatos
 GERMANICVS CAESAR TI AVG F DIVI AVG N,
 IMPER RECEPT,
 L C MACRI CARTHAGO S C,
@@ -49,7 +46,6 @@ NERONI CLAVD CAES DRVSO GERM,
 NERONI CLAVDIO DRVSO GERM COS DESIGN,
 NERONI CLAVDIO DRVSO GERMANICO COS DESIGN,
 OCTAVIA BRTIANNICVS ANTONIA,
-P P OB CIVES SERVATOS,pater patriae ob cives servatos
 PON M TR P IMP COS DES IT,
 PON M TR P IMP COS II,
 PON M TR P IMP P P COS II,
@@ -59,30 +55,10 @@ PRAETOR RECEPT,
 PROPRA AFRICA,
 PROPRAE AFRICAE,
 ROM ET AVG COM ASI,
-S P Q R  PP OB CS,senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 SACERD COOPT IN OMN CONL SVPRA NVM EX S C,
 SACERD COOPT IN OMN CONL SVPRA NVM EX SC,
 SACERDOS DIVI AVGVSTI,
 SICILIA,
-TI CLAVD CAES AVG,tiberivs clavdivs caesar avgvstvs
 TI CLAVD CAES AVG AGRIPP AVGVSTA,
-TI CLAVD CAESAR AVG GERM P M TR P,tiberivs clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
-TI CLAVD CAESAR AVG GERM P M TRIB POT P P,tiberivs clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
-TI CLAVD CAESAR AVG P M TR P,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate
-TI CLAVD CAESAR AVG P M TR P III,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅲ
-TI CLAVD CAESAR AVG P M TR P IIII,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅳ
-TI CLAVD CAESAR AVG P M TR P VI IMP X,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator Ⅹ
-TI CLAVD CAESAR AVG P M TR P VI IMP XI,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator ⅩⅠ
-TI CLAVD CAESAR AVG P M TR P VIIII IMP XVI,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
-TI CLAVD CAESAR AVG P M TR P VIIII IMP XVIII,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅧ
-TI CLAVD CAESAR AVG P M TR P X IMP P P,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ imperator pater patriae
-TI CLAVD CAESAR AVG P M TR P X IMP XIIX,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
-TI CLAVD CAESAR AVG P M TR P X P P IMP XVIII,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
-TI CLAVD CAESAR AVG P M TR P XI IMP P P COS V,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate ⅩⅠ imperator pater patriae consvl Ⅴ
-TI CLAVDIVS CAESAR AVG,tiberivs clavdivs caesar avgvstvs
-TI CLAVDIVS CAESAR AVG GERM P M TR P,tiberivs clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
-TI CLAVDIVS CAESAR AVG GERM P M TR P IMP P P,tiberivs clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 TI CLAVDIVS CAESAR AVG P M TR P IMP P P  S C,
-TI CLAVDIVS CAESAR AVG P M TR P IMP P P S C,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate imperator pater patriae senatvs consvlto
-TI CLAVDIVS CAESAR AVG P M TR P IMP S C,tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate imperator senatvs consvlto
 [  ] AFRICAE,
