@@ -1,6 +1,6 @@
-AEGVPT CAPTA,aegvto capta
-AEGVPTO CAPTA,aegvto capta
-AEGYPTO CAPTA,
+AEGVPT CAPTA,aegvpto capta
+AEGVPTO CAPTA,aegvpto capta
+AEGYPTO CAPTA,aegypto capta
 APRONIVS GALVS A A A F F,apronivs galvs aere avro argento flando ferivndo
 APRONIVS MESSALLA A A A F F,apronivs messalla aere avro argento flando ferivndo
 APRONIVS SISENNA A A A F F,apronivs sisenna aere avro argento flando ferivndo
@@ -94,7 +94,7 @@ IMP CAESAR DIVI F AVGVST COS VII,imperator caesar divi filivs avgvstvs consvl �
 IMP CAESAR DIVI F AVGVSTVS IMP XX,imperator caesar divi filivs avgvstvs imperator ⅩⅩ
 IMP CAESAR DIVI F COS VI LIBERTATIS P R VINDEX,
 IMP CAESAR TR POT IIX,imperator caesar tribvnicia potestate Ⅷ
-IMP CAESARI SCARPVS IMP,
+IMP CAESARI SCARPVS IMP,imperatori caesari scarpvs imperator
 IMP DIVI F P P,imperator divi filivs pater patriae
 IMP IX TR PO IV,imperator Ⅸ tribvnicia potestate Ⅳ
 IMP IX TR PO V,imperator Ⅸ tribvnicia potestate Ⅴ
@@ -134,7 +134,7 @@ M DVRMIVS IIIVIR HONORI,marcvs dvrmivs trivmvir honori
 M MAECILIVS TVLLVS IIIVIR A A A F F,marcvs maecilivs tvllvs trivmvir aere avro argento flando ferivndo
 M SALVIVS OTHO IIIVIR A A A F F,marcvs salvivs otho trivmvir aere avro argento flando ferivndo
 M SANQVINIVS IIIVIR,marcvs sanqvinivs trivmvir
-M SANQVINIVS Q F IIIVIR A A A F F,
+M SANQVINIVS Q F IIIVIR A A A F F,marcvs sanqvinivs qvinti filivs trivmvir aere avro argento flando ferivndo
 MAR VLT,martis vltoris
 MART VLT,martis vltoris
 MART VLTO,martis vltoris
@@ -146,17 +146,17 @@ MESSALLA GALVS IIIVIR,messalla galvs trivmvir
 MESSALLA SISENNA A A A F F,messalla sisenna aere avro argento flando ferivndo
 MESSALLA SISENNA IIIVIR,messalla sisenna trivmvir
 P BETILIENVS BASSVS,pvblivs betilienvs bassvs
-P CARISI LEG,
-P CARISIVS LEG,
-P CARISIVS LEG AVGVSTI EMERITA,
-P CARISIVS LEG PRO PR EMERITA,
+P CARISI LEG,pvblivs carisivs legatvs
+P CARISIVS LEG,pvblivs carisivs legatvs
+P CARISIVS LEG AVGVSTI EMERITA,pvblivs carisivs legatvs avgvsti emerita
+P CARISIVS LEG PRO PR EMERITA,pvblivs carisivs legatvs propraetor emerita
 P LICINIVS STOLO IIIVIR A A A F F,pvblivs licinivs stolo trivmvir aere avro argento flando ferivndo
 P LVRIVS AGRIPPA IIIVIR A A A F F,pvblivs lvrivs agrippa trivmvir aere avro argento flando ferivndo
 P PETRON TVRPILIAN III VIR,pvblivs petronivs tvrpilianvs trivmvir
 P PETRON TVRPILIAN IIIVIR FERO,pvblivs petronivs tvrpilianvs trivmvir feronia
 PONTIF MAXIM TRIBVN POT XXXIIII,pontifex maximvs tribvnicia potestate ⅩⅩⅩⅣ
 PONTIFEX TRIBVN POTESTATE XII,pontifex tribvnicia potestate ⅩⅡ
-PRO VALETVDINE CAESARIS S P Q R,
+PRO VALETVDINE CAESARIS S P Q R,pro valetvdine caesaris senatvs popvlvs+qve romanvs
 PVLCHER TAVRVS REGVLVS,pvlcher tavrvs regvlvs
 Q AELIVS L F LAMIA IIIVIR A A A F F,qvintvs aelivs lvcii filivs lamia trivmvir aere avro argento flando ferivndo
 Q AELIVS LAMIA IIIVIR A A A F F,qvintvs aelivs lamia trivmvir aere avro argento flando ferivndo
@@ -211,7 +211,4 @@ VOLVSVS VALER MESSAL IIIVIR A A A F F,volvsvs valerivs messalla trivmvir aere av
 VOT P SVSC PRO SAL ET RED I O M SACR,
 VOT P SVSC PRO SALVT ET RED I O M SACR,
 pvblivus carisivs legatvs pro praetore,pvblivs carisivs legatvs pro praetore
-senatvs popvlvs+qve romanvs,
-senatvs popvlvs+qve romanvs caesari avgvsto,
-senatvs popvlvs+qve romanvs imperatori caesari,
 senatvs popvlvs+qve romanvs imperatori caesari avgvsto consuli ⅩⅠ tribvnicia potestate Ⅵ,senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
