@@ -29,5 +29,25 @@ class TextExpanderSpec extends FlatSpec {
     assert(mappings.size == 9)
   }
 
+  it should "read data from a set of files following convention for sequential file naming" in {
+    val root = "src/test/resources/mappings"
+    val lastN = 1
+    val mappings = TextExpander.loadNMappings(lastN, baseDirectory = root)
+    assert(mappings.size == 9)
+  }
+
+  it should "define a default corpus" in {
+    val defaultCorpus = TextExpander.defaultCorpus
+    assert(defaultCorpus.size > 20000)
+  }
+
+  it should "expand text from a given corpus given a set of mappings" in {
+    val root = "src/test/resources/mappings"
+    val mappings = TextExpander.loadNMappings(1, baseDirectory = root)
+    val expanded = TextExpander.expandText(TextExpander.defaultCorpus, mappings)
+    println("Default corpus has " + TextExpander.defaultCorpus.size)
+    println("Exapnded corpus has  " + expanded.size)
+  }
+
 
 }

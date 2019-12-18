@@ -12,9 +12,11 @@ object TextExpander  {
 
 
 
+  /** URL for default data set.*/
   val defaultUrl = "https://raw.githubusercontent.com/neelsmith/nomisma/master/cex/ric-1-3-cts.cex"
-  lazy val defaultCorpus = CorpusSource.fromUrl(defaultUrl)
 
+  /** Default corpus: clean data from RIC volumes 1-3.*/
+  lazy val defaultCorpus = CorpusSource.fromUrl(defaultUrl)
 
 
   /** Load  a Vector of mapping strings from a named file.
@@ -46,21 +48,32 @@ object TextExpander  {
 
   /** Create a Vector of file names for conventionally named
   * set of files.
+  *
+  * @param lastInt Last index of file names.  Since Scala sequences
+  * are 0-origin, this will be one less than the number of mapping files.
+  * @param baseDirectory Directory where conventionally named files
+  * are found.
+  * @param baeFile File name that will have [[lastInt]] and ".csv"
+  * appended to it.
   */
-  def loadNMappings(lastInt: Int, baseDirectory: String = "mappings/mappings") = {
+  def loadNMappings(lastIndex: Int, baseDirectory: String = "mappings", baseFile : String = "mappings") : Vector[String] = {
 
-    val nameRange = 0 to lastInt
+    val nameRange = 0 to lastIndex
     val fileNames = for (i <- nameRange) yield {
-      baseDirectory + i + ".csv"
+      baseDirectory + "/" + baseFile + i + ".csv"
     }
     loadMappings(fileNames.toVector)
   }
 
 
 
-  // Recursively apply mappings
+  /** Recursively apply mappings to expand diplomatic text.
+  *
+  * @param corpus Corpus in diplomatic edition to be expanded.
+  * @param mappings Mapping strings to apply in order to expand text.
+  */
   def expandText(corpus: Corpus, mappings: Vector[String]) : Corpus = {
-    if (mappings.isEmpty) {
+    if (mappings.isEmpty)   {
       corpus
 
     } else {
