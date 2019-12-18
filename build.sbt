@@ -1,6 +1,6 @@
 name := "ocre-texts"
 organization := "edu.holycross.shot"
-version := "0.0.1"
+version := "0.1.0"
 licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html"))
 
 crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")
@@ -22,7 +22,9 @@ libraryDependencies ++= Seq(
   "com.github.pathikrit" %% "better-files" % "3.5.0",
 )
 
+/*
 tutSourceDirectory := file("tut")
 tutTargetDirectory := file("docs")
 
 enablePlugins(TutPlugin)
+*/

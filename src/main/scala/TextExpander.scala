@@ -118,9 +118,52 @@ object TextExpander  {
   }
 
 
-  def convertAll(n: Int, initialCorpus: Corpus = defaultCorpus) = {
-    val dataLoaded = loadNMappings(n)
+  /**
+  *
+  * @param lastIndex Last index of mapping files to use.
+  * @param baseDirectory Name of directory with mappings files.
+  * @param baeFile Base file name to be expanded with index number.
+  * @param initialCorpus Corpus to expand.
+  */
+  def expandFromMappingsDir(lastIndex: Int, baseDirectory: String,
+    baseFile : String = "mappings", initialCorpus: Corpus = defaultCorpus) = {
+    val dataLoaded = loadNMappings(lastIndex, baseDirectory, baseFile)
     expandText(initialCorpus, dataLoaded)
   }
+
+
+  /** Pair each node in a corpus with a boolean indicating
+  * whether its orthography is valid within a specified
+  * system.
+  *
+  * @param c Corpus to analyze.
+  * @param normalized True if corpus should be analyzed in
+  * terms of normalized orthography.  If false, corpus is
+  * analyzed in terms of diplomatic orthography.
+  */
+  def orthoStatus(c: Corpus, normalized: Boolean = true) = {
+    normalized match {
+
+      case true => {
+        for (n <- c.nodes) yield {
+          (n, NormalizedOcreOrthography.validString(n.text))
+        }
+      }
+      case false => {
+        for (n <- c.nodes) yield {
+          (n, DiplomaticOcreOrthography.validString(n.text))
+        }
+      }
+    }
+  }
+
+  def validOrtho(c: Corpus, normalized: Boolean = true) = {
+    orthoStatus(c, normalized).filter(_._2)
+  }
+
+  def invalidOrtho(c: Corpus, normalized: Boolean = true) = {
+    orthoStatus(c, normalized).filterNot(_._2)
+  }
+
 
 }

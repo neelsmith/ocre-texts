@@ -49,5 +49,29 @@ class TextExpanderSpec extends FlatSpec {
     println("Exapnded corpus has  " + expanded.size)
   }
 
+  it should "expand a text from a given corpus and index of mappings" in {
+    val root = "src/test/resources/mappings"
+    val expanded = TextExpander.expandFromMappingsDir(1, root)
+    println("Expanded corpus of size " + expanded.size)
+  }
+
+  it should "assess the orthographic status of every node  a corpus" in {
+    val root = "src/test/resources/mappings"
+    val expanded = TextExpander.expandFromMappingsDir(1, root)
+    val validExpanded = TextExpander.validOrtho(expanded, true)
+    println(validExpanded.size + " valid expanded nodes.")
+    val validDiplomatic = TextExpander.validOrtho(expanded, false)
+    println(validDiplomatic.size + " valid diplomatic nodes.")
+    println("TOTAL: " + (validExpanded.size + validDiplomatic.size))
+  }
+
+  it should "simplify finding bad nodes in a source corpus" in {
+    val normalized = false
+    val validDiplomatic = TextExpander.validOrtho(TextExpander.defaultCorpus, normalized)
+    println("Out of " + TextExpander.defaultCorpus.size + " source nodes, " + validDiplomatic.size + " are in valid orthography.")
+    val invalidNodes = TextExpander.invalidOrtho(TextExpander.defaultCorpus, normalized)
+    println("\n" + invalidNodes.mkString("\n\n"))
+  }
+
 
 }
