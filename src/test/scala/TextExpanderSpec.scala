@@ -21,7 +21,7 @@ class TextExpanderSpec extends FlatSpec {
 
   }
 
-  it should "load a Vector of mapping strings from a Vector of file na es" in {
+  it should "load a Vector of mapping strings from a Vector of file names" in {
     val files = Vector(
       "src/test/resources/mappings/mappings0.csv",
       "src/test/resources/mappings/mappings1.csv")
@@ -84,6 +84,28 @@ class TextExpanderSpec extends FlatSpec {
     val expanded = TextExpander.expandFromMappingsDir(1, root)
     val newCorpus = TextExpander.invalidCorpus(expanded)
     println("Nodes in new bad corpus: " + newCorpus.size)
+  }
+
+  it should "OK these" in {
+    val strs = Vector(
+      "senatvs popvlvs+qve romanvs imperator caesar",
+      "iovi optimo maximo senatvs popvlvs+qve romanvs vota svscepta pro salvte imperatoris caesaris qvod per", "evm res pvblica in ampliore atqve tranqvilliore statv est",
+      "senatvs popvlvs+qve romanvs caesari avgvsto",
+      "senatvs popvlvs+qve romanvs imperatori caesari",
+      "senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ",
+      "senatvs popvlvs+qve romanvs",
+      "senatvs popvlvs+qve romanvs parenti conservatori svo",
+      "iovi votis svsceptis pro salvte caesaris avgvsti senatvs popvlvs+qve romanvs"
+    )
+    val cns = for ( (s,i) <-strs.zipWithIndex) yield {
+      val u = CtsUrn("urn:cts:dummy:group.version:" + i)
+      CitableNode(u, s)
+    }
+    val c = Corpus(cns)
+    println("\n\nEXAMINE TEST GROUP OF " + c.size + " nodes.")
+    val ok = TextExpander.validOrtho(c)
+    println(ok)
+
   }
 
 

@@ -153,12 +153,16 @@ object TextExpander extends LogSupport {
       case true => {
         for (n <- c.nodes) yield {
           // TOKENIZE FIRST?
-          (n, NormalizedOcreOrthography.validString(n.text))
+          val reslt = NormalizedLegendOrthography.validString(n.text)
+          if (! reslt) {
+            warn("BAD ORTHO: #" + n.text + "#")
+          }
+          (n, reslt)
         }
       }
       case false => {
         for (n <- c.nodes) yield {
-          (n, DiplomaticOcreOrthography.validString(n.text))
+          (n, DiplomaticLegendOrthography.validString(n.text))
         }
       }
     }

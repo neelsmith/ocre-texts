@@ -70,6 +70,26 @@ class NormalizedOrthographySpec extends FlatSpec {
   it should "ok these" in {
     val txt = "pro valetvdine caesaris senatvs popvlvs+qve romanvs"
     assert(NormalizedLegendOrthography.validString(txt))
-    assert(NormalizedLegendOrthography.validString("senatvs popvlvs+qve romanvs imperatori caesari avgvsto consuli ⅩⅠ tribvnicia potestate Ⅵ"))
-  }
+    assert(NormalizedLegendOrthography.validString("senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ"))
+    assert(NormalizedLegendOrthography.validString("pro valetvdine caesaris senatvs popvlvs+qve romanvs"))
+    val badReports = Vector(
+      "senatvs popvlvs+qve romanvs imperator caesar",
+      "iovi optimo maximo senatvs popvlvs+qve romanvs vota svscepta pro salvte imperatoris caesaris qvod per", "evm res pvblica in ampliore atqve tranqvilliore statv est",
+      "senatvs popvlvs+qve romanvs caesari avgvsto",
+      "senatvs popvlvs+qve romanvs imperatori caesari",
+      "senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ",
+      "senatvs popvlvs+qve romanvs",
+      "senatvs popvlvs+qve romanvs parenti conservatori svo",
+      "iovi votis svsceptis pro salvte caesaris avgvsti senatvs popvlvs+qve romanvs"
+    )
+    for (rept <- badReports) {
+      assert(NormalizedLegendOrthography.validString(rept))
+    }
+
+
+
+
+
+      }
+
 }

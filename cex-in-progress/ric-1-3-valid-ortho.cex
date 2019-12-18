@@ -78,6 +78,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.vit.163.rev#providentia senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.162.rev#concordia avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.161.rev#concordia avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.160.rev#aeqvitas avgvsti senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.vit.159.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.vit.158.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.157.rev#pax avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.156.rev#mars victor senatvs consvlto
@@ -109,6 +110,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.vit.126.rev#concordia avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.125.rev#aeqvitas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.124.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.123.rev#victoria avgvsti senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.vit.122.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.vit.121.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.120.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.vit.118.rev#pax avgvsti senatvs consvlto
@@ -139,6 +141,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.ot.10.rev#secvritas popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.ot.9.rev#secvritas popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.ot.8.rev#secvritas popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.ot.7.rev#secvritas popvli romani
+urn:cts:hcnum:issues.ric.raw:1_2.gal.518.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.gal.517.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.gal.516.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.gal.514.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.513.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.512.rev#senatvs consvlto
@@ -219,11 +224,16 @@ urn:cts:hcnum:issues.ric.raw:1_2.gal.423.rev#libertas pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.421b.rev#ceres avgvsta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.421a.rev#ceres avgvsta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.420.rev#ceres avgvsta senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.gal.419.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gal.415.rev#pax avgvsta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.414.rev#pax avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.413.rev#pax avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.412.rev#felicitas pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.411.rev#felicitas pvblica senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.gal.410.rev#senatvs popvlvs+qve romanvs ob cives servatos
+urn:cts:hcnum:issues.ric.raw:1_2.gal.409.rev#senatvs popvlvs+qve romanvs ob cives servatos
+urn:cts:hcnum:issues.ric.raw:1_2.gal.408.rev#senatvs popvlvs+qve romanvs ob cives servatos
+urn:cts:hcnum:issues.ric.raw:1_2.gal.407.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gal.403.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.402.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gal.401.rev#senatvs consvlto
@@ -474,6 +484,8 @@ urn:cts:hcnum:issues.ric.raw:1_2.gal.52.rev#diva avgvsta
 urn:cts:hcnum:issues.ric.raw:1_2.gal.51.rev#virtvs
 urn:cts:hcnum:issues.ric.raw:1_2.gal.50.rev#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.gal.48.rev#victoria popvli romani
+urn:cts:hcnum:issues.ric.raw:1_2.gal.47.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.gal.46.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.gal.43.rev#roma renascens
 urn:cts:hcnum:issues.ric.raw:1_2.gal.42.rev#roma renascens
 urn:cts:hcnum:issues.ric.raw:1_2.gal.41.rev#roma renascens
@@ -497,8 +509,11 @@ urn:cts:hcnum:issues.ric.raw:1_2.gal.3.rev#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.gal.2.rev#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.gal.1.rev#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.cw.136.obv#virtvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.136.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.135.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.134.rev#concordia
 urn:cts:hcnum:issues.ric.raw:1_2.cw.132.rev#concordia
+urn:cts:hcnum:issues.ric.raw:1_2.cw.122.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.117.obv#divvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.116.obv#divvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.115.obv#divvs avgvstvs
@@ -510,8 +525,12 @@ urn:cts:hcnum:issues.ric.raw:1_2.cw.112.rev#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.cw.110.obv#avgvstvs divi filivs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.108.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.107.obv#caesar divi filivs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.107.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.106.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.106.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.105.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.105.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.104.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.103.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.103.rev#pax
 urn:cts:hcnum:issues.ric.raw:1_2.cw.102.obv#avgvstvs divi filivs
@@ -532,20 +551,40 @@ urn:cts:hcnum:issues.ric.raw:1_2.cw.87.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.85.obv#imperator
 urn:cts:hcnum:issues.ric.raw:1_2.cw.85.rev#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.78A.obv#virtvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.78A.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.77.rev#senatvs popvlvs+qve romanvs ob cives servatos
+urn:cts:hcnum:issues.ric.raw:1_2.cw.76.rev#senatvs popvlvs+qve romanvs ob cives servatos
+urn:cts:hcnum:issues.ric.raw:1_2.cw.75.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.74.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.73B.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.73A.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.72.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.71B.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.71A.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.69.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.68.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.67.rev#mars vltor
+urn:cts:hcnum:issues.ric.raw:1_2.cw.66.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.65.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.60.rev#ivppiter conservator
 urn:cts:hcnum:issues.ric.raw:1_2.cw.59.obv#roma
+urn:cts:hcnum:issues.ric.raw:1_2.cw.58.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.56.obv#paci avgvstae
+urn:cts:hcnum:issues.ric.raw:1_2.cw.56.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.55.obv#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.55.rev#ob civis servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cw.54.obv#mars vltor
+urn:cts:hcnum:issues.ric.raw:1_2.cw.54.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.53.obv#mars vltor
+urn:cts:hcnum:issues.ric.raw:1_2.cw.53.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.52.obv#mars vltor
+urn:cts:hcnum:issues.ric.raw:1_2.cw.52.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.51.obv#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.50.obv#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.48.rev#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.47.rev#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.46.obv#genivs popvli romani
+urn:cts:hcnum:issues.ric.raw:1_2.cw.46.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.45.obv#genivs popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.cw.44.obv#genivs popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.cw.44.rev#mars vltor
@@ -553,12 +592,18 @@ urn:cts:hcnum:issues.ric.raw:1_2.cw.43.obv#genivs popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.cw.43.rev#mars vltor
 urn:cts:hcnum:issues.ric.raw:1_2.cw.42.obv#genivs popvli romani
 urn:cts:hcnum:issues.ric.raw:1_2.cw.35.obv#roma
+urn:cts:hcnum:issues.ric.raw:1_2.cw.35.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.34.obv#roma
 urn:cts:hcnum:issues.ric.raw:1_2.cw.33.obv#roma
 urn:cts:hcnum:issues.ric.raw:1_2.cw.33.rev#ob civis servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cw.32.obv#roma
 urn:cts:hcnum:issues.ric.raw:1_2.cw.32.rev#ob civis servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cw.31.obv#pax
+urn:cts:hcnum:issues.ric.raw:1_2.cw.31.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.29.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.28.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.27.rev#senatvs popvlvs+qve romanvs
+urn:cts:hcnum:issues.ric.raw:1_2.cw.26.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.cw.23.obv#hispania
 urn:cts:hcnum:issues.ric.raw:1_2.cw.22.rev#pax
 urn:cts:hcnum:issues.ric.raw:1_2.cw.21.rev#ob civis servatos
@@ -704,8 +749,11 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.587.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.586.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.586.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.585.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.585.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.584.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.584.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.583.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.583.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.582.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.582.rev#decvrsio senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.581.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
@@ -793,8 +841,11 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.541.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.540.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.540.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.539.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.539.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.538.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.538.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.537.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.537.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.536.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.536.rev#genio avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.535.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
@@ -844,8 +895,11 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.514.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.513.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.513.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.512.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.512.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.511.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.511.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.510.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.510.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.509.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.509.rev#decvrsio senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.508.obv#imperator nero caesar avgvstvs pontifex maximvs tribvnicia potestate pater patriae
@@ -919,8 +973,13 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.474.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.473.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator
 urn:cts:hcnum:issues.ric.raw:1_2.ner.473.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.472.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.472.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.471.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.471.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.ner.470.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.ner.469.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.468.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator
+urn:cts:hcnum:issues.ric.raw:1_2.ner.468.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.467.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.467.rev#genio avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.466.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
@@ -970,7 +1029,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.441.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.440.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.440.rev#portvm avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.439.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.439.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.438.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.438.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.437.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.437.rev#decvrsio senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.436.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
@@ -1004,6 +1065,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.423.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.422.obv#nero clavdivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.ner.422.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.421.obv#nero clavdivs caesar avgvstvs germanicvs
+urn:cts:hcnum:issues.ric.raw:1_2.ner.421.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.420.obv#nero clavdivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.ner.420.rev#genio avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.419.obv#nero clavdivs caesar avgvstvs germanicvs
@@ -1121,8 +1183,11 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.357.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.356.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate ⅩⅢ pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.356.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.355.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate ⅩⅢ pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.355.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.354.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate ⅩⅢ pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.354.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.353.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate ⅩⅢ pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.353.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.352.obv#imperator nero caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.ner.352.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.351.obv#imperator nero caesar avgvstvs germanicvs
@@ -1152,7 +1217,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.340.rev#pace popvli romani vbiqve parta ian
 urn:cts:hcnum:issues.ric.raw:1_2.ner.339.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.339.rev#pace popvli romani vbiqve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.338.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.338.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.337.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.337.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.336.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.336.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.335.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
@@ -1170,11 +1237,17 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.330.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.329.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.329.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.328.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.328.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.327.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.327.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.326.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.326.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.325.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.325.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.324.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.324.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.323.obv#imperator nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.323.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.322.obv#nero clavdivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.ner.322.rev#pontifex maximvs tribvnicia potestate imperator pater patriae senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.321.obv#nero clavdivs caesar avgvstvs germanicvs
@@ -1210,11 +1283,17 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.307.rev#pace popvli romani vbiqve parta ian
 urn:cts:hcnum:issues.ric.raw:1_2.ner.306.obv#nero caesar avgvstvs germanicvs imperator
 urn:cts:hcnum:issues.ric.raw:1_2.ner.306.rev#pace popvli romani vbiqve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.305.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.305.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.304.obv#nero caesar avgvstvs germanicvs imperator
+urn:cts:hcnum:issues.ric.raw:1_2.ner.304.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.303.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.303.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.302.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.302.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.301.obv#nero caesar avgvstvs germanicvs imperator
+urn:cts:hcnum:issues.ric.raw:1_2.ner.301.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.300.obv#nero caesar avgvstvs germanicvs imperator
+urn:cts:hcnum:issues.ric.raw:1_2.ner.300.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.299.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.299.rev#secvritas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.298.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
@@ -1238,11 +1317,17 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.290.rev#pace popvli romani vbiqve parta ian
 urn:cts:hcnum:issues.ric.raw:1_2.ner.289.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.289.rev#pace popvli romani vbiqve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.288.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.288.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.287.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.287.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.286.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.286.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.285.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.285.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.284.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.284.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.283.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.283.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.282.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.ner.282.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.281.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
@@ -1265,13 +1350,22 @@ urn:cts:hcnum:issues.ric.raw:1_2.ner.273.obv#nero clavdivs caesar avgvstvs germa
 urn:cts:hcnum:issues.ric.raw:1_2.ner.273.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.272.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.271.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.271.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.270.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.270.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.269.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.269.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.268.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.268.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.267.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.267.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.266.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.266.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.265.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.265.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.264.obv#nero clavdivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.ner.264.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.ner.263.rev#pace popvlo romani terra mari+qve parta ianvm clvsit senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.262.obv#nero clavdivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.ner.262.rev#pontifex maximvs tribvnicia potestate imperator pater patriae senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.ner.261.obv#nero clavdivs caesar avgvstvs germanicvs
@@ -1887,13 +1981,17 @@ urn:cts:hcnum:issues.ric.raw:1_2.cl.66.rev#constantiae avgvsti
 urn:cts:hcnum:issues.ric.raw:1_2.cl.65.obv#antonia avgvsta
 urn:cts:hcnum:issues.ric.raw:1_2.cl.65.rev#constantiae avgvsti
 urn:cts:hcnum:issues.ric.raw:1_2.cl.64.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate ⅩⅠ imperator pater patriae consvl Ⅴ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.64.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.63.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate ⅩⅠ imperator pater patriae consvl Ⅴ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.63.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.62.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate ⅩⅠ imperator pater patriae consvl Ⅴ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.62.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.61.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate ⅩⅠ imperator pater patriae consvl Ⅴ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.61.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.60.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.60.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.59.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.59.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.58.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.58.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.57.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
@@ -1903,14 +2001,19 @@ urn:cts:hcnum:issues.ric.raw:1_2.cl.56.rev#constantiae avgvsti
 urn:cts:hcnum:issues.ric.raw:1_2.cl.55.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ pater patriae imperator ⅩⅧ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.55.rev#constantiae avgvsti
 urn:cts:hcnum:issues.ric.raw:1_2.cl.54.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.cl.54.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.53.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ imperator pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.cl.53.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.52.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.52.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.51.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅹ imperator pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.51.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.50.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅧ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.50.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.49.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.49.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.48.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.48.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.47.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.47.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.46.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
@@ -1922,7 +2025,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.cl.44.rev#de brittanis
 urn:cts:hcnum:issues.ric.raw:1_2.cl.43.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅸ imperator ⅩⅥ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.43.rev#constantiae avgvsti
 urn:cts:hcnum:issues.ric.raw:1_2.cl.41.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator ⅩⅠ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.41.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.40.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator ⅩⅠ
+urn:cts:hcnum:issues.ric.raw:1_2.cl.40.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.cl.39.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator ⅩⅠ
 urn:cts:hcnum:issues.ric.raw:1_2.cl.39.rev#paci avgvstae
 urn:cts:hcnum:issues.ric.raw:1_2.cl.38.obv#tiberivs clavdivs caesar avgvstvs pontifex maximvs tribvnicia potestate Ⅵ imperator ⅩⅠ
@@ -2005,10 +2110,13 @@ urn:cts:hcnum:issues.ric.raw:1_2.gai.58.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.57.obv#germanicvs caesar
 urn:cts:hcnum:issues.ric.raw:1_2.gai.57.rev#signis receptis devitics germanis senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.56.obv#divvs avgvstvs senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:1_2.gai.56.rev#consensv senatvs et eqvestris ordinis popvli+qve romani
 urn:cts:hcnum:issues.ric.raw:1_2.gai.55.obv#agrippina marci filia mater caii caesaris avgvsti
+urn:cts:hcnum:issues.ric.raw:1_2.gai.55.rev#senatvs popvlvs+qve romanvs memoriae agrippinae
 urn:cts:hcnum:issues.ric.raw:1_2.gai.54.obv#caivs caesar divi avgvsti pronepos avgvstvs pontifex maximvs tribvnicia potestate Ⅳ pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.gai.54.rev#vesta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.53.obv#caivs caesar divi avgvsti pronepos avgvstvs pontifex maximvs tribvnicia potestate Ⅳ pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.gai.53.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.52.obv#caivs caesar divi avgvsti pronepos avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.52.rev#pontifex maximvs tribvnicia potestate Ⅳ pater patriae consvl tertivs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.51.obv#caivs caesar divi avgvsti pronepos avgvstvs pontifex maximvs tribvnicia potestate Ⅳ pater patriae pietas
@@ -2022,6 +2130,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.gai.48.rev#adlocvtio cohortivm
 urn:cts:hcnum:issues.ric.raw:1_2.gai.47.obv#caivs caesar divi avgvsti pronepos avgvstvs pontifex maximvs tribvnicia potestate Ⅲ pater patriae
 urn:cts:hcnum:issues.ric.raw:1_2.gai.47.rev#vesta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.46.obv#caivs caesar divi avgvsti pronepos avgvstvs pontifex maximvs tribvnicia potestate Ⅲ pater patriae
+urn:cts:hcnum:issues.ric.raw:1_2.gai.46.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.45.obv#caivs caesar divi avgvsti pronepos avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.45.rev#pontifex maximvs tribvnicia potestate Ⅲ pater patriae consvl tertivs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.44.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pietas
@@ -2039,6 +2148,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.gai.39.rev#pontifex maximvs tribvnicia potestat
 urn:cts:hcnum:issues.ric.raw:1_2.gai.38.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
 urn:cts:hcnum:issues.ric.raw:1_2.gai.38.rev#vesta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.37.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
+urn:cts:hcnum:issues.ric.raw:1_2.gai.37.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.36.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate pietas
 urn:cts:hcnum:issues.ric.raw:1_2.gai.36.rev#divo avgvsto senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.gai.35.obv#germanicvs caesar tiberi avgvsti filivs divi avgvsti nepos
@@ -2056,7 +2166,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.gai.30.rev#agrippina mater caii caesaris avgvst
 urn:cts:hcnum:issues.ric.raw:1_2.gai.29.obv#caivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.29.rev#pontifex maximvs tribvnicia potestate Ⅳ
 urn:cts:hcnum:issues.ric.raw:1_2.gai.28.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate Ⅲ consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:1_2.gai.28.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.27.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate Ⅲ consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:1_2.gai.27.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.26.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate Ⅲ consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:1_2.gai.26.rev#germanicvs caesar pro consvl caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.25.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate Ⅲ consvl Ⅲ
@@ -2072,6 +2184,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.gai.21.rev#agrippina mater caii caesaris avgvst
 urn:cts:hcnum:issues.ric.raw:1_2.gai.20.obv#caivs caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.20.rev#pontifex maximvs tribvnicia potestate itervm
 urn:cts:hcnum:issues.ric.raw:1_2.gai.19.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
+urn:cts:hcnum:issues.ric.raw:1_2.gai.19.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:1_2.gai.18.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
 urn:cts:hcnum:issues.ric.raw:1_2.gai.18.rev#germanicvs caesar pro consvl caesar avgvstvs germanicvs
 urn:cts:hcnum:issues.ric.raw:1_2.gai.17.obv#caivs caesar avgvstvs germanicvs pontifex maximvs tribvnicia potestate
@@ -2437,6 +2550,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.371.rev#caivs antistivs caii filivs gallvs 
 urn:cts:hcnum:issues.ric.raw:1_2.aug.370.obv#ob civis servatos
 urn:cts:hcnum:issues.ric.raw:1_2.aug.370.rev#caivs antistivs caii filivs gallvs trivmvir aere avro argento flando ferivndo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.369.obv#caivs antistivs vetvs trivmvir
+urn:cts:hcnum:issues.ric.raw:1_2.aug.369.rev#pro valetvdine caesaris senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.368.obv#caivs antistivs vetvs trivmvir
 urn:cts:hcnum:issues.ric.raw:1_2.aug.368.rev#consvl imperator caesar avgvstvs consvl ⅩⅠ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.367.obv#caivs antistivs vetvs trivmvir
@@ -2449,11 +2563,13 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.364.obv#imperator caesar avgvstvs tribvnici
 urn:cts:hcnum:issues.ric.raw:1_2.aug.364.rev#caivs antistivs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.363.obv#imperator caesar avgvstvs tribvnicia potestate Ⅷ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.363.rev#caivs antistivs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.362.obv#senatvs popvlvs+qve romanvs imperator caesar
 urn:cts:hcnum:issues.ric.raw:1_2.aug.362.rev#lvcivs vinicivs lvcii filivs trivmvir
 urn:cts:hcnum:issues.ric.raw:1_2.aug.361.obv#avgvstvs tribvnicia potestate Ⅷ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.361.rev#lvcivs vinicivs lvcii filivs trivmvir
 urn:cts:hcnum:issues.ric.raw:1_2.aug.360.obv#avgvstvs tribvnicia potestate Ⅶ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.360.rev#lvcivs vinicivs lvcii filivs trivmvir
+urn:cts:hcnum:issues.ric.raw:1_2.aug.358.obv#iovi optimo maximo senatvs popvlvs+qve romanvs vota svscepta pro salvte imperatoris caesaris qvod per evm res pvblica in ampliore atqve tranqvilliore statv est
 urn:cts:hcnum:issues.ric.raw:1_2.aug.358.rev#lvcivs mescinivs rvfvs trivmvir senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.357.obv#senatvs consvlto ob rem pvblicam cvm salvte imperatoris caesaris avgvsti conservatam
 urn:cts:hcnum:issues.ric.raw:1_2.aug.357.rev#lvcivs mescinivs rvfvs trivmvir senatvs consvlto
@@ -2842,49 +2958,91 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.155.obv#imperator divi filivs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.155.rev#colonia nemavsvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.154.obv#imperator divi filivs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.154.rev#colonia nemavsvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.153.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.153.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.152.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.152.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.151.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.151.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.150B.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.150B.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.150A.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.150A.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.149B.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.149B.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.149A.obv#senatvs popvlvs+qve romanvs caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.149A.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.148.obv#senatvs popvlvs+qve romanvs imperatori caesari
 urn:cts:hcnum:issues.ric.raw:1_2.aug.148.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.147.obv#senatvs popvlvs+qve romanvs imperatori caesari
 urn:cts:hcnum:issues.ric.raw:1_2.aug.147.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.146.obv#senatvs popvlvs+qve romanvs imperatori caesari
 urn:cts:hcnum:issues.ric.raw:1_2.aug.146.rev#vota pvblica svscepta pro salvte et reditv iovi optimo maximo sacrvm
+urn:cts:hcnum:issues.ric.raw:1_2.aug.145.obv#senatvs popvlvs+qve romanvs caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.144.obv#senatvs popvlvs+qve romanvs caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.143.obv#senatvs popvlvs+qve romanvs caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.142.obv#senatvs popvlvs+qve romanvs imperatori caesari
+urn:cts:hcnum:issues.ric.raw:1_2.aug.141.obv#senatvs popvlvs+qve romanvs imperatori caesari
+urn:cts:hcnum:issues.ric.raw:1_2.aug.140.obv#senatvs popvlvs+qve romanvs imperatori caesari
 urn:cts:hcnum:issues.ric.raw:1_2.aug.139.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.139.rev#imperator
 urn:cts:hcnum:issues.ric.raw:1_2.aug.138.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.138.rev#imperator
+urn:cts:hcnum:issues.ric.raw:1_2.aug.137.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.137.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.136.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.136.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.135.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.135.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.134B.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.134B.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.134A.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.134A.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.133.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.133.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.132.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.132.rev#civibvs et signis militaribvs a parthis recvperatis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.131.obv#senatvs popvlvs+qve romanvs imperatori caesari avgvsto consvli ⅩⅠ tribvnicia potestate Ⅵ
 urn:cts:hcnum:issues.ric.raw:1_2.aug.131.rev#civibvs et signis militaribvs a parthis recvperatis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.123.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.122.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.121.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.120A.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.120A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.120.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.120.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.119.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.119.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.118.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.118.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.117.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.117.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.116.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.116.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.115.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.115.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.114.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.114.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.113B.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.113B.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.113A.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.113A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.112.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.112.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.111.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.111.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.110.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.110.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.109.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.109.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.108B.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.108B.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.108A.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.108A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.107B.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.107B.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.107A.obv#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.107A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.106.obv#caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.106.rev#martis vltoris
 urn:cts:hcnum:issues.ric.raw:1_2.aug.105B.obv#caesari avgvsto
@@ -2897,20 +3055,31 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.103.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.103.rev#martis vltoris
 urn:cts:hcnum:issues.ric.raw:1_2.aug.102.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.102.rev#divvs ivlivs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.101.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.101.rev#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.100.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.100.rev#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.99.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.99.rev#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.98.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.98.rev#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.97.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.97.rev#caesari avgvsto
+urn:cts:hcnum:issues.ric.raw:1_2.aug.96.obv#senatvs popvlvs+qve romanvs parenti conservatori svo
 urn:cts:hcnum:issues.ric.raw:1_2.aug.96.rev#caesari avgvsto
 urn:cts:hcnum:issues.ric.raw:1_2.aug.95.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.95.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.94.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.94.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.93.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.92.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.91.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.91.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.90.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.89.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.89.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.88.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.88.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.87B.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.87B.rev#signis receptis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.87A.obv#caesar avgvstvs
@@ -2988,21 +3157,32 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.63B.rev#iovis tonantis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.63A.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.63A.rev#iovis tonantis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.62.obv#avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.62.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.61.obv#avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.61.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.60.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.60.rev#signis receptis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.59.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.59.rev#iovis tonantis
 urn:cts:hcnum:issues.ric.raw:1_2.aug.49.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.49.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.48.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.48.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.47B.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.47B.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.47A.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.47A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.46A.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.46.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.46.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.45.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.45.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.44.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.44.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.43B.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.43B.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.43A.obv#caesar avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.43A.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.42B.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.42A.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.41.obv#caesar avgvstvs
@@ -3024,7 +3204,9 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.37B.rev#divvs ivlivs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.37A.obv#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.37A.rev#divvs ivlivs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.32.obv#avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.32.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.31.obv#avgvstvs
+urn:cts:hcnum:issues.ric.raw:1_2.aug.31.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.30B.obv#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.30B.rev#ob civis servatos
 urn:cts:hcnum:issues.ric.raw:1_2.aug.30A.obv#avgvstvs
@@ -3159,6 +3341,7 @@ urn:cts:hcnum:issues.ric.raw:1_2.aug.125.rev#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.124.rev#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.123A.rev#avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.58.rev#signis receptis
+urn:cts:hcnum:issues.ric.raw:1_2.aug.57.rev#iovi votis svsceptis pro salvte caesaris avgvsti senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.52B.rev#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.52A.rev#caesar avgvstvs
 urn:cts:hcnum:issues.ric.raw:1_2.aug.51.rev#caesar avgvstvs
@@ -3455,6 +3638,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.dom.762.obv#imperator caesar domitianvs avgvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.762.rev#imperator ⅩⅩⅡ consvl ⅩⅥ censor perpetvvs pater patriae
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.761.obv#imperator caesar domitianvs avgvstvs germanicvs pontifex maximvs tribvnicia potestate ⅩⅢ
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.761.rev#imperator ⅩⅩⅡ consvl ⅩⅥ censor perpetvvs pater patriae
+urn:cts:hcnum:issues.ric.raw:2_1_2.dom.760.obv#divae ivliae avgvstae divi titi filiae senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.760.rev#imperator caesar domitianvs avgvstvs germanicvs consvl ⅩⅥ censor perpetvvs pater patriae
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.759.obv#imperator domitianvs avgvstvs germanicvs consvl ⅩⅥ
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.759.rev#senatvs consvlto
@@ -3538,6 +3722,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.dom.720.obv#imperator caesar domitianvs avgvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.720.rev#imperator ⅩⅩⅠ consvl ⅩⅤ censor perpetvvs pater patriae
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.719.obv#imperator caesar domitianvs avgvstvs germanicvs pontifex maximvs tribvnicia potestate Ⅹ
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.719.rev#imperator ⅩⅩⅠ consvl ⅩⅤ censor perpetvvs pater patriae
+urn:cts:hcnum:issues.ric.raw:2_1_2.dom.717.obv#divae ivliae avgvstae divi titi filiae senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.717.rev#imperator caesar domitianvs avgvstvs germanicvs consvl ⅩⅤ censor perpetvvs pater patriae
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.716.obv#imperator domitianvs avgvstvs germanicvs consvl ⅩⅤ
 urn:cts:hcnum:issues.ric.raw:2_1_2.dom.716.rev#senatvs consvlto
@@ -5450,14 +5635,19 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.tit.265.obv#caesar divi filivs domitianvs con
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.265.rev#princeps ivventvtis
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.264.obv#domitillae imperatoris caesaris vespasiani avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.264.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.tit.263.obv#memoriae domitillae senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.263.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.tit.262.obv#memoriae domitillae senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.262.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.261.obv#divvs avgvstvs vespasianvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.261.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.260.obv#divvs avgvstvs vespasianvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.260.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.tit.259.obv#divo avgvsto vespasiano senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.259.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.tit.258.obv#divo avgvsto vespasiano senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.258.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.tit.257.obv#divo avgvsto vespasiano senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.257.rev#imperator titvs caesar divi vespasiani filivs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.256.obv#imperator titvs caesar vespasianvs avgvstvs pontifex maximvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.tit.256.rev#divvs vespasianvs
@@ -6041,6 +6231,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1542.rev#virtvs avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1541.obv#imperator caesar vespasianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1541.rev#avgvstvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1540.obv#imperator caesar vespasianvs avgvstvs
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1540.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1539.obv#imperator caesar vespasianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1539.rev#pontifex maximvs tribvnicia potestate
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1538.obv#domitiano caesari principi
@@ -6391,6 +6582,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1363.rev#titvs et domitianvs principes iv
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1362.obv#imperator caesar vespasianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1362.rev#titvs et domitianvs principes ivventvtis
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1361.obv#imperator caesar vespasianvs avgvstvs
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1361.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1360.obv#imperator caesar vespasianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1360.rev#roma resvrgens
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1359.obv#imperator caesar vespasianvs avgvstvs
@@ -6603,6 +6795,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1253.rev#felicitas pvblica senatvs consvl
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1252.obv#titvs caesar imperator avgvsti filivs tribvnicia potestate consvl Ⅵ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1252.rev#felicitas pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1251.obv#titvs caesar imperator avgvsti filivs pontifex tribvnicia potestate consvl Ⅵ censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1251.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1250.obv#titvs caesar imperator avgvsti filivs pontifex tribvnicia potestate consvl Ⅵ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1250.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1249.obv#titvs caesar imperator avgvsti filivs pontifex tribvnicia potestate consvl Ⅵ censor
@@ -6686,6 +6879,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1211.rev#fides pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1210.obv#imperator caesar vespasianvs avgvstvs consvl Ⅷ pater patriae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1210.rev#fides pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1209.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1209.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1208.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1208.rev#salvs avgvsta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1207.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅷ
@@ -6735,6 +6929,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1186.rev#titvs imperator avgvsti filivs c
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1185.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅳ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1185.rev#titvs imperator avgvsti filivs consvl Ⅱ caesar domitianvs avgvsti filivs consvl designatvs Ⅱ senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1184.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅳ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1184.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1183.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅳ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1183.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1182.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅳ
@@ -6828,6 +7023,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1139.rev#fortvnae redvci senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1138.obv#imperator caesar vespasianvs avgvstvs consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1138.rev#fortvnae redvci senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1137.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1137.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1136.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1136.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1135.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
@@ -6839,6 +7035,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1133.rev#titvs imperator caesar consvl de
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1132.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1132.rev#caesar avgvsti filivs designatvs imperator avgvsti filivs consvl designatvs Ⅱ senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1131.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1131.rev#senatvs popvlvs+qve romanvs pater patriae ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1130.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1130.rev#paci avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.1129.obv#imperator caesar vespasianvs avgvstvs tribvnicia potestate
@@ -7568,6 +7765,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.743.rev#felicitas pvblica senatvs consvlt
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.742.obv#titvs caesar imperator consvl Ⅲ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.742.rev#felicitas pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.741.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅲ censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.741.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.740.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅲ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.740.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.739.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅲ censor
@@ -7805,6 +8003,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.622.rev#aeqvitas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.621.obv#titvs caesar imperator pontifex tribvnicia potestate consvl Ⅱ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.621.rev#aeqvitas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.620.obv#titvs caesar imperator pontifex tribvnicia potestate consvl Ⅱ censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.620.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.619.obv#titvs caesar imperator pontifex tribvnicia potestate consvl Ⅱ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.619.rev#roma victrix senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.618.obv#titvs caesar imperator pontifex tribvnicia potestate consvl Ⅱ censor
@@ -7872,6 +8071,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.588.rev#aeqvitas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.587.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate consvl Ⅳ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.587.rev#aeqvitas avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.586.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate consvl Ⅳ censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.586.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.585.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate consvl Ⅳ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.585.rev#roma senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.584.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate consvl Ⅳ censor
@@ -7949,6 +8149,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.549.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.548.obv#imperator caesar vespasianvs avgvstvs censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.548.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.547.obv#imperator caesar vespasianvs avgvstvs censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.547.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.546.obv#imperator caesar vespasianvs avgvstvs censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.546.rev#pontifex maximvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.545.obv#imperator caesar vespasianvs avgvstvs censor
@@ -7991,6 +8192,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.525.rev#victoria avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.524.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs consvl Ⅳ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.524.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.523.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs consvl Ⅳ censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.523.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.522.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs consvl Ⅳ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.522.rev#salvs avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.521.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs consvl Ⅳ censor
@@ -7998,6 +8200,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.521.rev#pax avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.520.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs consvl Ⅳ censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.520.rev#fides pvblica
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.519.obv#titvs caesar imperator vespasianvs censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.519.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.518.obv#titvs caesar imperator vespasianvs censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.518.rev#salvs avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.517.obv#titvs caesar imperator vespasianvs censor
@@ -8007,6 +8210,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.516.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.515.obv#imperator caesar vespasianvs avgvstvs censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.515.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.514.obv#imperator caesar vespasianvs avgvstvs censor
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.514.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.513.obv#imperator caesar vespasianvs avgvstvs censor
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.513.rev#salvs avgvsti
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.512.obv#imperator caesar vespasianvs avgvstvs censor
@@ -8170,6 +8374,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.434.rev#concordia avgvsti senatvs consvlt
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.433.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅱ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.433.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.432.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅱ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.432.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.431.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅱ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.431.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.430.obv#titvs caesar vespasianvs imperator pontifex tribvnicia potestate consvl Ⅱ
@@ -8517,8 +8722,11 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.256.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.255.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.255.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.254.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.254.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.253.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.253.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.252.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.252.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.251.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.251.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.250.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
@@ -8600,10 +8808,15 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.213.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.212.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.212.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.211.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.211.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.210.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.210.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.209.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.209.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.208.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.208.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.207.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.207.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.206.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.206.rev#spes avgvsta senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.205.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
@@ -8739,6 +8952,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.141.rev#libertas pvblica senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.140.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.140.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.139.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.139.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.138.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.138.rev#signis receptis senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.137.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
@@ -8764,11 +8978,17 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.128.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.127.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.127.rev#victoria avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.126.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.126.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.125.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.125.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.124.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.124.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.123.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.123.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.122.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.122.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.121.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.121.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.120.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.120.rev#signis receptis senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.119.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅲ
@@ -8945,6 +9165,7 @@ urn:cts:hcnum:issues.ric.raw:2_1_2.ves.37.rev#imperator avgvsti filivs consvl de
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.36.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅱ designatvs Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.36.rev#concordia avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.35.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅱ designatvs Ⅲ
+urn:cts:hcnum:issues.ric.raw:2_1_2.ves.35.rev#senatvs popvlvs+qve romanvs adsertori libertatis pvblicae
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.34.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅱ designatvs Ⅲ
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.34.rev#pax avgvsti senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2_1_2.ves.33.obv#imperator caesar vespasianvs avgvstvs pontifex maximvs tribvnicia potestate pater patriae consvl Ⅱ designatvs Ⅲ
@@ -9059,22 +9280,49 @@ urn:cts:hcnum:issues.ric.raw:2.tr.689.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.688.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.687.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.685.rev#senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.683.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.629.rev#fortvnae redvci senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.628_sestertius.rev#fortvnae redvci senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.627.rev#fortvnae redvci senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.603.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.602.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.600_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.600_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.599.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.598.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.597.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.596.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.595.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.594.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.592.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.591.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.590.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.589.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.589.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.588.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.588.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.587.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.587.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.586.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.586.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.585.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.585.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.584_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.584_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.584_dupondius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.584_dupondius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.583.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.583.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.582.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.582.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.581.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.581.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.580.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.580.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.579.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.579.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.578.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.578.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.hdn.109Ac.obv#imperator caesar traianvs hadrianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2.hdn.109Ac.rev#pontifex maximvs tribvnicia potestate consvl Ⅲ
 urn:cts:hcnum:issues.ric.raw:2.hdn.109c.obv#imperator caesar traianvs hadrianvs avgvstvs
@@ -9193,6 +9441,7 @@ urn:cts:hcnum:issues.ric.raw:2.tr.737.rev#vesta
 urn:cts:hcnum:issues.ric.raw:2.tr.699.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.697.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.690.rev#senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.593.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.hdn.1073_as.obv#lvcivs aelivs caesar
 urn:cts:hcnum:issues.ric.raw:2.hdn.1073_dupondius.obv#lvcivs aelivs caesar
 urn:cts:hcnum:issues.ric.raw:2.hdn.1072_dupondius.obv#lvcivs aelivs caesar
@@ -11848,7 +12097,132 @@ urn:cts:hcnum:issues.ric.raw:2.hdn.36_quinarius.obv#imperator caesar traianvs ha
 urn:cts:hcnum:issues.ric.raw:2.hdn.36_quinarius_aureus.obv#imperator caesar traianvs hadrianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2.hdn.35.obv#imperator caesar traianvs hadrianvs avgvstvs
 urn:cts:hcnum:issues.ric.raw:2.hdn.32A.obv#imperator caesar traianvs hadrianvs avgvstvs
+urn:cts:hcnum:issues.ric.raw:2.tr.313.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.296.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.295.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.294_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.294_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.293.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.292_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.292_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.291_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.291_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.290.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.289.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.288.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.287.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.286.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.285.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.284_quinarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.284_quinarius_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.283.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.282.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.281_quinarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.281_quinarius_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.280.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.279.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.278_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.278_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.277_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.277_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.276.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.275_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.275_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.274.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.273.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.272.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.271.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.270.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.269.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.258.rev#mars victor
+urn:cts:hcnum:issues.ric.raw:2.tr.239.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.235.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.234.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.228.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.227.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.226.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.225.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.224.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.223.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.222.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.221.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.220.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.219.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.218.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.217.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.216.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.215.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.214.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.213.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.212.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.211.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.210.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.209.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.208_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.208_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.207.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.206.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.205.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.204.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.203.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.202_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.202_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.201.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.200.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.199_quinarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.199_quinarius_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.198.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.197.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.196.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.195_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.195_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.194.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.193.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.192.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.191.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.190A.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.190.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.189.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.188.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.187.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.186.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.185.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.184.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.183.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.182.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.181.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.180.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.179.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.178.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.177.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.176.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.175.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.174.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.173.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.172.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.171.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.170.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.169.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.168.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.167.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.166.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.165_denarius.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.165_aureus.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.164.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.163.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.162.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.161.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.160.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.159.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.158.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.157.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.156.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.155.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.154.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.153.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.152.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.151.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.150.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.92.rev#aeternitas
 urn:cts:hcnum:issues.ric.raw:2.ner.138.obv#agrippina marci filia germanici caesaris
 urn:cts:hcnum:issues.ric.raw:2.ner.137.obv#divvs avgvstvs
@@ -11940,130 +12314,255 @@ urn:cts:hcnum:issues.ric.raw:2.tr.702.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.695.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.686.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.628_as.rev#fortvnae redvci senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.601.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.577_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.577_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.577_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.577_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.576.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.576.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.575_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.575_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.575_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.575_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.574.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.574.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.573.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.573.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.572.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.572.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.571.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.571.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.570.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.570.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.569_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.569_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.569_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.569_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.568.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.568.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.567.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.567.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.566.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.566.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.565.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.565.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.564.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.564.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.563.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.563.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.562.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.562.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.561.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.561.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.560.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.560.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.559.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.559.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.558.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.558.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.557.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.557.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.556.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.556.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.555.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.555.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.554.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.554.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.553.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.553.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.552.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.552.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.551A.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.551A.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.551.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.551.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.550.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.550.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.549_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.549_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.549_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.549_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.548.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.548.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.547.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.547.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.546.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.546.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.545.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.545.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.544.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.544.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.543_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.543_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.543_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.543_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.542.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.542.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.541.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.541.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.540.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.540.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.539.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.539.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.538.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.538.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.537.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.537.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.536_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.536_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.536_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.536_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.535.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.535.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.534.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.534.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.533.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.533.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.532.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.532.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.531.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.531.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.530.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.530.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.529.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.529.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.528.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.528.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.527.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.527.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.526.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.526.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.525.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.525.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.524.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.524.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.523.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.523.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.522.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.522.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.521.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.521.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.520.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.520.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.519_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.519_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.519_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.519_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.518.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.518.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.517.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.517.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.516.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.516.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.515_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.515_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.515_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.515_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.514.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.514.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.513.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.513.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.512.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.512.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.511.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.511.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.510_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.510_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.510_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.510_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.509.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.509.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.508.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.508.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.507.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.507.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.506_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.506_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.506_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.506_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.505.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.505.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.504.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.504.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.503_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.503_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.503_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.503_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.502.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.502.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.501.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.501.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.500_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.500_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.500_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.500_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.499.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.499.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.498.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.498.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.497_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.497_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.497_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.497_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.496.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.496.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.495.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.495.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.494.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.494.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.493.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.493.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.492_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.492_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.492_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.492_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.491.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.491.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.490.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.490.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.489_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.489_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.489_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.489_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.488.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.488.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.487.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.487.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.486_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.486_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.486_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.486_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.485.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.485.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.484.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.484.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.483_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.483_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.483_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.483_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.482_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.482_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.482_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.482_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.481.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.481.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.480.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.480.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.479_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.479_as.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.479_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.479_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.478.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.478.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.477.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.477.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.476A.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.476A.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.476_as.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.476_as.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.476_sestertius.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
+urn:cts:hcnum:issues.ric.raw:2.tr.476_sestertius.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.tr.475.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
 urn:cts:hcnum:issues.ric.raw:2.tr.474.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
 urn:cts:hcnum:issues.ric.raw:2.tr.473.obv#imperatori caesari nervae traiano avgvsto germanico dacico pontifici maximo tribvnicia potestate consvli Ⅴ patri patriae
@@ -12088,6 +12587,7 @@ urn:cts:hcnum:issues.ric.raw:2.tr.459_sestertius.obv#imperatori caesari nervae t
 urn:cts:hcnum:issues.ric.raw:2.tr.443.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.442.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.441.rev#fortvnae avgvsti senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.421.rev#senatvs popvlvs+qve romanvs ob cives servatos
 urn:cts:hcnum:issues.ric.raw:2.tr.405.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.395.rev#tribvnicia potestate consvl Ⅱ senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.393.rev#tribvnicia potestate consvl Ⅱ senatvs consvlto
@@ -12099,6 +12599,8 @@ urn:cts:hcnum:issues.ric.raw:2.tr.388.rev#tribvnicia potestate consvl Ⅱ senatv
 urn:cts:hcnum:issues.ric.raw:2.tr.387.rev#tribvnicia potestate consvl Ⅱ senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.386.rev#tribvnicia potestate consvl Ⅱ senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:2.tr.385.rev#tribvnicia potestate consvl Ⅱ senatvs consvlto
+urn:cts:hcnum:issues.ric.raw:2.tr.379.rev#senatvs popvlvs+qve romanvs optimo principi
+urn:cts:hcnum:issues.ric.raw:2.tr.377.rev#senatvs popvlvs+qve romanvs optimo principi
 urn:cts:hcnum:issues.ric.raw:2.hdn.986_as.obv#hadrianvs avgvstvs consvl Ⅲ pater patriae
 urn:cts:hcnum:issues.ric.raw:2.hdn.975c.obv#hadrianvs avgvstvs pater patriae
 urn:cts:hcnum:issues.ric.raw:2.anys.38.rev#senatvs consvlto
@@ -13146,6 +13648,7 @@ urn:cts:hcnum:issues.ric.raw:3.ant.833.obv#antoninvs avgvstvs pivs pater patriae
 urn:cts:hcnum:issues.ric.raw:3.ant.831A.obv#antoninvs avgvstvs pivs pater patriae
 urn:cts:hcnum:issues.ric.raw:3.ant.831.obv#antoninvs avgvstvs pivs pater patriae
 urn:cts:hcnum:issues.ric.raw:3.ant.829.obv#antoninvs avgvstvs pivs pater patriae
+urn:cts:hcnum:issues.ric.raw:3.ant.827A.rev#senatvs popvlvs+qve romanvs optimo principi senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:3.ant.826.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:3.ant.824B.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:3.ant.823.rev#pietas avgvsti senatvs consvlto
@@ -14481,6 +14984,7 @@ urn:cts:hcnum:issues.ric.raw:3.ant.1388C.obv#favstinae avgvstae pii avgvsti fili
 urn:cts:hcnum:issues.ric.raw:3.ant.1388B.obv#favstinae avgvstae pii avgvsti filiae
 urn:cts:hcnum:issues.ric.raw:3.ant.1386B.obv#favstinae avgvstae pii avgvsti filiae
 urn:cts:hcnum:issues.ric.raw:3.ant.1386A.obv#favstinae avgvstae pii avgvsti filiae
+urn:cts:hcnum:issues.ric.raw:3.ant.1385.rev#senatvs popvlvs+qve romanvs
 urn:cts:hcnum:issues.ric.raw:3.ant.1384.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:3.ant.1383c.rev#senatvs consvlto
 urn:cts:hcnum:issues.ric.raw:3.ant.1383b.rev#senatvs consvlto

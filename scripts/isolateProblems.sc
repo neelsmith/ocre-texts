@@ -29,8 +29,13 @@ val groupedLegends = tbdNodes.groupBy(_.urn.collapsePassageTo(2).passageComponen
 
 
 val textsGroupedVect = for (auth <- finishThese) yield {
-  val legends = groupedLegends(auth).map(_.text).distinct
-  (auth -> legends)
+  try {
+    val legends = groupedLegends(auth).map(_.text).distinct
+    (auth -> legends)
+  } catch {
+    case t : Throwable => (auth -> Vector.empty[CitableNode])
+  }
+
 }
 val textsGrouped = textsGroupedVect.toMap
 
@@ -38,13 +43,23 @@ val textsGrouped = textsGroupedVect.toMap
 println("\n\nLEGENDS with bad orthography: " + tbdCorpus.size)
 println("Clustered by authority: ")
 for (auth <- finishThese) {
-  println(auth + ": " + groupedLegends(auth).size)
+  try {
+    println(auth + ": " + groupedLegends(auth).size)
+  } catch {
+    case t: Throwable => println(auth  + ": no bad legends!")
+  }
+
 }
 
 
 println("\nDISTINCT TEXTS with bad orthography: " + tbdCorpus.nodes.map(_.text).distinct.size)
 println("Clustered by authority: ")
 for (auth <- finishThese) {
+  try {
+    println(auth + ": " + groupedLegends(auth).size)
+  } catch {
+    case t: Throwable => println(auth  + ": no bad legends!")
+  }
   println(auth + ": " + textsGrouped(auth).size)
 }
 
