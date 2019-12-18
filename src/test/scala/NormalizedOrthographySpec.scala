@@ -56,4 +56,14 @@ class NormalizedOrthographySpec extends FlatSpec {
     val numericTkns = tkns.filter(_.tokenCategory.toString == "Some(NumericToken)")
     assert(numericTkns.size == expectedNumeric)
   }
+
+  it should "recognize + as morpheme boundary marker" in {
+
+    val urn = CtsUrn("urn:cts:hcnum:issues.ric.raw:1_2.gal.518.rev")
+    val txt = "senatvs popvlvs+qve romanvs"
+    val cn = CitableNode(urn,txt)
+    val tkns = NormalizedLegendOrthography.tokenizeNode(cn)
+    println(tkns.mkString("\n\n"))
+
+  }
 }

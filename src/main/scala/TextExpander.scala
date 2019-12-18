@@ -6,9 +6,14 @@ import scala.io.Source
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.cite._
 
+
+import wvlet.log._
+import wvlet.log.LogFormatter.SourceCodeLogFormatter
+
+
 import edu.holycross.shot.nomisma._
 
-object TextExpander  {
+object TextExpander extends LogSupport {
 
 
 
@@ -37,7 +42,7 @@ object TextExpander  {
     if (fileNames.isEmpty) {
       data
     } else {
-      println("Loading data from " + fileNames.head)
+      info("Loading data from " + fileNames.head)
       val newData = data ++ loadMappingFile(fileNames.head).split("\n").toVector
       //println("New data has " + newData.size + " mappings")
       loadMappings(fileNames.tail, newData)

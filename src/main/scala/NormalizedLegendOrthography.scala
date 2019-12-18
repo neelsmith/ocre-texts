@@ -9,7 +9,7 @@ object NormalizedLegendOrthography extends MidOrthography {
 
   val alphabetic = "abcdefghiklmnopqrstvwxyz"
   val numeric = "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅬⅭⅮⅯ"
-  val punctOrEditorial = "_[]•● ←"
+  val punctOrEditorial = "_[]•● ←+"
   val alphabet = alphabetic + numeric + punctOrEditorial
   /** Label for this orthographic system.
   * Required by MidOrthography trait.
@@ -51,24 +51,29 @@ object NormalizedLegendOrthography extends MidOrthography {
   */
   def tokenizeNode(n: CitableNode): Vector[MidToken] = {
     val urn = n.urn
+
     // initial chunking on white space
     val units = n.text.split(" ").filter(_.nonEmpty)
-    val classified = for (unit <- units.zipWithIndex) yield {
-      val newPassage = urn.passageComponent + "." + unit._2
-      val newVersion = urn.addVersion(urn.versionOption.getOrElse("") + "_tkns")
-      val newUrn = CtsUrn(newVersion.dropPassage.toString + newPassage)
+    val classified = for (unit <- units) yield {
+      val subUnits = unit.split("\\+").toVector
 
-      val trimmed = unit._1.trim
-
-      if (isAlphabetic(trimmed)) {
-        MidToken(newUrn, trimmed, Some(LexicalToken))
-      } else if (isNumeric(trimmed)) {
-        MidToken(newUrn, trimmed, Some(NumericToken))
-      } else {
-        MidToken(newUrn, trimmed, None)
+      subUnits.map (
+        subUnit => {
+          val trimmed = subUnit.trim
+          if (isAlphabetic(trimmed)) {
+            MidToken(urn, trimmed, Some(LexicalToken))
+          } else if (isNumeric(trimmed)) {
+            MidToken(urn, trimmed, Some(NumericToken))
+          } else {
+            MidToken(urn, trimmed, None)
+          }
+        })
       }
+    val allTokens = classified.toVector.flatten
+    for ((token,count) <- allTokens.zipWithIndex) yield {
+      val newUrn = CtsUrn(token.urn.toString + "." + count)
+      MidToken(newUrn, token.string, token.tokenCategory)
     }
-    classified.toVector
   }
 
 }

@@ -1,6 +1,6 @@
 name := "ocre-texts"
 organization := "edu.holycross.shot"
-version := "0.1.0"
+version := "0.1.1"
 licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html"))
 
 crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")
@@ -20,6 +20,7 @@ libraryDependencies ++= Seq(
 
   "edu.holycross.shot" %% "tabulae" % "3.4.0",
   "com.github.pathikrit" %% "better-files" % "3.5.0",
+  "org.wvlet.airframe" %% "airframe-log" % "19.8.10"
 )
 
 /*
