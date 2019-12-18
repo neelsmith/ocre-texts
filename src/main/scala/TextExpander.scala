@@ -152,6 +152,7 @@ object TextExpander extends LogSupport {
 
       case true => {
         for (n <- c.nodes) yield {
+          // TOKENIZE FIRST?
           (n, NormalizedOcreOrthography.validString(n.text))
         }
       }

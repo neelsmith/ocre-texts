@@ -66,4 +66,10 @@ class NormalizedOrthographySpec extends FlatSpec {
     println(tkns.mkString("\n\n"))
 
   }
+
+  it should "ok these" in {
+    val txt = "pro valetvdine caesaris senatvs popvlvs+qve romanvs"
+    assert(NormalizedLegendOrthography.validString(txt))
+    assert(NormalizedLegendOrthography.validString("senatvs popvlvs+qve romanvs imperatori caesari avgvsto consuli ⅩⅠ tribvnicia potestate Ⅵ"))
+  }
 }

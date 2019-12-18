@@ -9,7 +9,7 @@ object NormalizedLegendOrthography extends MidOrthography {
 
   val alphabetic = "abcdefghiklmnopqrstvwxyz"
   val numeric = "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅬⅭⅮⅯ"
-  val punctOrEditorial = "_[]•● ←+"
+  val punctOrEditorial = "_•● ←+"
   val alphabet = alphabetic + numeric + punctOrEditorial
   /** Label for this orthographic system.
   * Required by MidOrthography trait.

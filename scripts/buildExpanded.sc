@@ -4,7 +4,7 @@ import edu.holycross.shot.cite._
 
 
 // collect all mappings, generate expanded corpus:
-val expanded = TextExpander.expandFromMappingsDir(21, "mappings")
+val expanded = TextExpander.expandFromMappingsDir(22, "mappings")
 // isolate corpus of orthographically valid expanded texts
 val newCorpus = TextExpander.validCorpus(expanded)
 val badCorpus = TextExpander.invalidCorpus(expanded)

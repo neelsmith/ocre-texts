@@ -47,3 +47,6 @@ println("Clustered by authority: ")
 for (auth <- finishThese) {
   println(auth + ": " + textsGrouped(auth).size)
 }
+
+println("\nAugustus to check;")
+println(textsGrouped("1_2.aug").mkString("\n"))
