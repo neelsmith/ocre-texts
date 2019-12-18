@@ -56,11 +56,10 @@ println("\nDISTINCT TEXTS with bad orthography: " + tbdCorpus.nodes.map(_.text).
 println("Clustered by authority: ")
 for (auth <- finishThese) {
   try {
-    println(auth + ": " + groupedLegends(auth).size)
+    println(auth + ": " + textsGrouped(auth).size)
   } catch {
     case t: Throwable => println(auth  + ": no bad legends!")
   }
-  println(auth + ": " + textsGrouped(auth).size)
 }
 
 println("\nAugustus to check;")
