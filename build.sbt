@@ -12,8 +12,8 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   "org.scala-lang.modules" %% "scala-xml" % "1.0.6",
   "edu.holycross.shot.cite" %% "xcite" % "4.0.2",
-  "edu.holycross.shot" %% "ohco2" % "10.13.0",
-  "edu.holycross.shot" %% "nomisma" % "0.3.0",
+  "edu.holycross.shot" %% "ohco2" % "10.17.0",
+  "edu.holycross.shot" %% "nomisma" % "2.2.0",
   "edu.holycross.shot" %% "latphone" % "2.5.2",
 
   "edu.holycross.shot" %% "midvalidator" % "6.1.3",
