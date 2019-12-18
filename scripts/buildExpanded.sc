@@ -21,10 +21,10 @@ val probsGrouped = problems.groupBy( cn => cn.urn.collapsePassageTo(2).passageCo
 val probsCounts = probsGrouped.toVector.map{ case (k,v) => (k,v.size) }
 
 val finishThese = Vector(
-  "1_2.tib", "1_2.aug", "1_2.ot", "1_2.cl", "2_1_2.dom", "2_1_2.tit", "2.ner", "1_2.gal", "1_2.ner", "1_2.vit", "1_2.cw", "2_1_2.ves", "1_2.gai", "1_2.clm"
+  "1_2.aug", "1_2.tib", "1_2.gai", "1_2.ner",  "1_2.gal", "1_2.ot", "1_2.cl", "1_2.vit",  "1_2.cw", "1_2.clm", "2_1_2.dom", "2_1_2.tit",  "2_1_2.ves",
 )
 
-def collectRemainders(badSource : Vector[CitableNode], idFilters = Vector[String], subset: Vector[CitableNode] = Vector.empty[CitableNode]): Vector[CitableNode] = {
+def collectRemainders(badSource : Vector[CitableNode], idFilters : Vector[String], subset: Vector[CitableNode] = Vector.empty[CitableNode]): Vector[CitableNode] = {
   if (idFilters.isEmpty) {
     subset
   } else {
@@ -32,4 +32,12 @@ def collectRemainders(badSource : Vector[CitableNode], idFilters = Vector[String
     val newData = badSource.filter(_.urn.passageComponent.startsWith(currentFilter) )
     collectRemainders(badSource, idFilters.tail, subset ++ newData)
   }
+}
+
+
+val tbd  = collectRemainders(problems, finishThese)
+val tbdGrouped = tbd.groupBy(_.urn.collapsePassageTo(2).passageComponent)
+
+for (auth <- finishThese) {
+  println(auth + ": " + tbdGrouped(auth).size)
 }
