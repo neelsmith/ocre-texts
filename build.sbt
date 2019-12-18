@@ -1,6 +1,6 @@
 name := "ocre-texts"
 organization := "edu.holycross.shot"
-version := "0.1.1"
+version := "0.2.0"
 licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html"))
 
 crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")

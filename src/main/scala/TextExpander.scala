@@ -82,6 +82,7 @@ object TextExpander extends LogSupport {
       corpus
 
     } else {
+      info("Expanding " + mappings.head.size + " text patterns.")
       val pairs = for (mapping <- mappings.head.split("\n")) yield {
         mapping.split(",")
       }
@@ -93,7 +94,7 @@ object TextExpander extends LogSupport {
       }
 
       val modifiedCorpus = Corpus(modifiedNodes.toVector.flatten)
-
+      info("Merging " + modifiedCorpus.size + " nodes into existing corpus of " + corpus.size + " nodes.")
       val newCorpus =  merge(corpus, modifiedCorpus)
       expandText(newCorpus, mappings.tail)
     }
