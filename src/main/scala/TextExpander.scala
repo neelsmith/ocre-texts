@@ -171,5 +171,13 @@ object TextExpander extends LogSupport {
     orthoStatus(c, normalized).filterNot(_._2)
   }
 
+  def validCorpus(c: Corpus, normalized: Boolean = true) = {
+    Corpus(validOrtho(c, normalized).map(_._1))
+  }
+
+  def invalidCorpus(c: Corpus, normalized: Boolean = true) = {
+    Corpus(invalidOrtho(c, normalized).map(_._1))
+  }
+
 
 }

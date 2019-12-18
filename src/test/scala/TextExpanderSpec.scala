@@ -73,5 +73,18 @@ class TextExpanderSpec extends FlatSpec {
     println("\n" + invalidNodes.mkString("\n\n"))
   }
 
+  it should "yield a new Corpus valid of nodes valid for a specified orthography" in {
+    val root = "src/test/resources/mappings"
+    val expanded = TextExpander.expandFromMappingsDir(1, root)
+    val newCorpus = TextExpander.validCorpus(expanded)
+    println("Nodes in new good corpus: " + newCorpus.size)
+  }
+  it should "yield a new Corpus  of nodes with invalid orthography for a specified orthography" in {
+    val root = "src/test/resources/mappings"
+    val expanded = TextExpander.expandFromMappingsDir(1, root)
+    val newCorpus = TextExpander.invalidCorpus(expanded)
+    println("Nodes in new bad corpus: " + newCorpus.size)
+  }
+
 
 }

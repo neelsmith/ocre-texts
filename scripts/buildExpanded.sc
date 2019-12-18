@@ -3,41 +3,13 @@ import edu.holycross.shot.ohco2._
 import edu.holycross.shot.cite._
 
 
-
-
+// collect all mappings, generate expanded corpus:
 val expanded = TextExpander.expandFromMappingsDir(21, "mappings")
+// isolate corpus of orthographically valid expanded texts
+val newCorpus = TextExpander.validCorpus(expanded)
+val badCorpus = TextExpander.invalidCorpus(expanded)
 
-
-val normalized = true
-val validNormalized = TextExpander.validOrtho(expanded, normalized)
-println("Out of " + expanded.size + " source nodes, " + validNormalized.size + " are expanded to valid normalized orthography.")
-val invalidNodes = TextExpander.invalidOrtho(expanded, normalized)
-println("Nodes remain: " + invalidNodes.size)
-
-
-val problems = invalidNodes.map(_._1)
-val probsGrouped = problems.groupBy( cn => cn.urn.collapsePassageTo(2).passageComponent)
-
-val probsCounts = probsGrouped.toVector.map{ case (k,v) => (k,v.size) }
-
-val finishThese = Vector(
-  "1_2.aug", "1_2.tib", "1_2.gai", "1_2.ner",  "1_2.gal", "1_2.ot", "1_2.cl", "1_2.vit",  "1_2.cw", "1_2.clm", "2_1_2.dom", "2_1_2.tit",  "2_1_2.ves",
-)
-
-def collectRemainders(badSource : Vector[CitableNode], idFilters : Vector[String], subset: Vector[CitableNode] = Vector.empty[CitableNode]): Vector[CitableNode] = {
-  if (idFilters.isEmpty) {
-    subset
-  } else {
-    val currentFilter = idFilters.head
-    val newData = badSource.filter(_.urn.passageComponent.startsWith(currentFilter) )
-    collectRemainders(badSource, idFilters.tail, subset ++ newData)
-  }
-}
-
-
-val tbd  = collectRemainders(problems, finishThese)
-val tbdGrouped = tbd.groupBy(_.urn.collapsePassageTo(2).passageComponent)
-
-for (auth <- finishThese) {
-  println(auth + ": " + tbdGrouped(auth).size)
-}
+// write it to disk in CEX format:
+import java.io.PrintWriter
+new PrintWriter("ric-1-3-valid-ortho.cex"){ write(newCorpus.cex()); close;}
+new PrintWriter("ric-1-3-bad-ortho.cex"){ write(badCorpus.cex()); close;}
