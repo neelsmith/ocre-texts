@@ -196,6 +196,7 @@ val traces = for (legend <- mapped.keySet) yield {
     mapped(legend).toVector.map(_._1),
     mapped(legend).toVector.map(_._2),
     text = mapped(legend).toString,
+    name = legend,
     //datedTextHisto.frequencies.map(_.count),
     //text = datedTextHisto.frequencies.map(_.toString),
     mode = ScatterMode(ScatterMode.Markers),
@@ -205,16 +206,17 @@ val traces = for (legend <- mapped.keySet) yield {
     )
   )
 }
-
 val tracesData = traces.toSeq
-
 
 val legendsLayout = Layout(
   title = "Legends with 'libertas'",
-  showlegend = false,
-  height = 400,
-  width = 600
+  showlegend = true,
+  yaxis = Axis(title = "Number of issues"),
+  xaxis = Axis(title = "Year CE"),
+  height = 600,
+  width = 900
 )
+
 
 plot(tracesData, legendsLayout)
 
